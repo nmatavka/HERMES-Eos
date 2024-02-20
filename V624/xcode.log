@@ -1,0 +1,144 @@
+2/20/24 5:51:32 AM	Xcode[807]	_CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 5:52:03 AM	[0x0-0x2a02a].com.apple.Xcode[807]	Xcode(807,0xf0103000) malloc: free_garbage: garbage ptr = 0x24817a0, has non-zero refcount = 1	
+2/20/24 5:52:03 AM	[0x0-0x2a02a].com.apple.Xcode[807]	Xcode(807,0xf0103000) malloc: free_garbage: garbage ptr = 0x24832d0, has non-zero refcount = 1	
+2/20/24 7:29:45 AM	[0x0-0x12012].com.apple.XcodeInstallerLauncher[175]	2024-02-20 07:29:45.512 open[178:10b] _CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 7:54:07 AM	Xcode[2447]	_CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 7:54:28 AM	[0x0-0x1b01b].com.apple.Xcode[2464]	dyld: Symbol not found: _XCSCMWasDisabledNotification	
+2/20/24 7:54:28 AM	[0x0-0x1b01b].com.apple.Xcode[2464]	  Referenced from: /Xcode2.5/Applications/Xcode.app/Contents/MacOS/../../../../Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/DevToolsInterface	
+2/20/24 7:54:28 AM	[0x0-0x1b01b].com.apple.Xcode[2464]	  Expected in: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/DevToolsCore	
+2/20/24 7:54:47 AM	com.apple.launchd[94]	([0x0-0x19019].com.apple.Xcode[2447]) Exited: Killed	
+2/20/24 7:56:29 AM	com.apple.launchd[94]	([0x0-0x1b01b].com.apple.Xcode[2464]) Exited abnormally: Trace/BPT trap	
+2/20/24 7:58:27 AM	[0x0-0x1e01e].com.apple.Xcode[2966]	dyld: Symbol not found: _XCSCMWasDisabledNotification	
+2/20/24 7:58:27 AM	[0x0-0x1e01e].com.apple.Xcode[2966]	  Referenced from: /Xcode2.5/Applications/Xcode.app/Contents/MacOS/../../../../Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/DevToolsInterface	
+2/20/24 7:58:27 AM	[0x0-0x1e01e].com.apple.Xcode[2966]	  Expected in: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/DevToolsCore	
+2/20/24 8:00:10 AM	com.apple.launchd[94]	([0x0-0x1e01e].com.apple.Xcode[2966]) Exited abnormally: Trace/BPT trap	
+2/20/24 8:02:34 AM	[0x0-0x21021].com.apple.Xcode[3400]	dyld: Symbol not found: _XCSCMWasDisabledNotification	
+2/20/24 8:02:34 AM	[0x0-0x21021].com.apple.Xcode[3400]	  Referenced from: /Xcode2.5/Applications/Xcode.app/Contents/MacOS/../../../../Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/DevToolsInterface	
+2/20/24 8:02:34 AM	[0x0-0x21021].com.apple.Xcode[3400]	  Expected in: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/DevToolsCore	
+2/20/24 7:05:56 AM	[0x0-0x11011].com.apple.Xcode[117]	dyld: Symbol not found: _XCSCMWasDisabledNotification	
+2/20/24 7:05:56 AM	[0x0-0x11011].com.apple.Xcode[117]	  Referenced from: /Xcode2.5/Applications/Xcode.app/Contents/MacOS/../../../../Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/DevToolsInterface	
+2/20/24 7:05:56 AM	[0x0-0x11011].com.apple.Xcode[117]	  Expected in: /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Versions/A/DevToolsCore	
+2/20/24 7:07:16 AM	com.apple.launchd[73]	([0x0-0x11011].com.apple.Xcode[117]) Exited abnormally: Trace/BPT trap	
+2/20/24 7:08:38 AM	[0x0-0x17017].com.apple.XcodeInstallerLauncher[140]	2024-02-20 07:08:38.900 open[142:10b] _CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 7:18:34 AM	[0x0-0x1b01b].com.apple.XcodeInstallerLauncher[179]	2024-02-20 07:18:34.195 open[182:10b] _CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 7:34:25 AM	[0x0-0x18018].com.apple.XcodeInstallerLauncher[164]	2024-02-20 07:34:24.740 open[167:10b] _CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 8:20:01 AM	[0x0-0x1e01e].com.apple.Xcode[4780]	dyld: Library not loaded: /Developer/Library/PrivateFrameworks/DevToolsFoundation.framework/Versions/A/DevToolsFoundation	
+2/20/24 8:20:01 AM	[0x0-0x1e01e].com.apple.Xcode[4780]	  Referenced from: /Xcode2.5/Applications/Xcode.app/Contents/MacOS/../../../../Library/PrivateFrameworks/DevToolsSupport.framework/Versions/A/DevToolsSupport	
+2/20/24 8:20:01 AM	[0x0-0x1e01e].com.apple.Xcode[4780]	  Reason: image not found	
+2/20/24 8:20:05 AM	com.apple.launchd[73]	([0x0-0x1e01e].com.apple.Xcode[4780]) Exited abnormally: Trace/BPT trap	
+2/20/24 8:44:09 AM	Xcode[9156]	_CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 8:44:20 AM	[0x0-0x23023].com.apple.Xcode[9156]	Tue Feb 20 08:44:20 nicks-power-mac-g4-agp-graphics.local Xcode[9156] <Error>: The function `CGFontGetGlyphsForUnicodes' is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance. Please use `CGFontGetGlyphsForUnichars' instead.	
+2/20/24 8:47:33 AM	Xcode[9156]	CodeWarrior XML export file not generated for the following reason: (null)	
+2/20/24 8:52:47 AM	Xcode[9156]	CodeWarrior XML export file not generated for the following reason: (null)	
+2/20/24 9:05:41 AM	Xcode[9156]	CodeWarrior XML export file not generated for the following reason: (null)	
+2/20/24 9:42:28 AM	Xcode[9156]	CodeWarrior XML export file not generated for the following reason: (null)	
+2/20/24 10:09:08 AM	Xcode[110]	_CFGetHostUUIDString: unable to determine UUID for host. Error: 35	
+2/20/24 10:09:35 AM	[0x0-0x10010].com.apple.Xcode[110]	Tue Feb 20 10:09:35 nicks-power-mac-g4-agp-graphics.local Xcode[110] <Error>: The function `CGFontGetGlyphsForUnicodes' is obsolete and will be removed in an upcoming update. Unfortunately, this application, or a library it uses, is using this obsolete function, and is thereby contributing to an overall degradation of system performance. Please use `CGFontGetGlyphsForUnichars' instead.	
+2/20/24 10:12:14 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "MoreNetworkSetup.c" in group "Network"...skipping	
+2/20/24 10:12:14 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "TAEText.c" in group "TAE"...skipping	
+2/20/24 10:12:14 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "TAEDictionary.c" in group "TAE"...skipping	
+2/20/24 10:12:14 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "TAECommon.c" in group "TAE"...skipping	
+2/20/24 10:12:14 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "TAE.c" in group "TAE"...skipping	
+2/20/24 10:12:15 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "regcode.c" in group "TriMode"...skipping	
+2/20/24 10:12:15 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "regcode_charsets.c" in group "TriMode"...skipping	
+2/20/24 10:12:15 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "regcode_v2.c" in group "TriMode"...skipping	
+2/20/24 10:12:18 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "SpotlightAPI.c" in group "Outdated"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "sslplus.lib" in group "Certicom"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "CurveLib" in group "Certicom"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "LegcrvLib" in group "Certicom"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "RSALib" in group "Certicom"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "SBLib" in group "Certicom"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "KerberosLib.CB" in group "Carbon  Libs"...skipping	
+2/20/24 10:12:19 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "KerberosSupportLib.CB" in group "Carbon  Libs"...skipping	
+2/20/24 10:12:20 AM	Xcode[110]	Unsupported path type 'RootRelative' found for file reference "Editor/editorCarbonlib" in group "Eudora"...leaving reference broken	
+2/20/24 10:12:20 AM	Xcode[110]	Unsupported path root '(null)' found for file reference "EditorMachO" in group "Eudora"...skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "MoreNetworkSetup.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "SpotlightAPI.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "regcode.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "regcode_v2.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "regcode_charsets.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "TAEText.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "TAEDictionary.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "TAECommon.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "TAE.c" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "(null)" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "MSL_Runtime_PPC.Lib" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "CarbonLib.framework" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "SBLib.framework" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "RSALib.framework" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "sslplus.lib" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "CurveLib.framework" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "LegcrvLib.framework" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "KerberosLib.CB" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:12:21 AM	Xcode[110]	Couldn't find file "KerberosSupportLib.CB" for addition to target "Profile Carbon"... skipping	
+2/20/24 10:13:18 AM	Xcode[110]	Couldn't find file "MoreNetworkSetup.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:18 AM	Xcode[110]	Couldn't find file "SpotlightAPI.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "regcode.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "regcode_v2.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "regcode_charsets.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "TAEText.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "TAEDictionary.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "TAECommon.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "TAE.c" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "(null)" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "MSL_Runtime_PPC.Lib" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "CarbonLib.framework" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "SBLib.framework" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "RSALib.framework" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "sslplus.lib" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "CurveLib.framework" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "LegcrvLib.framework" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "KerberosLib.CB" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:19 AM	Xcode[110]	Couldn't find file "KerberosSupportLib.CB" for addition to target "Debug Carbon"... skipping	
+2/20/24 10:13:56 AM	Xcode[110]	Couldn't find file "MSL_Runtime_Mach-O.lib" for addition to target "EditorMachO"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "MoreNetworkSetup.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "SpotlightAPI.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "regcode.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "regcode_v2.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "regcode_charsets.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "TAEText.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "TAEDictionary.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "TAECommon.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "TAE.c" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "(null)" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "MSL_Runtime_PPC.Lib" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "CarbonLib.framework" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "SBLib.framework" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "RSALib.framework" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "sslplus.lib" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "CurveLib.framework" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "LegcrvLib.framework" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "KerberosLib.CB" for addition to target "Bundle"... skipping	
+2/20/24 10:13:58 AM	Xcode[110]	Couldn't find file "KerberosSupportLib.CB" for addition to target "Bundle"... skipping	
+2/20/24 10:14:38 AM	Xcode[110]	Couldn't find file "MSL_Runtime_PPC.Lib" for addition to target "editorCarbon"... skipping	
+2/20/24 10:14:38 AM	Xcode[110]	Couldn't find file "CarbonLib.framework" for addition to target "editorCarbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "MoreNetworkSetup.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "regcode.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "regcode_v2.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "regcode_charsets.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "SpotlightAPI.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "TAE.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "TAECommon.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "TAEDictionary.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "TAEText.c" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "(null)" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "MSL_Runtime_PPC.Lib" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "CarbonLib.framework" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "SBLib.framework" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "RSALib.framework" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "sslplus.lib" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "CurveLib.framework" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "LegcrvLib.framework" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "KerberosLib.CB" for addition to target "Carbon"... skipping	
+2/20/24 10:14:50 AM	Xcode[110]	Couldn't find file "KerberosSupportLib.CB" for addition to target "Carbon"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "MoreNetworkSetup.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "SpotlightAPI.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "regcode.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "regcode_v2.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "regcode_charsets.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "TAEText.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "TAEDictionary.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "TAECommon.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "TAE.c" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "MSL_Runtime_Mach-O.lib" for addition to target "DebugMachO"... skipping	
+2/20/24 10:15:27 AM	Xcode[110]	Couldn't find file "EditorMachO.framework" for addition to target "DebugMachO"... skipping	
