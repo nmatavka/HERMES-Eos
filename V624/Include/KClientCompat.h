@@ -1,0 +1,3 @@
+#ifndef KCLIENTCOMPAT_H
+#define KCLIENTCOMPAT_H
+#endif

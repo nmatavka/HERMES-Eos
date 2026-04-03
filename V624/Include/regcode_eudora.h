@@ -1,0 +1,6 @@
+#ifndef REGCODE_EUDORA_H
+#define REGCODE_EUDORA_H
+
+#define REG_EUD_CLIENT_6_2_MONTH 0
+
+#endif

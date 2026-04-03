@@ -1,0 +1,3 @@
+#ifndef KCLIENTDEPRECATED_H
+#define KCLIENTDEPRECATED_H
+#endif

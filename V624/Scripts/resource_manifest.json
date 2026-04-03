@@ -1,0 +1,349 @@
+{
+  "snapshot": "eudora.r",
+  "resource_outputs": [
+    {
+      "name": "Icons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/Icons.snapshot.r",
+      "output_rsrc": "Icons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128, 1001, 1002, 1003, 1004, 1005, 1006, 1008, 1010, 1045, 1114, 1135, 2074],
+          "types": ["BNDL", "FREF", "ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns", "cicn"]
+        }
+      ]
+    },
+    {
+      "name": "new_Icons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/new_Icons.snapshot.r",
+      "output_rsrc": "new_Icons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128, 1001, 1002, 1003, 1004, 1005, 1006, 1008, 1010, 1045, 1114, 1135, 2074],
+          "types": ["BNDL", "FREF", "ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns", "cicn"]
+        }
+      ]
+    },
+    {
+      "name": "ToolbarIcons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/ToolbarIcons.snapshot.r",
+      "output_rsrc": "ToolbarIcons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [1048, 1049, 1082, 1089, 2092, 30499, 30500, 30503, 30504, 30522, 30523, 30524, 30529],
+          "types": ["ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns"]
+        }
+      ]
+    },
+    {
+      "name": "new_ToolbarIcons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/new_ToolbarIcons.snapshot.r",
+      "output_rsrc": "new_ToolbarIcons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [1048, 1049, 1082, 1089, 2092, 30499, 30500, 30503, 30504, 30522, 30523, 30524, 30529],
+          "types": ["ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns"]
+        }
+      ]
+    },
+    {
+      "name": "SettingsIcons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/SettingsIcons.snapshot.r",
+      "output_rsrc": "SettingsIcons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "id_min": 30499,
+          "id_max": 30599,
+          "types": ["ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns", "STR#"]
+        }
+      ]
+    },
+    {
+      "name": "new_SettingsIcons",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/new_SettingsIcons.snapshot.r",
+      "output_rsrc": "new_SettingsIcons.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "id_min": 30499,
+          "id_max": 30599,
+          "types": ["ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns", "STR#"]
+        }
+      ]
+    },
+    {
+      "name": "PETELineBreak",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/petelinebreak.snapshot.r",
+      "output_rsrc": "Editor/Source/Resources/petelinebreak.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128],
+          "types": ["LBRK"],
+          "names": ["PETE Line Break"]
+        }
+      ]
+    },
+    {
+      "name": "peteresources",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/peteresources.snapshot.r",
+      "output_rsrc": "Editor/Source/Resources/peteresources.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128],
+          "types": ["LBRK"],
+          "names": ["PETE Line Break"]
+        },
+        {
+          "ids": [129],
+          "types": ["TMPL"],
+          "names": ["LBRK"]
+        }
+      ],
+      "fallback_stub": {
+        "type": "STR ",
+        "id": 128,
+        "name": "PETE Archive Stub",
+        "text": "PETE companion resources were not recoverable from the snapshot."
+      }
+    },
+    {
+      "name": "Help",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/Help.snapshot.r",
+      "output_rsrc": "Help.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [1008, 1018],
+          "types": ["WIND", "ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns", "cicn"]
+        }
+      ]
+    },
+    {
+      "name": "LDAPUtils",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/ldaputils.snapshot.r",
+      "output_rsrc": "ldaputils.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128, 129, 32767],
+          "types": ["STR#", "TEXT", "FUtf", "FUcf", "TGMP"]
+        }
+      ]
+    },
+    {
+      "name": "ShLibDirAlias",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/ShLibDirAlias.snapshot.r",
+      "output_rsrc": "ShLibDirAlias.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [128],
+          "types": ["alis"]
+        }
+      ]
+    },
+    {
+      "name": "MoodWatchSettings",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/MoodWatchSettings.snapshot.r",
+      "output_rsrc": "MoodWatchSettings.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [2074],
+          "types": ["PICT", "FREF", "ICN#", "icl4", "icl8", "ics#", "ics4", "ics8", "icns"]
+        }
+      ]
+    },
+    {
+      "name": "Credits",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/credits.snapshot.r",
+      "output_rsrc": "credits.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [1013, 1014, 1015, 1016],
+          "types": ["PICT"]
+        }
+      ]
+    },
+    {
+      "name": "RegTwo",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/RegTwo.snapshot.r",
+      "output_rsrc": "RegTwo.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1060, 20050],
+          "types": ["ALRT", "DITL", "DLOG", "alrx", "dctb", "ictb"]
+        }
+      ]
+    },
+    {
+      "name": "RegDemo",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/RegDemo.snapshot.r",
+      "output_rsrc": "RegDemo.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1060, 1086, 1094, 1098, 20050, 20100],
+          "types": ["ALRT", "CNTL", "DITL", "DLOG", "STR#", "TMPL", "alrx", "dctb", "ictb"]
+        },
+        {
+          "ids": [1015, 1017, 1020],
+          "types": ["TEXT"]
+        }
+      ]
+    },
+    {
+      "name": "LightReg",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/LightReg.snapshot.r",
+      "output_rsrc": "LightReg.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1003, 1004, 1006, 1014, 1015, 1016, 1017, 1018, 1020],
+          "types": ["TEXT"]
+        },
+        {
+          "ids": [1001, 1002],
+          "types": ["Wzo2"]
+        }
+      ]
+    },
+    {
+      "name": "LightSettings",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/LightSettings.snapshot.r",
+      "output_rsrc": "LightSettings.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1001, 1002],
+          "types": ["Wzo2"]
+        },
+        {
+          "ids": [1128],
+          "types": ["CNTL"]
+        }
+      ]
+    },
+    {
+      "name": "lightsrc",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/lightsrc.snapshot.r",
+      "output_rsrc": "lightsrc.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1003, 1004, 1006, 1014, 1015, 1016, 1017, 1018, 1020],
+          "types": ["TEXT"]
+        },
+        {
+          "ids": [1001, 1002],
+          "types": ["Wzo2"]
+        },
+        {
+          "ids": [1128],
+          "types": ["CNTL"]
+        }
+      ]
+    },
+    {
+      "name": "nag",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/nag.snapshot.r",
+      "output_rsrc": "nag.rsrc",
+      "rewrite_policy": "visible_strings",
+      "selectors": [
+        {
+          "ids": [1140, 1144],
+          "types": ["TMPL"]
+        },
+        {
+          "ids": [1001, 1002, 1003, 1004, 1005, 1006],
+          "types": ["Nag "]
+        },
+        {
+          "ids": [1003, 1004, 1005, 1006, 1007, 1008, 1009, 1011, 1012, 1013, 1014],
+          "types": ["Nag#", "TEXT"]
+        }
+      ]
+    },
+    {
+      "name": "nagWacky",
+      "mode": "snapshot_extract",
+      "output_r": "XcodeSupport/GeneratedResources/nagWacky.snapshot.r",
+      "output_rsrc": "nagWacky.rsrc",
+      "rewrite_policy": "none",
+      "selectors": [
+        {
+          "ids": [1001, 1002],
+          "types": ["Wzo2"]
+        }
+      ]
+    },
+    {
+      "name": "Netcom",
+      "mode": "synthetic_stub",
+      "output_r": "XcodeSupport/GeneratedResources/Netcom.stub.r",
+      "output_rsrc": "Netcom.rsrc",
+      "stub": {
+        "type": "STR ",
+        "id": 128,
+        "name": "Netcom Archive Placeholder",
+        "text": "Netcom archival resources were not recoverable from the snapshot."
+      }
+    },
+    {
+      "name": "scotttwo",
+      "mode": "synthetic_stub",
+      "output_r": "XcodeSupport/GeneratedResources/scotttwo.stub.r",
+      "output_rsrc": "scotttwo.rsrc",
+      "stub": {
+        "type": "STR ",
+        "id": 128,
+        "name": "ScottTwo Archive Placeholder",
+        "text": "ScottTwo archival resources were not recoverable from the snapshot."
+      }
+    },
+    {
+      "name": "DFL68KLoaderStub",
+      "mode": "synthetic_stub",
+      "output_r": "XcodeSupport/GeneratedResources/DFL68KLoaderStub.stub.r",
+      "output_rsrc": "DFL68KLoaderStub.rsrc",
+      "stub": {
+        "type": "STR ",
+        "id": 128,
+        "name": "68K Loader Stub Placeholder",
+        "text": "The original 68K loader stub is unavailable in this Carbon/i386 archive."
+      }
+    },
+    {
+      "name": "Two.dlgx",
+      "mode": "generated",
+      "output_rsrc": "Two.dlgx.rsrc"
+    }
+  ]
+}

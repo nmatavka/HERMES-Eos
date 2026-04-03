@@ -1,1 +1,3 @@
-resource 'STR#' (19600,purgeable) {{"%d %d %d %d\n","%d %d %d %d\n","%d %d %d\n","%d %d %d\n","%d %d %d %d %d %d %d %d\n","%d %d %d\n","%d\n","%d %d\n","%d %d\n","%d %d\n","%d %d %d\n","%d %d %d\n","%d\n","%d\n","%d %d %d\n","%d %d\n","%d\n","%d\n","%d\n","%d\n",}};
+resource 'STR#' (19600,purgeable) {{
+"%d %d %d %d\n",
+}};

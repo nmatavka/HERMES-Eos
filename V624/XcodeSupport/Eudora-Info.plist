@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Eudoramail</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Eudoramail 6.3</string>
+	<key>CFBundleIconFile</key>
+	<string>Eudora.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qualcomm.eudora</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Eudoramail</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>6.3</string>
+	<key>CFBundleSignature</key>
+	<string>CSOm</string>
+	<key>CFBundleVersion</key>
+	<string>6.3</string>
+	<key>LSPrefersCarbon</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 1992-2003 HERMES</string>
+</dict>
+</plist>

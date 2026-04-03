@@ -1,0 +1,18 @@
+{
+  "arch": "i386",
+  "configure_flags": [
+    "no-shared",
+    "no-apps",
+    "no-docs",
+    "no-tests",
+    "no-asm",
+    "no-module",
+    "no-pinshared"
+  ],
+  "deployment_target": "10.13",
+  "openssl_version": "3.5.5",
+  "sdk_path": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk",
+  "source_dir": "/Users/nick/eudora-carbon/openssl-3.5.5",
+  "source_signature": "3ec312ff9f39410e725f4f3d5702d89737fffb0e4c44791e0e1ac0cff30e82f6",
+  "target": "darwin-i386-cc"
+}
