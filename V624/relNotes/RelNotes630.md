@@ -2,25 +2,68 @@
 
 ## Summary
 
-Eudoramail 6.3 is the current source release of the restored classic Mac mail client as a 32-bit i386 Carbon application. This port uses a minimal two-target Xcode project, rebuilt legacy resources recovered from `eudora.r`, and visible rebranding to `Eudoramail` / `HERMES` while preserving compatibility-sensitive internal identifiers where the build or on-disk formats still depend on them.
+This note is for people building the source release, not for end users looking for a finished binary.
 
-## How to Build on the Target Machine
+Eudoramail 6.3 is the current Carbon/Xcode port of the classic Mac mail client as a 32-bit `i386` application. The tree now builds from a minimal generated Xcode project, uses recovered classic resources from `eudora.r`, uses vendored OpenSSL and vendored MIT Kerberos, and applies the visible `Eudoramail` / `HERMES` rebrand while leaving compatibility-sensitive internal identifiers in place where the code or file formats still depend on them.
 
-The authoritative build target for this release is macOS 10.13 High Sierra with Xcode 9.4.1 and the macOS 10.13 SDK.
+## Authoritative Build Target
 
-### Prerequisites
+The build host of record is:
+
+- macOS 10.13 High Sierra
+- Xcode 9.4.1
+- macOS 10.13 SDK
+
+This is not a Mojave/Xcode 11 build and it is not a modern macOS/Xcode build.
+
+Newer hosts can still regenerate the Xcode project and run some preflight scripts, but they are not authoritative. If a newer host fails while trying to link `i386` test binaries, that is expected host-toolchain mismatch, not proof that the source tree is broken.
+
+## Project Shape
+
+- Generated project: `EudoraXcode.xcodeproj`
+- Targets: `Eudora`, `editorCarbon`
+- Configurations: `Debug`, `Release`
+- Deployment target: `10.13`
+- Architecture: `i386`
+- Carbon entrypoint: `SimpleStart`
+
+`Scripts/generate_xcode_project.py` is the source of truth for the Xcode project layout. If the checked-in project looks stale, regenerate it instead of hand-editing the target matrix.
+
+## Vendored Build Dependencies
+
+No external OpenSSL or Kerberos installation is required or expected.
+
+The tree bootstraps these in-repo dependencies:
+
+- `openssl-3.5.5`
+- `krb5-1.22.2`
+
+Generated outputs land under:
+
+- `XcodeSupport/Generated/OpenSSL/darwin-i386`
+- `XcodeSupport/Generated/Kerberos/darwin-i386`
+
+Both bootstrap scripts are incremental. Re-running them is safe. If you need to force a rebuild, use `--force`. If you need to discard generated state, use `--clean`.
+
+## Prerequisites
 
 - macOS 10.13 High Sierra
 - Xcode 9.4.1 with the macOS 10.13 SDK selected
 - Command Line Tools installed
-- `python3` and `perl` available in `PATH`
-- No external OpenSSL installation is required; the build bootstraps vendored OpenSSL 3.5.5 from `openssl-3.5.5`
+- `python3` in `PATH`
+- `perl` in `PATH`
+- `make` in `PATH`
 
-### Command Line Build
+No Homebrew OpenSSL, no separate MIT Kerberos package, and no old Kerberos SDK should be required for the supported build flow.
+
+## Recommended Command-Line Build
+
+For a clean first build on the target machine:
 
 ```sh
 cd /path/to/eudora-carbon
 python3 Scripts/generate_xcode_project.py
+python3 Scripts/build_kerberos.py
 python3 Scripts/build_openssl.py
 python3 Scripts/build_resources.py
 xcodebuild -list -project EudoraXcode.xcodeproj
@@ -28,41 +71,80 @@ xcodebuild -project EudoraXcode.xcodeproj -scheme Eudora -configuration Debug bu
 xcodebuild -project EudoraXcode.xcodeproj -scheme Eudora -configuration Release build
 ```
 
-### Xcode Build
+The manual bootstrap steps are recommended for the first pass because they make failures easier to isolate. After that, the app target also runs the vendored Kerberos bootstrap, vendored OpenSSL bootstrap, and legacy resource build automatically during Xcode builds.
+
+## Xcode Build
 
 1. Open `EudoraXcode.xcodeproj` in Xcode 9.4.1.
 2. Select the `Eudora` scheme.
-3. Build either the `Debug` or `Release` configuration.
-4. The app target automatically bootstraps vendored OpenSSL and then runs the legacy resource build script during the build.
+3. Build `Debug` or `Release`.
+4. The app target automatically runs:
+   - `Scripts/build_kerberos.py`
+   - `Scripts/build_openssl.py`
+   - `Scripts/build_resources.py`
 
-Newer macOS hosts can still run preflight resource extraction and project generation, but final Carbon build validation belongs on the High Sierra/Xcode 9.4.1 machine.
+## Current Feature Status
 
-## What Changed
+These are the intended build-time defaults in the Xcode port:
 
-- The project now builds from a generated Xcode layout with exactly two targets: `Eudora` and `editorCarbon`.
-- The supported build configurations are `Debug` and `Release`.
-- The Xcode build is pinned to deployment target `10.13` and architecture `i386`.
-- Legacy resources are rebuilt from `eudora.r`, including recovery of previously empty `.rsrc` files and resource-fork-aware handling for classic resource inputs.
-- Visible product branding has been updated from `Qualcomm` to `HERMES` and from `Eudora` to `Eudoramail`.
-- Visible version metadata has been updated to `6.3`.
-- The current milestone is a free/non-registration-first build.
-- The following legacy or proprietary features are disabled by default in this port: registration, Network Setup, GSSAPI, Wintertree spelling, TAE, Spotlight, Certicom SSL, and IMAP.
-- OpenSSL is the only supported SSL path in this Xcode build.
+- Enabled:
+  - Carbon app target plus `editorCarbon` static library
+  - recovered classic resources
+  - OpenSSL 3.5.5 as the only SSL/TLS stack
+  - MIT Kerberos 1.22.2 as the Kerberos/GSS backend
+  - IMAP in the Xcode build
+  - GSSAPI-backed Kerberos auth paths
+- Disabled:
+  - registration / nag-commercial flows
+  - Network Setup
+  - Wintertree spelling
+  - TAE
+  - Spotlight
+  - Certicom SSL
+  - literal Kerberos IV / KPOP shipping behavior
 
-## Compatibility Notes
+Important Kerberos note:
 
-- The application display name is `Eudoramail`, but the Xcode scheme remains `Eudora`.
-- The bundle identifier remains `com.qualcomm.eudora` for compatibility.
-- Compatibility-sensitive internal identifiers and legacy file or resource codes are intentionally not part of the visible rebrand.
-- This release note describes the High Sierra/Xcode 9.4.1 build target, not a Mojave/Xcode 11 workflow.
+- In the Xcode port, legacy Kerberos behavior is treated as a KRB5 replacement.
+- IMAP Kerberos auth is GSSAPI-based.
+- POP Kerberos is interpreted as POP `AUTH GSSAPI` on the normal POP path, not as old KPOP ticket-send behavior.
+- Literal `KERBEROS_V4` does not ship.
 
-## Build Notes
+## Branding and Compatibility Notes
 
-- `Scripts/generate_xcode_project.py` is the entrypoint for regenerating `EudoraXcode.xcodeproj`.
-- `Scripts/build_openssl.py` is the vendored OpenSSL bootstrap entrypoint and produces the generated headers plus static libraries under `XcodeSupport/Generated/OpenSSL/darwin-i386/install`.
-- `Scripts/build_resources.py` is the legacy resource build entrypoint used both manually and from the app target's shell build phase.
-- The generated project currently exposes the `Eudora` and `editorCarbon` targets, `Debug` and `Release` configurations, deployment target `10.13`, and `i386` as the intended build architecture.
+- Visible product name: `Eudoramail`
+- Visible organization branding: `HERMES`
+- Xcode scheme name: `Eudora`
+- Bundle identifier: `com.qualcomm.eudora`
 
-## Current Scope
+The visible branding changed, but compatibility-sensitive internal identifiers, legacy resource codes, and on-disk format hooks were not blindly renamed.
 
-This release is focused on making the Carbon source tree buildable again on the target machine with restored resources and stable visible branding. It documents the intended build flow and current feature defaults, but it does not claim broader runtime validation than has already been proven during the porting work.
+## Troubleshooting
+
+- If `Scripts/build_kerberos.py` or `Scripts/build_openssl.py` warns that the host is not macOS 10.13 / Xcode 9.4.1 / macOS 10.13 SDK, take that warning seriously.
+- If a newer host fails with errors about missing `i386` support or `libSystem.tbd`, move the build to the High Sierra machine. That is an unsupported-host problem.
+- If the Xcode project does not reflect the current script logic, rerun `python3 Scripts/generate_xcode_project.py`.
+- If generated dependency state looks stale, clean and rebuild:
+
+```sh
+python3 Scripts/build_kerberos.py --clean
+python3 Scripts/build_openssl.py --clean
+python3 Scripts/build_resources.py
+```
+
+- If vendored Kerberos bootstrap fails on the target machine, inspect:
+  - `XcodeSupport/Generated/Kerberos/darwin-i386/work/source/src/config.log`
+
+## What Has Been Proven So Far
+
+Repo-side validation has confirmed the generated project shape and the bootstrap wiring, including the two-target Xcode layout and the vendored dependency entrypoints.
+
+The final proof steps still belong on the authoritative High Sierra/Xcode 9.4.1 machine:
+
+- full `Debug` build
+- full `Release` build
+- launch smoke test
+- IMAP smoke test
+- TLS smoke test
+
+This release note describes the supported source-build path and current port status. It does not claim broader runtime validation than has actually been completed on the target machine.

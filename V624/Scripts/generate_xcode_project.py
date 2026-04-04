@@ -13,25 +13,15 @@ XML_PATH = ROOT / "Eudora.proj.xml"
 
 APP_EXCLUDES = {
     "console.stubs.c",
-    "imap4r1.c",
-    "imapauth.c",
-    "imapconnections.c",
-    "imapdownload.c",
-    "imapmailboxes.c",
-    "imapnetlib.c",
-    "mail.c",
-    "misc.c",
     "MoreNetworkSetup.c",
     "mtest.c",
     "nag.c",
     "networksetuplibrary.c",
-    "os_mac.c",
     "paywin.c",
     "regcode.c",
     "regcode_charsets.c",
     "regcode_v2.c",
     "register.c",
-    "rfc822.c",
     "SpotlightAPI.c",
     "TAE.c",
     "TAECommon.c",
@@ -43,6 +33,7 @@ APP_EXTRA_SOURCES = [
     "OpenSSL.cp",
     "ssl.c",
     "sslCerts.cp",
+    "XcodeSupport/EudoraKerberosCompat.c",
     "XcodeSupport/EudoraFeatureStubs.c",
 ]
 
@@ -75,6 +66,7 @@ def pbx_id(label: str) -> str:
 def normalize_source(path: str) -> str | None:
     candidates = [
         ROOT / path,
+        ROOT / "CrispinIMAP" / path,
         ROOT / "Editor/Source/Editor Source" / path,
     ]
     for candidate in candidates:
@@ -261,7 +253,7 @@ def build_project() -> str:
     # PBXNativeTarget
     sections.append(
         "/* Begin PBXNativeTarget section */\n"
-        f"\t\t{pbx_id('target:app')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:app')} /* Build configuration list for PBXNativeTarget \"Eudora\" */; buildPhases = ({pbx_id('phase:opensslscript')}, {pbx_id('phase:appsources')}, {pbx_id('phase:appfw')}, {pbx_id('phase:appres')}, {pbx_id('phase:appscript')}); buildRules = (); dependencies = ({pbx_id('dependency:editor')}); name = Eudora; productName = Eudoramail; productReference = {product_app_ref} /* Eudoramail.app */; productType = \"com.apple.product-type.application\"; }};\n"
+        f"\t\t{pbx_id('target:app')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:app')} /* Build configuration list for PBXNativeTarget \"Eudora\" */; buildPhases = ({pbx_id('phase:kerberosscript')}, {pbx_id('phase:opensslscript')}, {pbx_id('phase:appsources')}, {pbx_id('phase:appfw')}, {pbx_id('phase:appres')}, {pbx_id('phase:appscript')}); buildRules = (); dependencies = ({pbx_id('dependency:editor')}); name = Eudora; productName = Eudoramail; productReference = {product_app_ref} /* Eudoramail.app */; productType = \"com.apple.product-type.application\"; }};\n"
         f"\t\t{pbx_id('target:editor')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:editor')} /* Build configuration list for PBXNativeTarget \"editorCarbon\" */; buildPhases = ({pbx_id('phase:editorsources')}, {pbx_id('phase:editorfw')}); buildRules = (); dependencies = (); name = editorCarbon; productName = editorCarbon; productReference = {product_editor_ref} /* libeditorCarbon.a */; productType = \"com.apple.product-type.library.static\"; }};\n"
         "/* End PBXNativeTarget section */"
     )
@@ -282,10 +274,12 @@ def build_project() -> str:
     )
 
     # PBXShellScriptBuildPhase
+    kerberos_script = 'cd "$SRCROOT"\\npython3 Scripts/build_kerberos.py'
     openssl_script = 'cd "$SRCROOT"\\npython3 Scripts/build_openssl.py'
     script = 'cd "$SRCROOT"\\npython3 Scripts/build_resources.py --bundle-resources-dir "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"'
     sections.append(
         "/* Begin PBXShellScriptBuildPhase section */\n"
+        f"\t\t{pbx_id('phase:kerberosscript')} = {{isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (); inputPaths = (); name = \"Build Vendored Kerberos\"; outputPaths = (); runOnlyForDeploymentPostprocessing = 0; shellPath = /bin/sh; shellScript = {plist_quote(kerberos_script)}; showEnvVarsInLog = 0; }};\n"
         f"\t\t{pbx_id('phase:opensslscript')} = {{isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (); inputPaths = (); name = \"Build Vendored OpenSSL\"; outputPaths = (); runOnlyForDeploymentPostprocessing = 0; shellPath = /bin/sh; shellScript = {plist_quote(openssl_script)}; showEnvVarsInLog = 0; }};\n"
         f"\t\t{pbx_id('phase:appscript')} = {{isa = PBXShellScriptBuildPhase; buildActionMask = 2147483647; files = (); inputPaths = (); name = \"Build Legacy Resources\"; outputPaths = (); runOnlyForDeploymentPostprocessing = 0; shellPath = /bin/sh; shellScript = {plist_quote(script)}; showEnvVarsInLog = 0; }};\n"
         "/* End PBXShellScriptBuildPhase section */"

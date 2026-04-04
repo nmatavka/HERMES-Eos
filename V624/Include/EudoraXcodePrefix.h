@@ -24,16 +24,29 @@
 #undef WINTERTREE
 #endif
 
-#ifdef GSSAPI
-#undef GSSAPI
-#endif
-
-#ifdef IMAP
-#undef IMAP
-#endif
-
 #include "EudoraXcodeCompatibility.h"
 #include "allheaders.h"
 #include "mydefs.h"
+
+/*
+ * The legacy POP sources still carry the old KPOP/Kerberos-IV split. In the
+ * Xcode build we reinterpret that path as Kerberos 5 over normal POP AUTH
+ * GSSAPI, so the old alternate-port and alternate-pref selectors collapse onto
+ * the regular POP/GSSAPI path.
+ */
+#ifdef PREF_K5_POP
+#undef PREF_K5_POP
+#define PREF_K5_POP PREF_KERBEROS
+#endif
+
+#ifdef KERB_POP_PORT
+#undef KERB_POP_PORT
+#define KERB_POP_PORT POP_PORT
+#endif
+
+#ifdef KERBEROS_POP_SERVICE
+#undef KERBEROS_POP_SERVICE
+#define KERBEROS_POP_SERVICE K5_POP_SERVICE
+#endif
 
 #endif

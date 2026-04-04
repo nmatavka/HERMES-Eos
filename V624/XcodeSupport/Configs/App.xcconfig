@@ -1,4 +1,5 @@
 #include "Shared.xcconfig"
+#include? "../Generated/Kerberos/darwin-i386/KerberosLinkFlags.xcconfig"
 
 PRODUCT_NAME = Eudoramail
 EXECUTABLE_NAME = Eudoramail
@@ -10,6 +11,8 @@ GCC_PREFIX_HEADER = $(SRCROOT)/Include/EudoraXcodePrefix.h
 GCC_PRECOMPILE_PREFIX_HEADER = YES
 OPENSSL_BUILD_ROOT = $(SRCROOT)/XcodeSupport/Generated/OpenSSL/darwin-i386
 OPENSSL_ROOT = $(OPENSSL_BUILD_ROOT)/install
-HEADER_SEARCH_PATHS = $(inherited) $(OPENSSL_ROOT)/include
-LIBRARY_SEARCH_PATHS = $(inherited) $(OPENSSL_ROOT)/lib
-OTHER_LDFLAGS = $(inherited) -Wl,-e,_SimpleStart -lssl -lcrypto
+KERBEROS_BUILD_ROOT = $(SRCROOT)/XcodeSupport/Generated/Kerberos/darwin-i386
+KERBEROS_ROOT = $(KERBEROS_BUILD_ROOT)/install
+HEADER_SEARCH_PATHS = $(inherited) $(OPENSSL_ROOT)/include $(KERBEROS_ROOT)/include
+LIBRARY_SEARCH_PATHS = $(inherited) $(OPENSSL_ROOT)/lib $(KERBEROS_ROOT)/lib
+OTHER_LDFLAGS = $(inherited) -Wl,-e,_SimpleStart -lssl -lcrypto -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err -lkrb5support $(EUDORA_KERBEROS_SYSTEM_LDFLAGS)
