@@ -48,10 +48,6 @@ APP_RESOURCES = [
     "EudoraDotApp/Contents/Resources/Settings.icns",
 ]
 
-SUPPORT_FILES = [
-    "XcodeSupport/PETEHeadersCarbonPrefix.pch",
-]
-
 FRAMEWORKS = [
     "Carbon.framework",
     "ApplicationServices.framework",
@@ -155,7 +151,7 @@ def build_project() -> str:
         build_files[key] = ident
         return ident
 
-    for path in app_sources + editor_sources + APP_RESOURCES + SUPPORT_FILES:
+    for path in app_sources + editor_sources + APP_RESOURCES:
         add_file(path)
     for framework in FRAMEWORKS:
         add_file(framework)
@@ -243,7 +239,7 @@ def build_project() -> str:
     # PBXGroup
     source_children = [file_refs[p] for p in app_sources]
     editor_children = [file_refs[p] for p in editor_sources]
-    support_children = [file_refs[p] for p in APP_RESOURCES + SUPPORT_FILES] + [pbx_id("fileref:App.xcconfig"), pbx_id("fileref:Editor.xcconfig")]
+    support_children = [file_refs[p] for p in APP_RESOURCES] + [pbx_id("fileref:App.xcconfig"), pbx_id("fileref:Editor.xcconfig")]
     sections.append(
         "/* Begin PBXGroup section */\n"
         f"\t\t{pbx_id('group:products')} = {{isa = PBXGroup; children = ({product_app_ref}, {product_editor_ref}); name = Products; sourceTree = \"<group>\"; }};\n"
