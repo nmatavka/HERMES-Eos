@@ -49,10 +49,45 @@ CLASSIC_REZ_HEADERS = (
     "AERegistry.r",
 )
 _TOOLCHAIN_CONTEXT: dict[str, object] | None = None
-VISIBLE_REBRAND_REPLACEMENTS = (
-    ("QUALCOMM", "HERMES"),
-    ("Qualcomm", "HERMES"),
-    ("Eudora", "Eudoramail"),
+VISIBLE_APP_NAME = "Eos"
+VISIBLE_COMMUNITY_NAME = "Eos Community Project"
+VISIBLE_COMMUNITY_COPYRIGHT = "Community build of classic Eudora sources"
+COMMON_VISIBLE_REBRAND_REPLACEMENTS = (
+    (
+        "Both UIUC and HERMES have copyrights to parts of Eudoramail.  The rights to the program belong to UIUC, and HERMES is a licensee.",
+        "This community build is based on the classic Eudora source release. See the source release license files for rights information.",
+    ),
+    (
+        "HERMES will send you a program to take your order for the commercial version of Eudoramail.",
+        "Commercial ordering is not part of the Eos community project.",
+    ),
+    (
+        "HERMES will send you information about purchasing Eudoramail.",
+        "Commercial purchasing is not part of the Eos community project.",
+    ),
+    (
+        "Subscribe to the QUEST_News mailing list, and get occasional announcements regarding Eudoramail.",
+        "QUEST_News is not part of the Eos community project.",
+    ),
+    (
+        "You will then also be eligible for free upgrades to all new versions of Eudoramail that HERMES releases for the next twelve months, access to live technical support, and additional features not available in Sponsored or Light modes.",
+        "Future Eos updates are community-maintained and provided on a best-effort basis.",
+    ),
+    ("people at HERMES", "people at ExampleCo"),
+    ("HERMES Mail", "Community Mail"),
+    ("qualcomm.com", "example.org"),
+    ("http://www.qualcomm.com/eudora", "http://example.org/eos"),
+    ("HERMES's main Eos web page", "the Eos project web page"),
+    ("Copyright © 1992-2003 HERMES", VISIBLE_COMMUNITY_COPYRIGHT),
+    ("Copyright © 1992-2003 Qualcomm, Inc.", VISIBLE_COMMUNITY_COPYRIGHT),
+    ("Copyright (c) 1992-2003 Qualcomm, Inc.", VISIBLE_COMMUNITY_COPYRIGHT),
+    ("Eudoramail", VISIBLE_APP_NAME),
+)
+VISIBLE_REBRAND_REPLACEMENTS = COMMON_VISIBLE_REBRAND_REPLACEMENTS + (
+    ("QUALCOMM", VISIBLE_COMMUNITY_NAME.upper()),
+    ("Qualcomm", VISIBLE_COMMUNITY_NAME),
+    ("HERMES", VISIBLE_COMMUNITY_NAME),
+    ("Eudora", VISIBLE_APP_NAME),
 )
 
 
@@ -70,6 +105,22 @@ def command_output(cmd: list[str]) -> str | None:
         return subprocess.check_output(cmd, text=True, stderr=subprocess.DEVNULL).strip()
     except (FileNotFoundError, subprocess.CalledProcessError):
         return None
+
+
+def rewrite_visible_text(text: str) -> str:
+    updated = text
+    for old, new in COMMON_VISIBLE_REBRAND_REPLACEMENTS:
+        updated = updated.replace(old, new)
+    return updated
+
+
+def rewrite_visible_file(path: pathlib.Path) -> None:
+    if not path.exists():
+        return
+    original = path.read_text(encoding="latin1", errors="replace")
+    updated = rewrite_visible_text(original)
+    if updated != original:
+        path.write_text(updated, encoding="latin1")
 
 
 def normalize_temp_copy(path: pathlib.Path) -> pathlib.Path:
@@ -411,13 +462,16 @@ def ensure_snapshot_outputs(manifest: dict) -> None:
 def ensure_derived_text() -> None:
     run_perl_script("Bits/ProcessStrings", "StringDefs")
     run_perl_script("Bits/ProcessStrRes", "StrnDefs")
+    rewrite_visible_file(ROOT / "StrnDefs.strn")
     run_perl_script("Bits/buildprefs", "PrefDefs")
     run_perl_script("Bits/processFilt", "FiltDefs")
     run_perl_script("Bits/buildaudit", "auditdefs")
     with open(ROOT / "Text.r", "w", encoding="latin1") as handle:
         run_perl_script("Bits/buildtext", *sorted(str(p.relative_to(ROOT)) for p in (ROOT / "TEXT").glob("*")), stdout=handle)
+    rewrite_visible_file(ROOT / "Text.r")
     with open(ROOT / "HelpText.r", "w", encoding="latin1") as handle:
         run_perl_script("Bits/buildtext", *sorted(str(p.relative_to(ROOT)) for p in (ROOT / "HelpTEXT").glob("*")), stdout=handle)
+    rewrite_visible_file(ROOT / "HelpText.r")
 
 
 def ensure_rsrc_from_rez(source: str, output: str) -> bool:

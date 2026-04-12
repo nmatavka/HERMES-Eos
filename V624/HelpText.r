@@ -12,53 +12,1719 @@ data 'TEXT' (2020,"HelpTEXT/",purgeable) {
 	""
 };
 data 'TEXT' (2000,"HelpTEXT/About this Release",purgeable) {
-	"<HTML><HEAD><TITLE>What's New in Eudoramail</TITLE></HEAD><BODY><h3>What's New in Eudoramail 6.2</h3><p><b>Emoticons</b></p><p>Emoticons are characters used to indicate emotion or expression. In Internet communication, emoticons such as smiley faces can add an extra level of context to email messages. See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about using emoticons.</p><BR><p><b>ScamWatch</b></p><p>Many email scams use misleading URLs to trick users into clicking their links. What appears to be a legitimate web site address often hides a malicious URL link.</p><p>Eudoramail now features URL protection, which makes it easy to determine if a URL is legitimate before you click on it. You will be warned if the URL is potentially deceptive. See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about ScamWatch</p><BR><p><b>Enhanced IMAP support</b></p><p> Eudoramail 6.2 speeds up deletion of IMAP message and ads better support for working offline. When an IMAP message is deleted, it is immediately hidden from view. At a later time, all messages marked for deletion are removed from the server at one time. This allows IMAP messages to be deleted when you do not have an active connection to the mail server. See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about IMAP improvements</p><BR><p><b>Launch iChat directly from the Eudoramail Address Book</b></p><p>You can now innitiate an iChat with someone in your Eudoramail Address Book. Highlight an entry in your Address Book. If that user has a username listed in the <b>iChat</b> field under the <b>Home</b> tab, the iChat button will be enabled next to the To:, Cc: and Bcc: buttons. Clicking that button will launch iChat and open a new chat window with that user.Again, see the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about ichat from within Eudoramail.</p><BR><p><b>Live Search</b></p><p> Open Search windows are now updated when new mail arrives. Thus you can think of search windows as 'Virtual Mailboxes'. For example, leave a search window open for \"Status is unread\" and the results of that search will continually update to show you all your unread mail.</p><BR><p><b>Dock Icon shows the number of unread messages in Eudoramail</b></p><p>The icon in the Dock will now show the number of unread messages in open mailboxes. This is helpful if you have Eudoramail hidden and mail arrives into an open mailbox, or a filter moves mail to a mailbox and opens that mailbox. The lower-right corner of the icon will change to show the number of unread messages in these open mailboxes.</p><p> <font color=\"#007700\">GREEN</font> - means the number has increasedsince you last did anything in Eudoramail.<br></div><div><font color=\"#0000FF\">BLUE</font> - means it has not.</div></p><p> You can use &lt;x-eudora-setting:396&gt; to adjust this feature.</p><BR><p><b>Improved SSL compatibility</b></p><p>Eudoramail 6.2 provides greater compatibility and improved handling of SSL connections. </p></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>What's New in Eos</TITLE>
+</HEAD>
+<BODY>
+
+<h3>What's New in Eos 6.2</h3>
+
+<p><b>Emoticons</b></p>
+<p>
+Emoticons are characters used to indicate emotion or expression. In Internet communication, 
+emoticons such as smiley faces can add an extra level of context to email messages. 
+See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about using emoticons.
+</p>
+<BR>
+<p><b>ScamWatch</b></p>
+<p>
+Many email scams use misleading URLs to trick users into clicking their links. 
+What appears to be a legitimate web site address often hides a malicious URL link.
+</p>
+<p>
+Eos now features URL protection, which makes it easy to determine if a URL is legitimate before you click on it. You will be warned if the URL is potentially deceptive. 
+See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about ScamWatch
+</p>
+<BR>
+<p><b>Enhanced IMAP support</b></p>
+<p> 
+Eos 6.2 speeds up deletion of IMAP message and ads better support for working offline. When an IMAP message is deleted, 
+it is immediately hidden from view. At a later time, all messages marked for deletion are removed from the server at one time. 
+This allows IMAP messages to be deleted when you do not have an active connection to the mail server. 
+See the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about IMAP improvements
+</p>
+<BR>
+<p><b>Launch iChat directly from the Eos Address Book</b></p>
+<p>
+You can now innitiate an iChat with someone in your Eos Address Book. 
+Highlight an entry in your Address Book. If that user has a username listed in 
+the <b>iChat</b> field under the <b>Home</b> tab, the iChat button will be enabled next 
+to the To:, Cc: and Bcc: buttons. Clicking that button will launch iChat and open a new chat window with that user.
+Again, see the <a href=\"http://www.eudora.com/techsupport/manuals.html\">New Features Guide</a> for more information about ichat from within Eos.</p>
+<BR>
+<p><b>Live Search</b></p>
+<p> 
+Open Search windows are now updated when new mail arrives. Thus you can think of search windows as 'Virtual Mailboxes'. 
+For example, leave a search window open for \"Status is unread\" and the results of that search will continually update to show you all your unread mail.
+</p>
+<BR>
+<p><b>Dock Icon shows the number of unread messages in Eos</b></p>
+<p>
+The icon in the Dock will now show the number of unread messages in open mailboxes. 
+This is helpful if you have Eos hidden and mail arrives into an open mailbox, or a filter moves mail to a mailbox and opens that mailbox. 
+The lower-right corner of the icon will change to show the number of unread messages in these open mailboxes.</p>
+<p> <font color=\"#007700\">GREEN</font> - means the number has increased
+since you last did anything in Eos.<br>
+</div>
+<div><font color=\"#0000FF\">BLUE</font> - means it has not.</div></p>
+<p> You can use &lt;x-eudora-setting:396&gt; to adjust this feature.</p>
+<BR>
+<p><b>Improved SSL compatibility</b></p>
+<p>
+Eos 6.2 provides greater compatibility and improved handling of SSL connections. 
+</p>
+</HTML>"
 };
 data 'TEXT' (2003,"HelpTEXT/Attaching a File",purgeable) {
-	"<HTML><HEAD><TITLE>Attaching a File</TITLE></HEAD><BODY> <H3>Attaching a Document to a Message</H3><P>You can send any documents along with your Eudoramail messages. </P><OL>  <LI>With a new message window open, select <B>Message&gt;Attach Document...</B>     (or click the <B>Attach Document...</B> button on the main toolbar). The standard     file selection dialog appears.</LI><BR><BR>    <LI>Navigate through the dialog until you find the document you want to send,     then select that document.</LI><BR><BR>    <LI>Click the <B>Attach</B> button in the dialog.</LI></OL><P>The file you selected is listed in the <B>Attachments:</B> field of the new   message window. To send more than one attachment, repeat steps 1 through 3.   All attachments will be listed in the <B>Attachments:</B> field.</P><P>You can also attach files to a message by dragging them from the Finder onto   the message window.</P><P>To remove any attached document from a message before the message is sent,   select the attachment in the Attachments: field and either press the <B>Delete</B>   key or select <B>Edit&gt;Clear</B>.</P><P><B>Note:</B> The <B>Message&gt;Attach</B> submenu is for attaching files created using Eudoramail plug-ins, if these plug-ins are installed.   For more details, see &quot;Using Eudoramail Plug-ins&quot; in the online Eudoramail   User Manual.</P><H4>Inserting the Contents of a Text Document Into a Message</H4><P>You can insert the contents of any text file into your Eudoramail messages, so   that the text is sent right in the Eudoramail message itself, rather than the file   being sent as an external attachment.</P><OL>  <LI>With a new message window open, put the cursor where you want to insert     the text, then select <B>Edit&gt;Text&gt;Insert Graphic...</B>. The standard    file selection dialog     appears.</LI><BR><BR>    <LI>Navigate through the dialog until you find the document whose text you want     to insert, then select that document.</LI><BR><BR>    <LI>Click the <B>Insert</B> button in the dialog.</LI></OL><P>The text is inserted into your message and can be edited as if you had typed   it or copied and pasted it.</P><H4>Receiving an Attached Document</H4><P>After you first install Eudoramail, Eudoramail automatically places any attachments   you receive into a folder called \"Attachments Folder\" inside your   Eudoramail Folder (in your Documents Folder). If you want these attachments to go someplace   else, you need to assign an attachment folder. To do so, take the following   steps.</P><OL>  <LI>Select <B>Special&gt;Settings...</B> to open the Settings dialog, then click     the <B>Attachments</B> category in the scroll list on the left.</LI><BR><BR>      <LI>Click the long button to the right of <B>Attachment Folder</B>. A standard     file selection dialog is displayed.</LI><BR><BR>    <LI>Follow the instructions in the dialog to select the folder you want to use, then click the <B>Choose</B> button.</LI><BR><BR>    <LI>Click the <B>OK</B> button in the Settings dialog.</LI></OL><P>You can also specify whether attachments should be deleted when their corresponding   messages are deleted. To do this, turn on (check) the <B>Trash attachments with   messages</B> box in the Attachments panel of the Settings dialog.</P><P><B>Tip:</B> You can set up a filter that will move incoming attachments to   a folder you specify if the messages carrying the attachments meet certain criteria.   This folder can be different from your assigned attachment folder. For more   details, see the online Eudoramail User Manual, under the <B>Move Attachments</B>   filter action in the \"Filter Actions\" section (\"Filtering Messages\").</P><H4>Opening an Attached Document</H4><P>When you receive a document attached to a message, you can open the document   directly in Eudoramail.</P><OL>  <LI>Open the message the document is attached to, or display the message in     the message preview pane.</LI><BR><BR>    <LI>In the open message window or the message preview pane, find the name, icon,     or picture associated with the attached document.</LI><BR><BR>    <LI><B>Double-click</B> or <B>Command-click</B> on the name, icon, or picture,     or click once on any of these items and choose <B>File&gt;Open     Selection</B>.</LI></OL><P>Eudoramail starts the proper application and asks it to open the document. If the Finder   doesn&#146;t know which application to use, it asks you to locate the right   one.</P><P><B>Tip:</B> If you want to open the attachment file in your web browser, click   once on the attachment name, icon, or picture and select <B>File&gt;Open in   Browser</B>, if this command is available (this depends on whether the file   is browser-compatible).</P><H4> Viewing a Graphic Attachment as a Picture in the Message</H4><P>You can set up Eudoramail so that when you receive a message with a graphic-file   attachment, the picture contained in the graphic file is displayed right in   your open message window or the message preview pane, so that you don't   have to take the extra step of opening the graphic file to see what's in   it. To do this:</P><OL>  <LI>Select <B>Special&gt;Settings...</B> to open the Settings dialog.<BR>    <BR>  </LI>  <LI>Click the <B>Fonts &amp; Display</B> category icon in the scroll list on     the left.<BR>    <BR>  </LI>  <LI>Turn on the <B>Display graphics in messages</B> option by checking the box.<BR>    <BR>  </LI>  <LI>Click the <B>OK</B> button to save your setting and close the Settings dialog.</LI></OL><P>Now when you receive a message containing a graphics attachment, you can open the message, or display it in the preview pane, and right in the message window or preview pane itself you will see the picture that the graphics file contains.</P>	<BR>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Attaching a File</TITLE>
+</HEAD>
+<BODY>
+ 
+<H3>Attaching a Document to a Message</H3>
+<P>You can send any documents along with your Eos messages. </P>
+<OL>
+  <LI>With a new message window open, select <B>Message&gt;Attach Document...</B> 
+    (or click the <B>Attach Document...</B> button on the main toolbar). The standard 
+    file selection dialog appears.</LI><BR><BR>
+  
+  <LI>Navigate through the dialog until you find the document you want to send, 
+    then select that document.</LI><BR><BR>
+  
+  <LI>Click the <B>Attach</B> button in the dialog.</LI>
+</OL>
+<P>The file you selected is listed in the <B>Attachments:</B> field of the new 
+  message window. To send more than one attachment, repeat steps 1 through 3. 
+  All attachments will be listed in the <B>Attachments:</B> field.</P>
+<P>You can also attach files to a message by dragging them from the Finder onto 
+  the message window.</P>
+<P>To remove any attached document from a message before the message is sent, 
+  select the attachment in the Attachments: field and either press the <B>Delete</B> 
+  key or select <B>Edit&gt;Clear</B>.</P>
+<P><B>Note:</B> The <B>Message&gt;Attach</B> submenu is for attaching files created using Eos plug-ins, if these plug-ins are installed. 
+  For more details, see &quot;Using Eos Plug-ins&quot; in the online Eos 
+  User Manual.</P>
+
+<H4>Inserting the Contents of a Text Document Into a Message</H4>
+<P>You can insert the contents of any text file into your Eos messages, so 
+  that the text is sent right in the Eos message itself, rather than the file 
+  being sent as an external attachment.</P>
+<OL>
+  <LI>With a new message window open, put the cursor where you want to insert 
+    the text, then select <B>Edit&gt;Text&gt;Insert Graphic...</B>. The standard
+    file selection dialog 
+    appears.</LI><BR><BR>
+  
+  <LI>Navigate through the dialog until you find the document whose text you want 
+    to insert, then select that document.</LI><BR><BR>
+  
+  <LI>Click the <B>Insert</B> button in the dialog.</LI>
+</OL>
+<P>The text is inserted into your message and can be edited as if you had typed 
+  it or copied and pasted it.</P>
+
+<H4>Receiving an Attached Document</H4>
+<P>After you first install Eos, Eos automatically places any attachments 
+  you receive into a folder called \"Attachments Folder\" inside your 
+  Eos Folder (in your Documents Folder). If you want these attachments to go someplace 
+  else, you need to assign an attachment folder. To do so, take the following 
+  steps.</P>
+<OL>
+  <LI>Select <B>Special&gt;Settings...</B> to open the Settings dialog, then click 
+    the <B>Attachments</B> category in the scroll list on the left.</LI><BR><BR>
+    
+  <LI>Click the long button to the right of <B>Attachment Folder</B>. A standard 
+    file selection dialog is displayed.</LI><BR><BR>
+  
+  <LI>Follow the instructions in the dialog to select the folder you want to use, then click the <B>Choose</B> button.</LI><BR><BR>
+  
+  <LI>Click the <B>OK</B> button in the Settings dialog.</LI>
+</OL>
+<P>You can also specify whether attachments should be deleted when their corresponding 
+  messages are deleted. To do this, turn on (check) the <B>Trash attachments with 
+  messages</B> box in the Attachments panel of the Settings dialog.</P>
+<P><B>Tip:</B> You can set up a filter that will move incoming attachments to 
+  a folder you specify if the messages carrying the attachments meet certain criteria. 
+  This folder can be different from your assigned attachment folder. For more 
+  details, see the online Eos User Manual, under the <B>Move Attachments</B> 
+  filter action in the \"Filter Actions\" section (\"Filtering Messages\").</P>
+
+<H4>Opening an Attached Document</H4>
+<P>When you receive a document attached to a message, you can open the document 
+  directly in Eos.</P>
+<OL>
+  <LI>Open the message the document is attached to, or display the message in 
+    the message preview pane.</LI><BR><BR>
+  
+  <LI>In the open message window or the message preview pane, find the name, icon, 
+    or picture associated with the attached document.</LI><BR><BR>
+  
+  <LI><B>Double-click</B> or <B>Command-click</B> on the name, icon, or picture, 
+    or click once on any of these items and choose <B>File&gt;Open 
+    Selection</B>.</LI>
+</OL>
+<P>Eos starts the proper application and asks it to open the document. If the Finder 
+  doesn&#146;t know which application to use, it asks you to locate the right 
+  one.</P>
+<P><B>Tip:</B> If you want to open the attachment file in your web browser, click 
+  once on the attachment name, icon, or picture and select <B>File&gt;Open in 
+  Browser</B>, if this command is available (this depends on whether the file 
+  is browser-compatible).</P>
+
+<H4> Viewing a Graphic Attachment as a Picture in the Message</H4>
+<P>You can set up Eos so that when you receive a message with a graphic-file 
+  attachment, the picture contained in the graphic file is displayed right in 
+  your open message window or the message preview pane, so that you don't 
+  have to take the extra step of opening the graphic file to see what's in 
+  it. To do this:</P>
+<OL>
+  <LI>Select <B>Special&gt;Settings...</B> to open the Settings dialog.<BR>
+    <BR>
+  </LI>
+  <LI>Click the <B>Fonts &amp; Display</B> category icon in the scroll list on 
+    the left.<BR>
+    <BR>
+  </LI>
+  <LI>Turn on the <B>Display graphics in messages</B> option by checking the box.<BR>
+    <BR>
+  </LI>
+  <LI>Click the <B>OK</B> button to save your setting and close the Settings dialog.</LI>
+</OL>
+<P>Now when you receive a message containing a graphics attachment, you can open 
+the message, or display it in the preview pane, and right in the message window 
+or preview pane itself you will see the picture that the graphics file contains.
+</P>
+	<BR>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2019,"HelpTEXT/Changing Your Password",purgeable) {
-	"<HTML><HEAD><TITLE>Changing Your Password</TITLE></HEAD><BODY><H3>Changing Your Password</H3><P>Your incoming mail server may require that you enter a password in order to   check your mail. If the computer that runs this server has the right software,   you can change your account password right from within Eudoramail. If you have multiple   password-controlled accounts and the above condition applies for each, you can   change the password for each account in Eudoramail.</P><BLOCKQUOTE>   <P>1.&nbsp;&nbsp;To change your password(s), do one of the following:</P>  <UL>    <LI>To change your password if you have only one email account, or to change       the password for your Dominant account if you have multiple email accounts       multiple personalities), select the <B>Special&gt;Change Password...</B>       command.</LI>  </UL>  <BLOCKQUOTE>     <P>OR</P>  </BLOCKQUOTE>  <UL>    <LI>To change the password for one or more of your personalities if you have       multiple personalities, do the following:</LI>  </UL></BLOCKQUOTE><OL TYPE=\"a\">  <BLOCKQUOTE>        <OL TYPE=\"a\">        <LI>Select <B>Window&gt;Personalities</B> to open the Personalities 			window.</LI><BR><BR>        <LI>Select the personality or personalities whose password(s) you wish           to change: use the <B>Shift</B> key to select a range and the <B>Command</B>           key to make disjoint selections.</LI><BR><BR>        <LI>Select the <B>Special&gt;Change Password for Selected Personalities...</B>           command</LI>      </OL>  </BLOCKQUOTE></OL><BLOCKQUOTE>  	2.&nbsp;&nbsp;In the Password dialog that displays, type your current password (for   the personality) and click OK. <P>&nbsp;&nbsp;&nbsp;&nbsp;Another dialog appears, asking you for your new password.</P>  <P>3.&nbsp;&nbsp;Type your new password and click OK </P> <P>&nbsp;&nbsp;&nbsp;&nbsp;To verify the change, Eudoramail asks you for the new password again.</P>  <P>4.&nbsp;&nbsp;Type your new password again and click OK.</P> <P>&nbsp;&nbsp;&nbsp;&nbsp;Eudoramail tells you if your password is accepted.</P>   <P>5.&nbsp;&nbsp;If you selected multiple personalities in step 1, then repeat steps     2 through 4 above for each selected personality as you are prompted.</P></BLOCKQUOTE><H4>Tips:</H4><UL>  <LI>The above procedure works only if the incoming mail server is running a     compatible password-change server. For information about these servers, see \"Sources\" the <a href=\"http://www.eudora.com/techsupport/manuals.html\">online Eudoramail User Manual</a>.<BR>    <BR>  </LI>  <LI>For your own protection, many password servers are strict about passwords.     When you choose a new password, make sure it's at least six characters     long and is not a dictionary word, name, date, familiar acronym, or anything     else that could be guessed. Some servers require that you have at least one     number or symbol in your password, and you may want to do that even if it     is not required.<BR>    <BR>  </LI>  <LI>Depending on the password server you are using, the password can be up to     30 characters, but it is normally only 7 or 8.</LI></UL>  <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Changing Your Password</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Changing Your Password</H3>
+<P>Your incoming mail server may require that you enter a password in order to 
+  check your mail. If the computer that runs this server has the right software, 
+  you can change your account password right from within Eos. If you have multiple 
+  password-controlled accounts and the above condition applies for each, you can 
+  change the password for each account in Eos.</P>
+<BLOCKQUOTE> 
+  <P>1.&nbsp;&nbsp;To change your password(s), do one of the following:</P>
+  <UL>
+    <LI>To change your password if you have only one email account, or to change 
+      the password for your Dominant account if you have multiple email accounts 
+      multiple personalities), select the <B>Special&gt;Change Password...</B> 
+      command.</LI>
+  </UL>
+  <BLOCKQUOTE> 
+    <P>OR</P>
+  </BLOCKQUOTE>
+  <UL>
+    <LI>To change the password for one or more of your personalities if you have 
+      multiple personalities, do the following:</LI>
+  </UL>
+</BLOCKQUOTE>
+<OL TYPE=\"a\">
+  <BLOCKQUOTE>  
+      <OL TYPE=\"a\">
+        <LI>Select <B>Window&gt;Personalities</B> to open the Personalities 			window.</LI><BR><BR>
+        <LI>Select the personality or personalities whose password(s) you wish 
+          to change: use the <B>Shift</B> key to select a range and the <B>Command</B> 
+          key to make disjoint selections.</LI><BR><BR>
+        <LI>Select the <B>Special&gt;Change Password for Selected Personalities...</B> 
+          command</LI>
+      </OL>
+  </BLOCKQUOTE>
+</OL>
+<BLOCKQUOTE>  
+	2.&nbsp;&nbsp;In the Password dialog that displays, type your current password (for 
+  the personality) and click OK.
+
+ <P>&nbsp;&nbsp;&nbsp;&nbsp;Another dialog appears, asking you for your new password.</P>
+ 
+ <P>3.&nbsp;&nbsp;Type your new password and click OK </P>
+
+ <P>&nbsp;&nbsp;&nbsp;&nbsp;To verify the change, Eos asks you for the new password again.</P>
+ 
+ <P>4.&nbsp;&nbsp;Type your new password again and click OK.</P>
+
+ <P>&nbsp;&nbsp;&nbsp;&nbsp;Eos tells you if your password is accepted.</P>
+  
+ <P>5.&nbsp;&nbsp;If you selected multiple personalities in step 1, then repeat steps 
+    2 through 4 above for each selected personality as you are prompted.</P>
+</BLOCKQUOTE>
+
+<H4>Tips:</H4>
+<UL>
+  <LI>The above procedure works only if the incoming mail server is running a 
+    compatible password-change server. For information about these servers, see \"Sources\" the <a href=\"http://www.eudora.com/techsupport/manuals.html\">online Eos User Manual</a>.<BR>
+    <BR>
+  </LI>
+  <LI>For your own protection, many password servers are strict about passwords. 
+    When you choose a new password, make sure it's at least six characters 
+    long and is not a dictionary word, name, date, familiar acronym, or anything 
+    else that could be guessed. Some servers require that you have at least one 
+    number or symbol in your password, and you may want to do that even if it 
+    is not required.<BR>
+    <BR>
+  </LI>
+  <LI>Depending on the password server you are using, the password can be up to 
+    30 characters, but it is normally only 7 or 8.</LI>
+</UL>
+  <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2002,"HelpTEXT/Creating Messages",purgeable) {
-	"<HTML><HEAD><TITLE>Creating and Saving a Message</TITLE></HEAD><BODY><H3>Creating and Saving a Message</H3><OL>  <LI>Select <B>Message&gt;New Message</B> (or press <B>Command+N</B>, or click     the <B>New Message</B> button on the main toolbar). A new message composition     window opens.</LI><BR><BR>    <LI>Type an email address (or nickname you created in the Address Book) in the <B>To:</B> field.     Separate multiple addresses and nicknames with commas.</LI><BR><BR>    <LI>Press <B>Tab</B> to move to the <B>Subject:</B> field and type the subject     of your message (optional but useful and good netiquette).</LI><BR><BR>    <LI>Press <B>Tab</B> to move to the <B>Cc:</B> field and type one or more email     addresses (optional&mdash;for sending carbon copies to other recipients).     Separate multiple addresses with commas. (Cc's are public copies, meaning the     addresses are visible to the recipients.)</LI>  <BR><BR>    <LI>Press <B>Tab</B> to move to the <B>Bcc:</B> field and type one or more email     addresses (optional&mdash;for sending blind carbon copies to other recipients).     Separate multiple addresses with commas. (Bcc's are private copies, meaning the    addresses are not visible to the recipients.)</LI><BR><BR>    <LI>Press <B>Tab</B> to move to the body of the message and type your message     text.</LI></OL><P>To create the message under a different \"personality,\" or email account   (if you have multiple personalities set up), select the personality from the   Personality popup in the <B>From:</B> field, or from the <B>Message&gt;Change&gt;Personality</B>   submenu.</P><P>To save your message at any time, select <B>File&gt;Save</B>. Your message   will be saved in the Out mailbox marked with a blue bullet (&bull;), meaning   that it is sendable. You can continue writing the message, or close it and come   back to it later.</P><H3>Sending or Queueing a Message</H3><P>There are two ways to send mail with Eudoramail: you can send a message immediately,   or put it in a queue (waiting list) to be sent later. To specify which option   you want Eudoramail to perform by default, take the following steps before you create   a new message:</P><OL>  <LI>Select the <B>Special&gt;Settings...</B> command to open the Settings 	dialog.</LI><BR><BR>    <LI>Click on the <B>Sending Mail</B> category in the scrolling list on the left.</LI><BR>    <BR>    <LI>Turn on (check) the <B>Immediate send</B> option to send messages immediately,     or turn it off (uncheck it) to put messages into the message queue to be sent     later.</LI><BR><BR>    <LI>Click <B>OK</B> to save your setting and close the Settings dialog.</LI></OL><P>Now, in the open message window of a new message you have just created, click   the message delivery button in the upper right corner of the window: it is marked   either <B>Send</B> or <B>Queue</B> depending on your selection in the numbered   steps above. If you click the button and it is marked <B>Send</B>, the message   is sent immediately. If you click the button and it is marked <B>Queue</B>,   the message is transferred to your Out mailbox and marked \"Q,\" meaning   it is queued and ready to be sent.</P><P>To send all the messages that are queued in your Out mailbox in one step, select   <B>File&gt;Send Queued Messages</B>.</P><H3>Specifying the Time to Send</H3><P>Eudoramail can send a message at a specific time in the future (Eudoramail must be   running at the specified time).</P><OL>  <LI>Compose the message that you want to send at a specific time.</LI><BR><BR>    <LI>With the message open or selected, select the <B>Message&gt;Change&gt;Queueing...</B>     command. (Or, with the message open, hold down the <B>Option</B> key and click     the <B>Send</B> or <B>Queue</B> button in the upper right corner of the message     window.)</LI><BR><BR>    <LI>In the <B>Change Queueing</B> dialog that appears, click the desired button.     If you click <B>On or after</B>, type the time and date     you want the message to be sent.</LI><BR><BR>   <LI>Click <B>OK</B>.</LI></OL><P>If you specify a later time and date, Eudoramail sends the message at that   time if it is running. If it is not running at that time, as soon as you   launch Eudoramail after the time has passed, Eudoramail sends the message.</P><H3>Taking a Message Out of the Queue</H3><P>If you have a timed or queued message that you decide you don't want to   send, you can stop it (\"unqueue\" it), as long as it hasn't already   been sent.</P><OL>  <LI>Open the Out mailbox.</LI><BR><BR>      <LI>Select the message you don't want to send.</LI><BR><BR>    <LI>Select the <B>Message&gt;Change&gt;Queueing...</B> command.</LI><BR><BR>    <LI>Click the <B>Don't Send</B> button in the <B>Change Queueing</B> dialog.</LI><BR><BR>    <LI>Click <B>OK</B>.</LI></OL><P>The message is returned to the sendable state, marked with a blue bullet (&bull;)   in the Status column of the message summary. You can send it later, or you can   discard it.</P>  <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Creating and Saving a Message</TITLE>
+</HEAD>
+<BODY>
+<H3>Creating and Saving a Message</H3>
+<OL>
+  <LI>Select <B>Message&gt;New Message</B> (or press <B>Command+N</B>, or click 
+    the <B>New Message</B> button on the main toolbar). A new message composition 
+    window opens.</LI><BR><BR>
+  
+  <LI>Type an email address (or nickname you created in the Address Book) in the <B>To:</B> field. 
+    Separate multiple addresses and nicknames with commas.</LI><BR><BR>
+  
+  <LI>Press <B>Tab</B> to move to the <B>Subject:</B> field and type the subject 
+    of your message (optional but useful and good netiquette).</LI><BR><BR>
+  
+  <LI>Press <B>Tab</B> to move to the <B>Cc:</B> field and type one or more email 
+    addresses (optional&mdash;for sending carbon copies to other recipients). 
+    Separate multiple addresses with commas. (Cc's are public copies, meaning the 
+    addresses are visible to the recipients.)</LI>
+  <BR><BR>
+  
+  <LI>Press <B>Tab</B> to move to the <B>Bcc:</B> field and type one or more email 
+    addresses (optional&mdash;for sending blind carbon copies to other recipients). 
+    Separate multiple addresses with commas. (Bcc's are private copies, meaning the
+    addresses are not visible to the recipients.)</LI><BR><BR>
+  
+  <LI>Press <B>Tab</B> to move to the body of the message and type your message 
+    text.</LI>
+</OL>
+
+<P>To create the message under a different \"personality,\" or email account 
+  (if you have multiple personalities set up), select the personality from the 
+  Personality popup in the <B>From:</B> field, or from the <B>Message&gt;Change&gt;Personality</B> 
+  submenu.</P>
+<P>To save your message at any time, select <B>File&gt;Save</B>. Your message 
+  will be saved in the Out mailbox marked with a blue bullet (&bull;), meaning 
+  that it is sendable. You can continue writing the message, or close it and come 
+  back to it later.</P>
+
+<H3>Sending or Queueing a Message</H3>
+<P>There are two ways to send mail with Eos: you can send a message immediately, 
+  or put it in a queue (waiting list) to be sent later. To specify which option 
+  you want Eos to perform by default, take the following steps before you create 
+  a new message:</P>
+<OL>
+  <LI>Select the <B>Special&gt;Settings...</B> command to open the Settings 	dialog.</LI><BR><BR>
+  
+  <LI>Click on the <B>Sending Mail</B> category in the scrolling list on the left.</LI><BR>
+    <BR>
+  
+  <LI>Turn on (check) the <B>Immediate send</B> option to send messages immediately, 
+    or turn it off (uncheck it) to put messages into the message queue to be sent 
+    later.</LI><BR><BR>
+  
+  <LI>Click <B>OK</B> to save your setting and close the Settings dialog.</LI>
+</OL>
+<P>Now, in the open message window of a new message you have just created, click 
+  the message delivery button in the upper right corner of the window: it is marked 
+  either <B>Send</B> or <B>Queue</B> depending on your selection in the numbered 
+  steps above. If you click the button and it is marked <B>Send</B>, the message 
+  is sent immediately. If you click the button and it is marked <B>Queue</B>, 
+  the message is transferred to your Out mailbox and marked \"Q,\" meaning 
+  it is queued and ready to be sent.</P>
+<P>To send all the messages that are queued in your Out mailbox in one step, select 
+  <B>File&gt;Send Queued Messages</B>.</P>
+
+<H3>Specifying the Time to Send</H3>
+<P>Eos can send a message at a specific time in the future (Eos must be 
+  running at the specified time).</P>
+<OL>
+  <LI>Compose the message that you want to send at a specific time.</LI><BR><BR>
+  
+  <LI>With the message open or selected, select the <B>Message&gt;Change&gt;Queueing...</B> 
+    command. (Or, with the message open, hold down the <B>Option</B> key and click 
+    the <B>Send</B> or <B>Queue</B> button in the upper right corner of the message 
+    window.)</LI><BR><BR>
+  
+  <LI>In the <B>Change Queueing</B> dialog that appears, click the desired button. 
+    If you click <B>On or after</B>, type the time and date 
+    you want the message to be sent.</LI><BR><BR>
+ 
+  <LI>Click <B>OK</B>.</LI>
+</OL>
+<P>If you specify a later time and date, Eos sends the message at that 
+  time if it is running. If it is not running at that time, as soon as you 
+  launch Eos after the time has passed, Eos sends the message.</P>
+
+<H3>Taking a Message Out of the Queue</H3>
+<P>If you have a timed or queued message that you decide you don't want to 
+  send, you can stop it (\"unqueue\" it), as long as it hasn't already 
+  been sent.</P>
+<OL>
+  <LI>Open the Out mailbox.</LI><BR><BR>
+    
+  <LI>Select the message you don't want to send.</LI><BR><BR>
+  
+  <LI>Select the <B>Message&gt;Change&gt;Queueing...</B> command.</LI><BR><BR>
+  
+  <LI>Click the <B>Don't Send</B> button in the <B>Change Queueing</B> dialog.</LI><BR><BR>
+  
+  <LI>Click <B>OK</B>.</LI>
+</OL>
+<P>The message is returned to the sendable state, marked with a blue bullet (&bull;) 
+  in the Status column of the message summary. You can send it later, or you can 
+  discard it.</P>
+  <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2010,"HelpTEXT/Deleting Messages",purgeable) {
-	"<HTML><HEAD><TITLE>Deleting Messages</TITLE></HEAD><BODY><H3>Deleting Messages</H3><P>To delete an open Eudoramail message&mdash;that is, move it to the Trash mailbox&mdash;do   one of the following while the message is still open:</P><UL><LI>Click the <B>Delete</B> button on the main Eudoramail toolbar.</LI></UL><BR>  <UL><LI>Select <B>Transfer&gt;Trash</B>.</LI></UL><BR>  <UL><LI>Select <B>Message&gt;Delete</B>.</LI></UL><P>To delete one or more messages in an open mailbox window, select their message   summaries, and either perform one of the above three actions or perform this   fourth:</P><UL>  <LI>Press the <B>Delete</B> key on your keyboard.</LI></UL><P>To undo any of the above options, select <B>Edit&gt;Undo</B> or open the Trash   mailbox (<B>Mailbox&gt;Trash</B>), select the messages, and either transfer   them to another mailbox using the <B>Transfer</B> menu, or drag them to another   mailbox in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</P><P>To remove a message permanently from your Macintosh, then after you have moved   it to the Trash mailbox using one of the deletion methods above, either select   <B>Special&gt;Empty Trash</B>, or open the Trash mailbox (<B>Mailbox&gt;Trash</B>),   select the desired message(s), and press the <B>Delete</B> key, or click the   <B>Delete</B> toolbar button, or select <B>Message&gt;Delete</B>.</P><P><B>Note:</B> Messages permanently removed from your Macintosh cannot be recovered.</P>  <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Deleting Messages</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Deleting Messages</H3>
+<P>To delete an open Eos message&mdash;that is, move it to the Trash mailbox&mdash;do 
+  one of the following while the message is still open:</P>
+<UL><LI>Click the <B>Delete</B> button on the main Eos toolbar.</LI></UL><BR>
+  
+<UL><LI>Select <B>Transfer&gt;Trash</B>.</LI></UL><BR>
+  
+<UL><LI>Select <B>Message&gt;Delete</B>.</LI></UL>
+<P>To delete one or more messages in an open mailbox window, select their message 
+  summaries, and either perform one of the above three actions or perform this 
+  fourth:</P>
+<UL>
+  <LI>Press the <B>Delete</B> key on your keyboard.</LI>
+</UL>
+<P>To undo any of the above options, select <B>Edit&gt;Undo</B> or open the Trash 
+  mailbox (<B>Mailbox&gt;Trash</B>), select the messages, and either transfer 
+  them to another mailbox using the <B>Transfer</B> menu, or drag them to another 
+  mailbox in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</P>
+<P>To remove a message permanently from your Macintosh, then after you have moved 
+  it to the Trash mailbox using one of the deletion methods above, either select 
+  <B>Special&gt;Empty Trash</B>, or open the Trash mailbox (<B>Mailbox&gt;Trash</B>), 
+  select the desired message(s), and press the <B>Delete</B> key, or click the 
+  <B>Delete</B> toolbar button, or select <B>Message&gt;Delete</B>.</P>
+<P><B>Note:</B> Messages permanently removed from your Macintosh cannot be recovered.</P>
+  <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2012,"HelpTEXT/Filtering Messages",purgeable) {
-	"<HTML><HEAD><TITLE>Creating Filters</TITLE></HEAD><BODY><H3>Creating Filters</H3><P>Note: If you are using Eudoramail in Light mode, only a limited number of functions   are available.</P><P>Many of Eudoramail's email management functions can be automated with a \"filter,\"   which you can think of as a sort of \"valet\" or \"butler\"   that performs certain operations on your messages behind the scenes, automatically.   You can set up these filters for incoming messages or outgoing messages, or   both.</P><P>You can do such things as the following, on incoming messages, for example:</P><UL><LI>Transfer all the messages from your children into a Personal mailbox.</LI></UL><BR>  <UL><LI>Automatically reply with a stationery message saying that you are \"on     vacation.\"</LI></UL><BR>  <UL><LI>Play a sound when you receive a message from someone important.</LI></UL><BR>  <UL><LI>Raise the priority on an important incoming message and also change its     label color to red for \"Hot,\" for example.</LI></UL>    <P>There are two ways to create a filter. One is simple, and the other is detailed.   Starting with an existing email message, you can create a simple transfer filter   using the <B>Make Filter</B> dialog (<B>Special&gt;Make Filter...</B>). You   can create a detailed filter that looks at multiple aspects of a message and   performs multiple actions on it by using the <B>Filters</B> window (<B>Window&gt;Filters</B>).</P><P>To create a simple transfer filter (one that automatically transfers messages   to other mailboxes), do the following:</P><OL>  <LI>Select or open the email message that contains the information you want     to use to create the filter (sender's address, recipient's address,     or Subject words, for example).</LI><BR><BR>    <LI>Select the <B>Special&gt;Make Filter...</B> command. The Make Filter dialog     is displayed.</LI><BR><BR>       <LI>Check the fields of the Make Filter dialog to make sure the information     is as you want it, and edit if necessary. (For more information on these fields,     see the <a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eudoramail User Manual.</a>)</LI><BR><BR>    <LI>Click <B>Create Filter</B> to add this filter to your list of filters in     Eudoramail, or click <B>Add Details</B> to display the <B>Filters</B> window so     you can make this filter more detailed (see below).</LI></OL><P>To create a detailed filter, do the following:</P><OL>  <LI>Select <B>Window&gt;Filters</B>. The Filters window is displayed, and your     existing filters, if any, are listed in the scroll window on the left.</LI> <BR>    <BR>    <LI>Click the <B>New</B> button, or select an existing filter. </LI>  <P>Filters are automatically named based on the criteria for the filter. They     are invoked in order from top to bottom, and you can re-order them by dragging     a filter up or down in the list. If you are creating a new filter, \"Untitled\"     will change to what you enter in the <B>Header</B> field, and will appear     after you close the Filters window.</P>  <LI>Select the options for how you want the filter to be used: You can set it     as an automatic filter to be invoked on any <B>Incoming</B> and/or <B>Outgoing</B>     messages, and as a <B>Manual</B> filter that can be invoked when you select     the <B>Special&gt;Filter Messages</B> command. Any combination of these options     works.</LI><BR><BR>    <LI>Define the criteria for the filter: Use the header item popups and the text     fields to specify which header items should include a particular string of     text. You can define two related terms for the criteria so that your filter     is as specific as possible (for details, see the \"Filter Criteria\"     section of <a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eudoramail User Manual.</a>).</LI><BR><BR>    <LI>Define the action or actions to be taken on messages that fit the criteria     (for details, see the \"Filter Actions\" section of the online Eudoramail     User Manual).</LI><BR><BR>    <LI>Select <B>File&gt;Save</B> to save your changes to the filters. </LI></OL><P>When the filters are invoked (automatically or manually), each message is matched   against each filter, and messages that meet a filter's criteria are acted   on as specified until a <B>Transfer To</B> action is performed or a <B>Skip   Rest</B> action is encountered. At that point, the next message is filtered.</P><P>To invoke your manual filters, select the messages you want to be filtered   (acted on), then select <B>Special&gt;Filter Messages</B>.</P><H4>Example: Creating a Detailed Filter</H4><P>Let's assume you want all the email from people at HERMES to go into   a mailbox named \"HERMES Mail.\" Assume the email addresses of all   these people will have the string <B>qualcomm.com</B> in them.</P><OL>  <LI>Select <B>Window&gt;Filters</B>. The Filters window is displayed.</LI><BR>    <BR>    <LI>Click the <B>New</B> button. An Untitled filter is created.</LI><BR><BR>    <LI>Check the <B>Incoming</B> box, if it is not already checked.</LI><BR><BR>    <LI>From the first <B>Header</B> popup, select \"<B>From:</B>\".</LI>  <BR><BR>  <LI>Be sure the popup to the lower left says <B>contains</B>.</LI><BR><BR>    <LI>Type <B>qualcomm.com</B> in the text field below the Header popup (next     to the <B>contains</B> popup).</LI><BR><BR>    <LI>From the first <B>Actions</B> popup, select <B>Transfer To</B>.</LI><BR>    <BR>    <LI>From the <B>Transfer</B> menu, select the <B>HERMES Mail</B> mailbox.     If the mailbox doesn't already exist, select <B>New...</B> from the <B>Transfer</B>     menu and make one. </LI><BR><BR>   <LI>Select <B>File&gt;Save</B> to save your filters.</LI></OL><P>Now when you check your mail, any email from people with <B>qualcomm.com</B>   in their email address will automatically go into your <B>HERMES Mail</B>   mailbox.</P><P><B>Note:</B> You can also create this straightforward transfer filter from   an existing email message (having <B>qualcomm.com</B> in the sender's or   a recipient's address) using the Make Filter dialog (<B>Special&gt;Make   Filter...</B>). See those instructions above. The Filters window lets you apply   multiple actions to a message and select multiple criteria for deciding what   to do with it. Hence the advantage of \"detailed\" filters for powerful   control over how your email is managed.</P><P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Creating Filters</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Creating Filters</H3>
+<P>Note: If you are using Eos in Light mode, only a limited number of functions 
+  are available.</P>
+<P>Many of Eos's email management functions can be automated with a \"filter,\" 
+  which you can think of as a sort of \"valet\" or \"butler\" 
+  that performs certain operations on your messages behind the scenes, automatically. 
+  You can set up these filters for incoming messages or outgoing messages, or 
+  both.</P>
+<P>You can do such things as the following, on incoming messages, for example:</P>
+<UL><LI>Transfer all the messages from your children into a Personal mailbox.</LI></UL><BR>
+  
+<UL><LI>Automatically reply with a stationery message saying that you are \"on 
+    vacation.\"</LI></UL><BR>
+  
+<UL><LI>Play a sound when you receive a message from someone important.</LI></UL><BR>
+  
+<UL><LI>Raise the priority on an important incoming message and also change its 
+    label color to red for \"Hot,\" for example.</LI></UL>
+    
+<P>There are two ways to create a filter. One is simple, and the other is detailed. 
+  Starting with an existing email message, you can create a simple transfer filter 
+  using the <B>Make Filter</B> dialog (<B>Special&gt;Make Filter...</B>). You 
+  can create a detailed filter that looks at multiple aspects of a message and 
+  performs multiple actions on it by using the <B>Filters</B> window (<B>Window&gt;Filters</B>).</P>
+<P>To create a simple transfer filter (one that automatically transfers messages 
+  to other mailboxes), do the following:</P>
+<OL>
+  <LI>Select or open the email message that contains the information you want 
+    to use to create the filter (sender's address, recipient's address, 
+    or Subject words, for example).</LI><BR><BR>
+  
+  <LI>Select the <B>Special&gt;Make Filter...</B> command. The Make Filter dialog 
+    is displayed.</LI><BR><BR>
+ 
+    
+  <LI>Check the fields of the Make Filter dialog to make sure the information 
+    is as you want it, and edit if necessary. (For more information on these fields, 
+    see the <a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eos User Manual.</a>)</LI><BR><BR>
+  
+  <LI>Click <B>Create Filter</B> to add this filter to your list of filters in 
+    Eos, or click <B>Add Details</B> to display the <B>Filters</B> window so 
+    you can make this filter more detailed (see below).</LI>
+</OL>
+<P>To create a detailed filter, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Filters</B>. The Filters window is displayed, and your 
+    existing filters, if any, are listed in the scroll window on the left.</LI> <BR>
+    <BR>
+  
+  <LI>Click the <B>New</B> button, or select an existing filter. </LI>
+  <P>Filters are automatically named based on the criteria for the filter. They 
+    are invoked in order from top to bottom, and you can re-order them by dragging 
+    a filter up or down in the list. If you are creating a new filter, \"Untitled\" 
+    will change to what you enter in the <B>Header</B> field, and will appear 
+    after you close the Filters window.</P>
+  <LI>Select the options for how you want the filter to be used: You can set it 
+    as an automatic filter to be invoked on any <B>Incoming</B> and/or <B>Outgoing</B> 
+    messages, and as a <B>Manual</B> filter that can be invoked when you select 
+    the <B>Special&gt;Filter Messages</B> command. Any combination of these options 
+    works.</LI><BR><BR>
+  
+  <LI>Define the criteria for the filter: Use the header item popups and the text 
+    fields to specify which header items should include a particular string of 
+    text. You can define two related terms for the criteria so that your filter 
+    is as specific as possible (for details, see the \"Filter Criteria\" 
+    section of <a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eos User Manual.</a>).</LI><BR><BR>
+  
+  <LI>Define the action or actions to be taken on messages that fit the criteria 
+    (for details, see the \"Filter Actions\" section of the online Eos 
+    User Manual).</LI><BR><BR>
+  
+  <LI>Select <B>File&gt;Save</B> to save your changes to the filters. </LI>
+</OL>
+<P>When the filters are invoked (automatically or manually), each message is matched 
+  against each filter, and messages that meet a filter's criteria are acted 
+  on as specified until a <B>Transfer To</B> action is performed or a <B>Skip 
+  Rest</B> action is encountered. At that point, the next message is filtered.</P>
+<P>To invoke your manual filters, select the messages you want to be filtered 
+  (acted on), then select <B>Special&gt;Filter Messages</B>.</P>
+
+<H4>Example: Creating a Detailed Filter</H4>
+<P>Let's assume you want all the email from people at ExampleCo to go into 
+  a mailbox named \"Community Mail.\" Assume the email addresses of all 
+  these people will have the string <B>example.org</B> in them.</P>
+<OL>
+  <LI>Select <B>Window&gt;Filters</B>. The Filters window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>New</B> button. An Untitled filter is created.</LI><BR><BR>
+  
+  <LI>Check the <B>Incoming</B> box, if it is not already checked.</LI><BR><BR>
+  
+  <LI>From the first <B>Header</B> popup, select \"<B>From:</B>\".</LI>
+  <BR><BR>
+
+  <LI>Be sure the popup to the lower left says <B>contains</B>.</LI><BR><BR>
+  
+  <LI>Type <B>example.org</B> in the text field below the Header popup (next 
+    to the <B>contains</B> popup).</LI><BR><BR>
+  
+  <LI>From the first <B>Actions</B> popup, select <B>Transfer To</B>.</LI><BR>
+    <BR>
+  
+  <LI>From the <B>Transfer</B> menu, select the <B>Community Mail</B> mailbox. 
+    If the mailbox doesn't already exist, select <B>New...</B> from the <B>Transfer</B> 
+    menu and make one. </LI><BR><BR>
+ 
+  <LI>Select <B>File&gt;Save</B> to save your filters.</LI>
+</OL>
+<P>Now when you check your mail, any email from people with <B>example.org</B> 
+  in their email address will automatically go into your <B>Community Mail</B> 
+  mailbox.</P>
+<P><B>Note:</B> You can also create this straightforward transfer filter from 
+  an existing email message (having <B>example.org</B> in the sender's or 
+  a recipient's address) using the Make Filter dialog (<B>Special&gt;Make 
+  Filter...</B>). See those instructions above. The Filters window lets you apply 
+  multiple actions to a message and select multiple criteria for deciding what 
+  to do with it. Hence the advantage of \"detailed\" filters for powerful 
+  control over how your email is managed.</P>
+<P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (3001,"HelpTEXT/LightHelp",purgeable) {
-	"<p>If your question isn't answered, you can view your further support options on our website;double-click <a href=\"x-eudora-jump:support\">here</a>.</p></body></html>"
+	"<p>If your question isn't answered, you can view your further support options on our website;
+double-click <a href=\"x-eudora-jump:support\">here</a>.</p>
+</body>
+</html>"
 };
 data 'TEXT' (2017,"HelpTEXT/Modifiers and Shortcuts",purgeable) {
-	"<HTML><HEAD><TITLE>Modifiers and Shortcuts</TITLE></HEAD><BODY><h1>Modifiers</h1><P>Many operations in Eudoramail can be implemented by holding down one or more \"modifier\"   keys. Eudoramail uses the <B>Shift</B>, <B>Option</B>, <B>Command</B>, and <B>Control</B>   keys as modifiers. If you use a modifier key while you pull down a Eudoramail menu,   the menu shows the names of the modified commands. See the \"Menus\" chapter in   the online Eudoramail User Manual for full descriptions of each menu command and   its modifications, along with their functions.</P><P>Two lists are given below. The first is a list of all those modifiers that   are not reflected in Eudoramail's menus. The second is a list of all those   modifiers that are. Here are the modifiers not shown in the Eudoramail menus:</P><P><B>Shift + Open Eudoramail</B></P><BLOCKQUOTE>Open Eudoramail in \"offline\" mode, ie. open Eudoramail but do not check for mail, even if a mail-checking interval   is set. (You must hold down the <B>Shift</B> key until Eudoramail is fully started.   You open Eudoramail by selecting Eudoramail from the Dock or by double-clicking   on the Eudoramail application icon.)</BLOCKQUOTE><P><B>Shift + Delete/Transfer</B></P><BLOCKQUOTE>Do not open the next message after deleting or transferring the current   message.</BLOCKQUOTE><P><B>Shift + Sort</B></P><BLOCKQUOTE>Add or remove the column as an extra sort criterion. This lets you   unsort or sort while preserving the previous sort(s). You can thus sort by sender,   then within sender by date, then within date by subject, then unsort by subject   and preserve the sort by sender and the sub-sort by date.</BLOCKQUOTE><P><B>Shift + To:/Cc:/Bcc:</B></P><BLOCKQUOTE>From the Address Book, do not bring the composition window to the   front after inserting the nickname.</BLOCKQUOTE><P><B>Shift + Directory Services</B></P><BLOCKQUOTE>Open the Directory Services window with the selected text in the <B>Enter   query</B> field and perform the query.</BLOCKQUOTE><P><B>Shift + click on globe icon in Directory Services window</B></P><BLOCKQUOTE>List all servers except the reference list of Ph servers. That is,   list the \"Configured server,\" the \"Servers used recently,\" and the \"LDAP servers,\"   but do not list the Ph servers. (To list all servers, including the Ph list,   simply click on the globe icon, without using the Shift key.)</BLOCKQUOTE><P><B>Shift + drag selected text</B></P><BLOCKQUOTE>Copy and paste the selected text to the destination but without including   any style information.</BLOCKQUOTE><P><B>Option + Transfer</B></P><BLOCKQUOTE>Put a copy of the current message in the selected mailbox and leave   the original (current) message where it is.</BLOCKQUOTE><P><B>Option + Forward</B></P><BLOCKQUOTE>Forward the message without using quote characters.</BLOCKQUOTE><P><B>Option + Queue/Send</B></P><BLOCKQUOTE>Open the Change Queueing dialog.</BLOCKQUOTE><P><B>Option + Notify Sender</B></P><BLOCKQUOTE>Remove the return receipt request but do not notify the sender.</BLOCKQUOTE><P><B>Option + Make Address Book Entry...</B></P><BLOCKQUOTE>Create a nickname consisting of the sender of the message and all   the original recipients (or just the sender if the <B>Reply to all By default</B>   setting is turned off in the Replying Settings).</BLOCKQUOTE><P><B>Option + To:/Cc:/Bcc:</B></P><BLOCKQUOTE>From the Address Book, insert the full address instead of the nickname   (or don't, if the <B>Expand nicknames immediately</B> setting is turned   on in the Composing Mail Settings).</BLOCKQUOTE><P><B>Option + drag Attachment from message window or preview pane</B></P><BLOCKQUOTE>Copy the attachment to another folder on your desktop.</BLOCKQUOTE><P><B>Option + double-click on a stationery item in Stationery window</B></P><BLOCKQUOTE>Open the stationery file for editing.</BLOCKQUOTE><P><B>Option + click on a mailbox size display</B></P><BLOCKQUOTE>Compact all mailboxes. (To compact the current mailbox only, simply   click on the mailbox size display, without using the Option key.)</BLOCKQUOTE><P><B>Option + click on a column in a message summary in a mailbox window</B></P><BLOCKQUOTE>Select and group all messages sharing that message's value for   that column&mdash;for example, all messages to or from that sender, or sent on   that date, or having the same subject (including replies), or the same priority   or label.</BLOCKQUOTE><P><B>Option + drag Address Book entries to the Finder</B></P><BLOCKQUOTE>Save the entries as a text clipping with tab-delimited entries. (To   save them in standard nickname format, just do the drag without the Option key.)</BLOCKQUOTE><P><B>Click on a mailbox column header (in a mailbox window)</B></P><BLOCKQUOTE>Sort the messages in that mailbox by that column. Use <B>Option +   click</B> to sort in descending order, or <B>Shift + click</B> to add or remove   the column as an extra sort criterion (see <B>Shift + Sort</B> above).</BLOCKQUOTE><P><B>Control + Command + click Attachment</B></P><BLOCKQUOTE>Open the folder on your Macintosh that holds the attachment, and highlight   the attachment.</BLOCKQUOTE><P><B>Command + click on Attachment name, icon, or picture</B></P><BLOCKQUOTE>Open or launch the attachment (same as a simple double-click).</BLOCKQUOTE><P><B>Command + click on URL</B></P><BLOCKQUOTE>Open your web browser or other appropriate application and go to the   URL (same as a simple double-click on the URL).</BLOCKQUOTE><P><B>Command + click on server URL in servers list in Directory Services window</B></P><BLOCKQUOTE>Go to that server to perform a query. (Same as a simple double-click.)</BLOCKQUOTE><P><B>Command + click on the title bar of an open message or mailbox window</B></P><BLOCKQUOTE>Open or highlight the mailbox or folder containing that item.</BLOCKQUOTE><P><B>Command + click between two toolbar buttons</B></P><BLOCKQUOTE>Add a new button to the main toolbar.</BLOCKQUOTE><P><B>Command + drag a toolbar button elsewhere on the toolbar</B></P><BLOCKQUOTE>Move a button on the main toolbar. (Drop the button between two other   buttons or at either end of the toolbar.)</BLOCKQUOTE><P><B>Command + drag a toolbar button to the Trash (on the Finder)</B></P><BLOCKQUOTE>Remove the button from the main toolbar.</BLOCKQUOTE><P><B>Command + click on a toolbar button</B></P><BLOCKQUOTE>Change the function of that main toolbar button.</BLOCKQUOTE><P><B>Shift + click on an item</B></P><BLOCKQUOTE>In many Eudoramail windows, lets you select multiple items in sequence.   Click on the first item in the sequence, then <B>Shift + click</B> on the last   item. The whole group is selected.</BLOCKQUOTE><P><B>Command + click on an item</B></P><BLOCKQUOTE>In many Eudoramail windows, lets you make disjoint selections, and add   or subtract an item from a group selection. (Selects or deselects the item nonconsecutively.)</BLOCKQUOTE><P><B>Command + Control + Option + Shift + Settings...</B></P><BLOCKQUOTE>Revert all but your most essential Eudoramail settings to their default   values. (The <B>Settings...</B> command is under the <B>Special</B> menu.)</BLOCKQUOTE><P>Below is a list of all modifiers that are reflected in Eudoramail's menus.   These are listed in menu order, going left to right on the menu bar and top   to bottom on each menu. The modifier is shown with the name of the unmodified   command, followed by the name of the modified command in square brackets:</P><P><B>Option + Close [Close All]</B></P><BLOCKQUOTE>Close all open Eudoramail windows.</BLOCKQUOTE><P><B>Option + Save [Save All]</B></P><BLOCKQUOTE>Save all currently open outgoing messages in Eudoramail.</BLOCKQUOTE><P><B>Option + Send Queued Messages [Send Messages Specially...]</B></P><BLOCKQUOTE>Send messages with special instructions for the server.</BLOCKQUOTE><P><B>Option + Check Mail [Check Mail Specially...]</B></P><BLOCKQUOTE>Check mail for any or all personalities with special storage and transfer   instructions for the server.</BLOCKQUOTE><P><B>Shift + Print... [Print Selection...]</B></P><BLOCKQUOTE>Print the current selection only.</BLOCKQUOTE><P><B>Shift + Copy [Copy Without Styles]</B></P><BLOCKQUOTE>Copy the selected text but remove all style information.</BLOCKQUOTE><P><B>Option + Copy [Copy &amp; Unwrap]</B></P><BLOCKQUOTE>Copy the selected text but remove all carriage returns.</BLOCKQUOTE><P><B>Shift + Option + Copy [Copy Without Styles &amp; Unwrap]</B></P><BLOCKQUOTE>Copy the selected text but remove all style information and carriage   returns.</BLOCKQUOTE><P><B>Shift + Paste [Paste Without Styles]</B></P><BLOCKQUOTE>Paste from the clipboard but first remove any style information from   the text to be pasted.</BLOCKQUOTE><P><B>Option + Plain [Completely Plain]</B></P><BLOCKQUOTE>Remove all style information from the selected text and return it   to the default settings. (This command appears under the <B>Edit&gt;Text</B>   submenu.)</BLOCKQUOTE><P><B>Option + Wrap Selection [Unwrap Selection]</B></P><BLOCKQUOTE>Remove all carriage returns from the selected text.</BLOCKQUOTE><P><B>Option + Finish Address Book Entry [Finish &amp; Expand Address Book Entry]</B></P><BLOCKQUOTE>Complete the nickname and expand it into its associated address(es).</BLOCKQUOTE><P><B>Option + Insert Recipient [Insert &amp; Expand Recipient]</B></P><BLOCKQUOTE>Insert the nickname and expand it into its associated address(es).</BLOCKQUOTE><P><B>Shift + Reply [Reply Quoting Selection]</B></P><BLOCKQUOTE>Reply quoting the currently selected text only, not the entire message.</BLOCKQUOTE><P><B>Option + Reply [Reply To All]</B></P><BLOCKQUOTE>Reply to the sender and all recipients (or just the sender, if the   <B>Reply to</B> <B>all By default</B> setting is turned on in the Replying Settings).</BLOCKQUOTE><P><B>Shift + Option + Reply [Reply Quoting Selection To All]</B></P><BLOCKQUOTE>Reply to the sender and all recipients, quoting the selected text   only (or just to the sender, if the <B>Reply to all By default</B> setting is   turned on).</BLOCKQUOTE><P><B>Option + Redirect To [Turbo Redirect To]</B></P><BLOCKQUOTE>Perform a \"Turbo Redirect\": Redirect to the selected nickname on the   Quick Recipient List, queue the redirected message, and delete the original   message, all in one step (or simply Redirect, if the <B>Turbo redirect by default   </B>setting is turned on in the Miscellaneous Settings).</BLOCKQUOTE><P><B>Shift + Option + Redirect To [Turbo Redirect Without Delete To]</B></P><BLOCKQUOTE>Perform a Turbo Redirect, as above, but without deleting the original   message. (Performs a simple Redirect if the <B>Turbo redirect by default</B>   setting is turned on in the Miscellaneous Settings.)</BLOCKQUOTE><P><B>Shift + Reply With [Reply Quoting Selection With]</B></P><BLOCKQUOTE>Reply with the selected stationery, quoting the selected text only.</BLOCKQUOTE><P><B>Option + Reply With [Reply To All With]</B></P><BLOCKQUOTE>Reply with the selected stationery, to the sender and all recipients   (or just the sender, if the <B>Reply to all By default</B> setting is turned   on).</BLOCKQUOTE><P><B>Shift + Option + Reply With [Reply Quoting Selection To All With]</B></P><BLOCKQUOTE>Reply to the sender and all recipients, using the selected stationery   and quoting the selected text only (or just the sender, if <B>Reply to all By   default</B> is on).</BLOCKQUOTE><P><B>Option + Send Immediately/Queue For Delivery [Change Queueing...]</B></P><BLOCKQUOTE>Display the Change Queueing dialog to change the queueing status of   the current message.</BLOCKQUOTE><P><B>Shift + Option + Delete [Nuke]</B></P><BLOCKQUOTE>Nuke the message: remove it permanently from your Macintosh without   first moving it to the Trash mailbox. Nuked messages cannot be recovered!</BLOCKQUOTE><P><B>Shift + Make Address Book Entry... [Make Address Book Entry From Selection...]</B></P><BLOCKQUOTE>Make an Address Book entry (nickname) from the current selection.   (Note that something must be selected for the modified name to appear on the   menu.)</BLOCKQUOTE><P><B>Option + Sort [Sort Descending]</B></P><BLOCKQUOTE>Sort in reverse order (descending rather than ascending).</BLOCKQUOTE><P><B>Option + Tabs [Revert To Default Tabs]</B></P><BLOCKQUOTE>Revert to the default configuration for tabbed window groups.</BLOCKQUOTE><H3>Shortcuts</H3><P>The keyboard shortcuts for Eudoramail commands and functions are as follows. The   <B>Command</B> key, on most Macintosh keyboards, shows Apple Computer's   \"apple\" logo and/or a cloverleaf. Where appropriate, you can use the <B>Shift</B>   and <B>Option</B> keys to modify these shortcuts as described above under the   menu-command modifiers.</P><P><B>Command + . </b>Stop the current action</P><P><B>Command + 0</b> Out (open the Out mailbox)</P><P> <B>Command + 1</b> In (open the In mailbox)</P><P> <B>Command + 6</b> Check Spelling (Eudoramail's built-in spelling checker)</P><P><B>Option + Command + 6 </b> Find Next Misspelling</P><P><B>Shift + Option + Command + 6</B> </P><P>Add to Dictionary (add unknown word to spelling dictionary)</P><P><B>Command + -</b> Send Queued Messages</P><P> <B>Command + =</b> Enter Selection (into Find window)</P><P><B>Command +  &#092;</B> (Backslash)</P><P> Send to Back (move current window to the back of all Eudoramail windows)</P><P><B>Command + '</b> Add excerpt bar (to quote)</P><P><B>Command + Option + ' </B></P><P> Remove excerpt bar (to quote) </P><P><B>Command + ,</b> Finish Address Book Entry (finish nickname)</P><P> <B>Command + [</b> Lower priority</P><P> <B>Command + ]</b> Raise priority</P><P> <B>Command + A</b> Select All</P><P> <B>Command + B</b> Make the selected text bold</P><P> <B>Command + C</b> Copy </P><P> <B>Command + D</b> Delete</P><P> <B>Command + E</b> Send Immediately, or Queue For Delivery</P><P><B>Command + F</B></P><P>Find... (open the Find window to search for a text string in the current message)</P><P><B>Option + Command + F</B></P><P>Search (open the Search window to search through mailboxes and mail folders)</P><P><B>Command + G</b> Find Again (in the current message)</P><P> <B>Command + H</b> Attach Document... (attach a file to a message). May be <B>Shift + Command + A</B>, depending on the setting in the <b>Miscellaneous</B> settings panel.</P><P> <B>Command + I</b> Make the selected text italic</P><P><B>Command + J</B></P><P>Junk (mark a message as Junk and move it to the Junk mailbox)</P><P>  -or- (depending on the setting in the <b>Junk Mail</B> settings panel)</P><P>Filter Messages (execute manual filters on the selected messages)</P><P><B>Option + Command + J</B></P><P>Not Junk (mark a message as not being Junk and filter it into your regular mailboxes)</P><P>  -or- (depending on the setting in the <b>Junk Mail</B> settings panel)</P><P>Filter Messages (execute manual filters on the selected messages)</P><P><B>Command + K</b> Make Address Book Entry... (make nickname)</P><P> <B>Command + L</b> Address Book (open it)</P><P> <B>Command + M</b> Check Mail</P><P> <B>Command + N</b> New Message (open one)</P><P> <B>Command + O</b> Open... (open file)</P><P> <B>Command + P</b> Print...</P><P> <B>Command + Q</b> Quit Eudoramail</P><P> <B>Command + R</b> Reply</P><P> <B>Command + S</b> Save</P><P> <B>Command + T</b> Make the selected text plain</P><P> <B>Command + U</b> Make the selected text underlined</P><P> <B>Command + V</b> Paste</P><P> <B>Command + W</b> Close (close the window or message)</P><P> <B>Command + X</b> Cut</P><P> <B>Command + Y</b> Directory Services (open the window)</P><P> <B>Command + Z</b> Undo/Redo</P><P><B>Arrows</b> Move from one message to another in a mailbox (depends on your   Moving Around Settings). </P><P><B>Command+Arrows</b> Move from one file to another in the Address Book. </P><P><B>Return</b> or <B>Enter</B> Select the outlined button in any dialog, alert,   or window, or open the selected message(s).</P><P><B>Spacebar</b> Open a selected message summary (or scroll its preview down   through the message preview pane), or close the current open message. For long   open messages, scroll the message down one page.</P><P><B>Esc</b> Stop any operation currently in progress. Also activates the <b>Cancel</B> button in many dialogs.</P><P><B>Help</b> Turn Balloon Help on or off.</P><P><B>F1</b> Undo/Redo, or main toolbar function. <B>Note:</B> Function keys can   be linked to main toolbar buttons by turning on the <B>Map</B> <B>function keys   to buttons</B> option in the Toolbar Settings.</P><P><B>F2</b> Cut, or main toolbar function.</P><P><B>F3</b> Copy, or main toolbar function.</P><P><B>F4</b> Paste, or main toolbar function.</P><P><B>Home</b> Scroll the window to the beginning.</P><P><B>End</b> Scroll the window to the end.</P><P><B>Page Up</b>/<B>Page Down</B>&nbsp;Scroll up or down through the window.</P>  <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Modifiers and Shortcuts</TITLE>
+</HEAD>
+<BODY>
+<h1>Modifiers</h1>
+<P>Many operations in Eos can be implemented by holding down one or more \"modifier\" 
+  keys. Eos uses the <B>Shift</B>, <B>Option</B>, <B>Command</B>, and <B>Control</B> 
+  keys as modifiers. If you use a modifier key while you pull down a Eos menu, 
+  the menu shows the names of the modified commands. See the \"Menus\" chapter in 
+  the online Eos User Manual for full descriptions of each menu command and 
+  its modifications, along with their functions.</P>
+<P>Two lists are given below. The first is a list of all those modifiers that 
+  are not reflected in Eos's menus. The second is a list of all those 
+  modifiers that are. Here are the modifiers not shown in the Eos menus:</P>
+<P><B>Shift + Open Eos</B></P>
+<BLOCKQUOTE>Open Eos in \"offline\" mode, ie. open Eos but do not check for mail, even if a mail-checking interval 
+  is set. (You must hold down the <B>Shift</B> key until Eos is fully started. 
+  You open Eos by selecting Eos from the Dock or by double-clicking 
+  on the Eos application icon.)</BLOCKQUOTE>
+<P><B>Shift + Delete/Transfer</B></P>
+<BLOCKQUOTE>Do not open the next message after deleting or transferring the current 
+  message.</BLOCKQUOTE>
+<P><B>Shift + Sort</B></P>
+<BLOCKQUOTE>Add or remove the column as an extra sort criterion. This lets you 
+  unsort or sort while preserving the previous sort(s). You can thus sort by sender, 
+  then within sender by date, then within date by subject, then unsort by subject 
+  and preserve the sort by sender and the sub-sort by date.</BLOCKQUOTE>
+<P><B>Shift + To:/Cc:/Bcc:</B></P>
+<BLOCKQUOTE>From the Address Book, do not bring the composition window to the 
+  front after inserting the nickname.</BLOCKQUOTE>
+<P><B>Shift + Directory Services</B></P>
+<BLOCKQUOTE>Open the Directory Services window with the selected text in the <B>Enter 
+  query</B> field and perform the query.</BLOCKQUOTE>
+<P><B>Shift + click on globe icon in Directory Services window</B></P>
+<BLOCKQUOTE>List all servers except the reference list of Ph servers. That is, 
+  list the \"Configured server,\" the \"Servers used recently,\" and the \"LDAP servers,\" 
+  but do not list the Ph servers. (To list all servers, including the Ph list, 
+  simply click on the globe icon, without using the Shift key.)</BLOCKQUOTE>
+<P><B>Shift + drag selected text</B></P>
+<BLOCKQUOTE>Copy and paste the selected text to the destination but without including 
+  any style information.</BLOCKQUOTE>
+<P><B>Option + Transfer</B></P>
+<BLOCKQUOTE>Put a copy of the current message in the selected mailbox and leave 
+  the original (current) message where it is.</BLOCKQUOTE>
+<P><B>Option + Forward</B></P>
+<BLOCKQUOTE>Forward the message without using quote characters.</BLOCKQUOTE>
+<P><B>Option + Queue/Send</B></P>
+<BLOCKQUOTE>Open the Change Queueing dialog.</BLOCKQUOTE>
+<P><B>Option + Notify Sender</B></P>
+<BLOCKQUOTE>Remove the return receipt request but do not notify the sender.</BLOCKQUOTE>
+<P><B>Option + Make Address Book Entry...</B></P>
+<BLOCKQUOTE>Create a nickname consisting of the sender of the message and all 
+  the original recipients (or just the sender if the <B>Reply to all By default</B> 
+  setting is turned off in the Replying Settings).</BLOCKQUOTE>
+<P><B>Option + To:/Cc:/Bcc:</B></P>
+<BLOCKQUOTE>From the Address Book, insert the full address instead of the nickname 
+  (or don't, if the <B>Expand nicknames immediately</B> setting is turned 
+  on in the Composing Mail Settings).</BLOCKQUOTE>
+<P><B>Option + drag Attachment from message window or preview pane</B></P>
+<BLOCKQUOTE>Copy the attachment to another folder on your desktop.</BLOCKQUOTE>
+<P><B>Option + double-click on a stationery item in Stationery window</B></P>
+<BLOCKQUOTE>Open the stationery file for editing.</BLOCKQUOTE>
+<P><B>Option + click on a mailbox size display</B></P>
+<BLOCKQUOTE>Compact all mailboxes. (To compact the current mailbox only, simply 
+  click on the mailbox size display, without using the Option key.)</BLOCKQUOTE>
+<P><B>Option + click on a column in a message summary in a mailbox window</B></P>
+<BLOCKQUOTE>Select and group all messages sharing that message's value for 
+  that column&mdash;for example, all messages to or from that sender, or sent on 
+  that date, or having the same subject (including replies), or the same priority 
+  or label.</BLOCKQUOTE>
+<P><B>Option + drag Address Book entries to the Finder</B></P>
+<BLOCKQUOTE>Save the entries as a text clipping with tab-delimited entries. (To 
+  save them in standard nickname format, just do the drag without the Option key.)</BLOCKQUOTE>
+<P><B>Click on a mailbox column header (in a mailbox window)</B></P>
+<BLOCKQUOTE>Sort the messages in that mailbox by that column. Use <B>Option + 
+  click</B> to sort in descending order, or <B>Shift + click</B> to add or remove 
+  the column as an extra sort criterion (see <B>Shift + Sort</B> above).</BLOCKQUOTE>
+<P><B>Control + Command + click Attachment</B></P>
+<BLOCKQUOTE>Open the folder on your Macintosh that holds the attachment, and highlight 
+  the attachment.</BLOCKQUOTE>
+<P><B>Command + click on Attachment name, icon, or picture</B></P>
+<BLOCKQUOTE>Open or launch the attachment (same as a simple double-click).</BLOCKQUOTE>
+<P><B>Command + click on URL</B></P>
+<BLOCKQUOTE>Open your web browser or other appropriate application and go to the 
+  URL (same as a simple double-click on the URL).</BLOCKQUOTE>
+<P><B>Command + click on server URL in servers list in Directory Services window</B></P>
+<BLOCKQUOTE>Go to that server to perform a query. (Same as a simple double-click.)</BLOCKQUOTE>
+<P><B>Command + click on the title bar of an open message or mailbox window</B></P>
+<BLOCKQUOTE>Open or highlight the mailbox or folder containing that item.</BLOCKQUOTE>
+<P><B>Command + click between two toolbar buttons</B></P>
+<BLOCKQUOTE>Add a new button to the main toolbar.</BLOCKQUOTE>
+<P><B>Command + drag a toolbar button elsewhere on the toolbar</B></P>
+<BLOCKQUOTE>Move a button on the main toolbar. (Drop the button between two other 
+  buttons or at either end of the toolbar.)</BLOCKQUOTE>
+<P><B>Command + drag a toolbar button to the Trash (on the Finder)</B></P>
+<BLOCKQUOTE>Remove the button from the main toolbar.</BLOCKQUOTE>
+<P><B>Command + click on a toolbar button</B></P>
+<BLOCKQUOTE>Change the function of that main toolbar button.</BLOCKQUOTE>
+<P><B>Shift + click on an item</B></P>
+<BLOCKQUOTE>In many Eos windows, lets you select multiple items in sequence. 
+  Click on the first item in the sequence, then <B>Shift + click</B> on the last 
+  item. The whole group is selected.</BLOCKQUOTE>
+<P><B>Command + click on an item</B></P>
+<BLOCKQUOTE>In many Eos windows, lets you make disjoint selections, and add 
+  or subtract an item from a group selection. (Selects or deselects the item nonconsecutively.)</BLOCKQUOTE>
+<P><B>Command + Control + Option + Shift + Settings...</B></P>
+<BLOCKQUOTE>Revert all but your most essential Eos settings to their default 
+  values. (The <B>Settings...</B> command is under the <B>Special</B> menu.)</BLOCKQUOTE>
+<P>Below is a list of all modifiers that are reflected in Eos's menus. 
+  These are listed in menu order, going left to right on the menu bar and top 
+  to bottom on each menu. The modifier is shown with the name of the unmodified 
+  command, followed by the name of the modified command in square brackets:</P>
+<P><B>Option + Close [Close All]</B></P>
+<BLOCKQUOTE>Close all open Eos windows.</BLOCKQUOTE>
+<P><B>Option + Save [Save All]</B></P>
+<BLOCKQUOTE>Save all currently open outgoing messages in Eos.</BLOCKQUOTE>
+<P><B>Option + Send Queued Messages [Send Messages Specially...]</B></P>
+<BLOCKQUOTE>Send messages with special instructions for the server.</BLOCKQUOTE>
+<P><B>Option + Check Mail [Check Mail Specially...]</B></P>
+<BLOCKQUOTE>Check mail for any or all personalities with special storage and transfer 
+  instructions for the server.</BLOCKQUOTE>
+<P><B>Shift + Print... [Print Selection...]</B></P>
+<BLOCKQUOTE>Print the current selection only.</BLOCKQUOTE>
+<P><B>Shift + Copy [Copy Without Styles]</B></P>
+<BLOCKQUOTE>Copy the selected text but remove all style information.</BLOCKQUOTE>
+<P><B>Option + Copy [Copy &amp; Unwrap]</B></P>
+<BLOCKQUOTE>Copy the selected text but remove all carriage returns.</BLOCKQUOTE>
+<P><B>Shift + Option + Copy [Copy Without Styles &amp; Unwrap]</B></P>
+<BLOCKQUOTE>Copy the selected text but remove all style information and carriage 
+  returns.</BLOCKQUOTE>
+<P><B>Shift + Paste [Paste Without Styles]</B></P>
+<BLOCKQUOTE>Paste from the clipboard but first remove any style information from 
+  the text to be pasted.</BLOCKQUOTE>
+<P><B>Option + Plain [Completely Plain]</B></P>
+<BLOCKQUOTE>Remove all style information from the selected text and return it 
+  to the default settings. (This command appears under the <B>Edit&gt;Text</B> 
+  submenu.)</BLOCKQUOTE>
+<P><B>Option + Wrap Selection [Unwrap Selection]</B></P>
+<BLOCKQUOTE>Remove all carriage returns from the selected text.</BLOCKQUOTE>
+<P><B>Option + Finish Address Book Entry [Finish &amp; Expand Address Book Entry]</B></P>
+<BLOCKQUOTE>Complete the nickname and expand it into its associated address(es).</BLOCKQUOTE>
+<P><B>Option + Insert Recipient [Insert &amp; Expand Recipient]</B></P>
+<BLOCKQUOTE>Insert the nickname and expand it into its associated address(es).</BLOCKQUOTE>
+<P><B>Shift + Reply [Reply Quoting Selection]</B></P>
+<BLOCKQUOTE>Reply quoting the currently selected text only, not the entire message.</BLOCKQUOTE>
+<P><B>Option + Reply [Reply To All]</B></P>
+<BLOCKQUOTE>Reply to the sender and all recipients (or just the sender, if the 
+  <B>Reply to</B> <B>all By default</B> setting is turned on in the Replying Settings).</BLOCKQUOTE>
+<P><B>Shift + Option + Reply [Reply Quoting Selection To All]</B></P>
+<BLOCKQUOTE>Reply to the sender and all recipients, quoting the selected text 
+  only (or just to the sender, if the <B>Reply to all By default</B> setting is 
+  turned on).</BLOCKQUOTE>
+<P><B>Option + Redirect To [Turbo Redirect To]</B></P>
+<BLOCKQUOTE>Perform a \"Turbo Redirect\": Redirect to the selected nickname on the 
+  Quick Recipient List, queue the redirected message, and delete the original 
+  message, all in one step (or simply Redirect, if the <B>Turbo redirect by default 
+  </B>setting is turned on in the Miscellaneous Settings).</BLOCKQUOTE>
+<P><B>Shift + Option + Redirect To [Turbo Redirect Without Delete To]</B></P>
+<BLOCKQUOTE>Perform a Turbo Redirect, as above, but without deleting the original 
+  message. (Performs a simple Redirect if the <B>Turbo redirect by default</B> 
+  setting is turned on in the Miscellaneous Settings.)</BLOCKQUOTE>
+<P><B>Shift + Reply With [Reply Quoting Selection With]</B></P>
+<BLOCKQUOTE>Reply with the selected stationery, quoting the selected text only.</BLOCKQUOTE>
+<P><B>Option + Reply With [Reply To All With]</B></P>
+<BLOCKQUOTE>Reply with the selected stationery, to the sender and all recipients 
+  (or just the sender, if the <B>Reply to all By default</B> setting is turned 
+  on).</BLOCKQUOTE>
+<P><B>Shift + Option + Reply With [Reply Quoting Selection To All With]</B></P>
+<BLOCKQUOTE>Reply to the sender and all recipients, using the selected stationery 
+  and quoting the selected text only (or just the sender, if <B>Reply to all By 
+  default</B> is on).</BLOCKQUOTE>
+<P><B>Option + Send Immediately/Queue For Delivery [Change Queueing...]</B></P>
+<BLOCKQUOTE>Display the Change Queueing dialog to change the queueing status of 
+  the current message.</BLOCKQUOTE>
+<P><B>Shift + Option + Delete [Nuke]</B></P>
+<BLOCKQUOTE>Nuke the message: remove it permanently from your Macintosh without 
+  first moving it to the Trash mailbox. Nuked messages cannot be recovered!</BLOCKQUOTE>
+<P><B>Shift + Make Address Book Entry... [Make Address Book Entry From Selection...]</B></P>
+<BLOCKQUOTE>Make an Address Book entry (nickname) from the current selection. 
+  (Note that something must be selected for the modified name to appear on the 
+  menu.)</BLOCKQUOTE>
+<P><B>Option + Sort [Sort Descending]</B></P>
+<BLOCKQUOTE>Sort in reverse order (descending rather than ascending).</BLOCKQUOTE>
+<P><B>Option + Tabs [Revert To Default Tabs]</B></P>
+<BLOCKQUOTE>Revert to the default configuration for tabbed window groups.</BLOCKQUOTE>
+
+<H3>Shortcuts</H3>
+<P>The keyboard shortcuts for Eos commands and functions are as follows. The 
+  <B>Command</B> key, on most Macintosh keyboards, shows Apple Computer's 
+  \"apple\" logo and/or a cloverleaf. Where appropriate, you can use the <B>Shift</B> 
+  and <B>Option</B> keys to modify these shortcuts as described above under the 
+  menu-command modifiers.</P>
+<P><B>Command + . </b>Stop the current action</P>
+<P><B>Command + 0</b> Out (open the Out mailbox)</P>
+<P> <B>Command + 1</b> In (open the In mailbox)</P>
+<P> <B>Command + 6</b> Check Spelling (Eos's built-in spelling checker)</P>
+<P><B>Option + Command + 6 </b> Find Next Misspelling</P>
+<P><B>Shift + Option + Command + 6</B> </P>
+<P>Add to Dictionary (add unknown word to spelling dictionary)</P>
+<P><B>Command + -</b> Send Queued Messages</P>
+<P> <B>Command + =</b> Enter Selection (into Find window)</P>
+<P><B>Command +  &#092;</B> (Backslash)</P>
+<P> Send to Back (move current window to the back of all Eos windows)</P>
+<P><B>Command + '</b> Add excerpt bar (to quote)</P>
+<P><B>Command + Option + ' </B></P>
+<P> Remove excerpt bar (to quote) </P>
+<P><B>Command + ,</b> Finish Address Book Entry (finish nickname)</P>
+<P> <B>Command + [</b> Lower priority</P>
+<P> <B>Command + ]</b> Raise priority</P>
+<P> <B>Command + A</b> Select All</P>
+<P> <B>Command + B</b> Make the selected text bold</P>
+<P> <B>Command + C</b> Copy </P>
+<P> <B>Command + D</b> Delete</P>
+<P> <B>Command + E</b> Send Immediately, or Queue For Delivery</P>
+<P><B>Command + F</B></P>
+<P>Find... (open the Find window to search for a text string in the current message)</P>
+<P><B>Option + Command + F</B></P>
+<P>Search (open the Search window to search through mailboxes and mail folders)</P>
+<P><B>Command + G</b> Find Again (in the current message)</P>
+<P> <B>Command + H</b> Attach Document... (attach a file to a message). May be <B>Shift + Command + A</B>, depending on the setting in the <b>Miscellaneous</B> settings panel.</P>
+<P> <B>Command + I</b> Make the selected text italic</P>
+<P><B>Command + J</B></P>
+<P>Junk (mark a message as Junk and move it to the Junk mailbox)</P>
+<P>  -or- (depending on the setting in the <b>Junk Mail</B> settings panel)</P>
+<P>Filter Messages (execute manual filters on the selected messages)</P>
+<P><B>Option + Command + J</B></P>
+<P>Not Junk (mark a message as not being Junk and filter it into your regular mailboxes)</P>
+<P>  -or- (depending on the setting in the <b>Junk Mail</B> settings panel)</P>
+<P>Filter Messages (execute manual filters on the selected messages)</P>
+<P><B>Command + K</b> Make Address Book Entry... (make nickname)</P>
+<P> <B>Command + L</b> Address Book (open it)</P>
+<P> <B>Command + M</b> Check Mail</P>
+<P> <B>Command + N</b> New Message (open one)</P>
+<P> <B>Command + O</b> Open... (open file)</P>
+<P> <B>Command + P</b> Print...</P>
+<P> <B>Command + Q</b> Quit Eos</P>
+<P> <B>Command + R</b> Reply</P>
+<P> <B>Command + S</b> Save</P>
+<P> <B>Command + T</b> Make the selected text plain</P>
+<P> <B>Command + U</b> Make the selected text underlined</P>
+<P> <B>Command + V</b> Paste</P>
+<P> <B>Command + W</b> Close (close the window or message)</P>
+<P> <B>Command + X</b> Cut</P>
+<P> <B>Command + Y</b> Directory Services (open the window)</P>
+<P> <B>Command + Z</b> Undo/Redo</P>
+<P><B>Arrows</b> Move from one message to another in a mailbox (depends on your 
+  Moving Around Settings). </P>
+<P><B>Command+Arrows</b> Move from one file to another in the Address Book. </P>
+<P><B>Return</b> or <B>Enter</B> Select the outlined button in any dialog, alert, 
+  or window, or open the selected message(s).</P>
+<P><B>Spacebar</b> Open a selected message summary (or scroll its preview down 
+  through the message preview pane), or close the current open message. For long 
+  open messages, scroll the message down one page.</P>
+<P><B>Esc</b> Stop any operation currently in progress. Also activates the <b>Cancel</B> button in many dialogs.</P>
+<P><B>Help</b> Turn Balloon Help on or off.</P>
+<P><B>F1</b> Undo/Redo, or main toolbar function. <B>Note:</B> Function keys can 
+  be linked to main toolbar buttons by turning on the <B>Map</B> <B>function keys 
+  to buttons</B> option in the Toolbar Settings.</P>
+<P><B>F2</b> Cut, or main toolbar function.</P>
+<P><B>F3</b> Copy, or main toolbar function.</P>
+<P><B>F4</b> Paste, or main toolbar function.</P>
+<P><B>Home</b> Scroll the window to the beginning.</P>
+<P><B>End</b> Scroll the window to the end.</P>
+<P><B>Page Up</b>/<B>Page Down</B>&nbsp;Scroll up or down through the window.</P>
+  <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2008,"HelpTEXT/Receiving Mail",purgeable) {
-	"<HTML><HEAD><TITLE>Checking for and Receiving Mail</TITLE></HEAD><BODY><H3>Checking for and Receiving Mail</H3><P>You can check for new mail manually, or set up Eudoramail to automatically check   as often as you want. </P><H4>Checking Mail Manually</H4><P>To check mail manually, do one of the following:</P><UL><LI>Select <B>File&gt;Check Mail</B></LI></UL><BR><UL><LI>Click the <B>Check Mail</B> button on the main toolbar</LI></UL><BR><UL><LI>Press <B>Command+M</B></LI></UL><P>If you have new messages, Eudoramail transfers them one by one. Depending on the   options you have set, a \"new mail\" alert is displayed, and the <B>In</B>   mailbox opens with your new messages at the bottom.</P><P>If you have multiple personalities (email accounts) set up and you want their   mail checked each time you do a manual check, then for each account or \"personality,\"   turn on the <B>Check mail on manual checks</B> option in the Personalities Settings   (<B>Special&gt;Settings...&gt;Personalities</B>).</P><P>To manually check mail for one or more of your multiple personalities at any   time (Sponsored and Paid modes only), and not just when you check mail for your   dominant account as above, do the following:</P><OL>  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>    <BR>    <LI>Select the personalities for which you want to check mail: Click once on     an icon to select one personality. To select a range, use the <B>Shift</B>     key, or drag-select. Use the <B>Command</B> key to make disjoint selections.</LI><BR>    <BR>    <LI>Click the <B>Check Mail</B> button at the bottom of the Personalities window.     Enter your password(s) if necessary, as described further below. Eudoramail checks     mail for each of your selected personalities, in sequence.</LI></OL><H4>Checking Mail Automatically</H4><P>To set up automatic mail checks:</P><OL>  <LI>Select <B>Special&gt;Settings...</B> and click on the <B>Checking Mail</B>     icon in the scroll list at the left of the Settings dialog.</LI><BR><BR>    <LI>In the large box in the field <B>Check for mail every ? minutes</B>, type     in the number of minutes you want Eudoramail to wait between mail checks. For     example, if you enter 15, then Eudoramail checks for mail every 15 minutes.</LI><BR>    <BR>    <LI>Click the small checkbox next to the field to turn the setting on.</LI><BR>    <BR>    <LI>Click the <B>OK</B> button in the Settings dialog to save your changes and     close the dialog.</LI></OL><P>Eudoramail checks for mail at the intervals you have requested.</P><P>If you have multiple personalities set up (Sponsored and Paid modes only) and   you want their mail checked automatically at certain intervals, open the Personalities   Settings (<B>Special&gt;Settings...&gt; Personalities</B>) and for each account   or \"personality,\" click the <B>Check for mail every ? minutes</B>   option and enter your desired interval. You can have different mail checking   intervals for different accounts, thus staggering your mail checks.</P><P><B>Tip:</B> To control when you receive mail, turn off automatic checking and   use manual checking only. If you want Eudoramail to check for your mail at regular   intervals, turn on automatic checking and enter a comfortable interval. We recommend   15 minutes as a good minimum interval. Checking mail more frequently can put   an unnecessary strain on your incoming mail server.</P><H4>Entering Your Password</H4><P>The first time you open Eudoramail and check for new mail, you must enter your   password (for each account for which you are checking mail).</P><OL>  <LI>When the Password dialog opens, type your password in the text box. The     characters of your password are displayed as bullets (&bull;). </LI><BR><BR>   <LI>If you make a mistake, backspace and type the correct password.</LI><BR><BR>    <LI>Press <B>Return</B> or click the <B>OK</B> button. Eudoramail then checks your     mail.</LI></OL><P><B>Tip:</B> Capitalization matters in passwords. Type characters in their correct   case (upper or lower, with or without the <B>Shift</B> key), and also be sure   your <B>Caps Lock</B> key isn't down.</P>    <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"
+<HTML>
+<HEAD>
+<TITLE>Checking for and Receiving Mail</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Checking for and Receiving Mail</H3>
+<P>You can check for new mail manually, or set up Eos to automatically check 
+  as often as you want. </P>
+
+<H4>Checking Mail Manually</H4>
+<P>To check mail manually, do one of the following:</P>
+<UL><LI>Select <B>File&gt;Check Mail</B></LI></UL>
+<BR>
+<UL><LI>Click the <B>Check Mail</B> button on the main toolbar</LI></UL><BR>
+<UL><LI>Press <B>Command+M</B></LI></UL>
+<P>If you have new messages, Eos transfers them one by one. Depending on the 
+  options you have set, a \"new mail\" alert is displayed, and the <B>In</B> 
+  mailbox opens with your new messages at the bottom.</P>
+<P>If you have multiple personalities (email accounts) set up and you want their 
+  mail checked each time you do a manual check, then for each account or \"personality,\" 
+  turn on the <B>Check mail on manual checks</B> option in the Personalities Settings 
+  (<B>Special&gt;Settings...&gt;Personalities</B>).</P>
+<P>To manually check mail for one or more of your multiple personalities at any 
+  time (Sponsored and Paid modes only), and not just when you check mail for your 
+  dominant account as above, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Select the personalities for which you want to check mail: Click once on 
+    an icon to select one personality. To select a range, use the <B>Shift</B> 
+    key, or drag-select. Use the <B>Command</B> key to make disjoint selections.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>Check Mail</B> button at the bottom of the Personalities window. 
+    Enter your password(s) if necessary, as described further below. Eos checks 
+    mail for each of your selected personalities, in sequence.</LI>
+</OL>
+
+<H4>Checking Mail Automatically</H4>
+<P>To set up automatic mail checks:</P>
+<OL>
+  <LI>Select <B>Special&gt;Settings...</B> and click on the <B>Checking Mail</B> 
+    icon in the scroll list at the left of the Settings dialog.</LI><BR><BR>
+  
+  <LI>In the large box in the field <B>Check for mail every ? minutes</B>, type 
+    in the number of minutes you want Eos to wait between mail checks. For 
+    example, if you enter 15, then Eos checks for mail every 15 minutes.</LI><BR>
+    <BR>
+  
+  <LI>Click the small checkbox next to the field to turn the setting on.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>OK</B> button in the Settings dialog to save your changes and 
+    close the dialog.</LI>
+</OL>
+<P>Eos checks for mail at the intervals you have requested.</P>
+<P>If you have multiple personalities set up (Sponsored and Paid modes only) and 
+  you want their mail checked automatically at certain intervals, open the Personalities 
+  Settings (<B>Special&gt;Settings...&gt; Personalities</B>) and for each account 
+  or \"personality,\" click the <B>Check for mail every ? minutes</B> 
+  option and enter your desired interval. You can have different mail checking 
+  intervals for different accounts, thus staggering your mail checks.</P>
+<P><B>Tip:</B> To control when you receive mail, turn off automatic checking and 
+  use manual checking only. If you want Eos to check for your mail at regular 
+  intervals, turn on automatic checking and enter a comfortable interval. We recommend 
+  15 minutes as a good minimum interval. Checking mail more frequently can put 
+  an unnecessary strain on your incoming mail server.</P>
+
+<H4>Entering Your Password</H4>
+<P>The first time you open Eos and check for new mail, you must enter your 
+  password (for each account for which you are checking mail).</P>
+<OL>
+  <LI>When the Password dialog opens, type your password in the text box. The 
+    characters of your password are displayed as bullets (&bull;). </LI><BR><BR>
+ 
+  <LI>If you make a mistake, backspace and type the correct password.</LI><BR><BR>
+  
+  <LI>Press <B>Return</B> or click the <B>OK</B> button. Eos then checks your 
+    mail.</LI>
+</OL>
+<P><B>Tip:</B> Capitalization matters in passwords. Type characters in their correct 
+  case (upper or lower, with or without the <B>Shift</B> key), and also be sure 
+  your <B>Caps Lock</B> key isn't down.</P>
+    <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+
+"
 };
 data 'TEXT' (2009,"HelpTEXT/Replying to Messages",purgeable) {
-	"<HTML><HEAD><TITLE>Replying to a Message</TITLE></HEAD><BODY><H3>Replying to a Message</H3><P>You can reply to a message when you want to respond to the sender (and possibly   recipients) of the message.</P><OL>  <LI>Select or open the message to which you want to reply.</LI><BR><BR>    <LI>Select <B>Message&gt;Reply</B>, or click the <B>Reply</B> button on the     main toolbar, or press <B>Command+R</B>. Eudoramail automatically completes the     <B>To</B> and <B>Subject</B> fields and the message body using the information     from the original message. Each line from the original message is preceded     by an excerpt bar (this is referred to as \"quoting\"). The excerpt     bars offset the original text, so readers can distinguish your text from the     text you're replying to. (Styled text is quoted with left sidebars, also     called excerpt bars, which are continuous vertical bars: \"<B>|</B>\".)</LI>  <BR><BR>  <LI>Remove those parts of the original text that you don't want to include     in your reply, and add your own text.</LI><BR><BR>    <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI></OL><P>You can use the Replying Settings options (<B>Special&gt;Settings...&gt;Replying</B>)   to specify whether you want your reply messages to include only the sender of   the original message, or the sender and all the recipients.</P><P><B>Tip:</B> To toggle that reply setting temporarily, hold down the <B>Option</B> key and   select <B>Message&gt;Reply To All</B>.</P><P><B>Tip:</B> To reply quoting only the selected text, hold down the <B>Shift</B> key and   select <B>Message&gt;Reply Quoting Selection</B>.</P><H4>Forwarding a Message</H4><P>You can forward a message when you want someone else to read it and possibly   respond to you. Note that when you forward a message, not just the message body   but also the header fields of the original message are included.</P><OL>  <LI>Select or open the message you want to forward.</LI><BR><BR>    <LI>Select <B>Message&gt;Forward</B>, or click the <B>Forward</B> button on     the main toolbar. Eudoramail automatically completes the <B>Subject</B> field     and the message body using the information from the original message. The     Subject is preceded by \"Fwd:\" and a space. Each line from the original     message (including the header lines) is preceded by a right-angle bracket     marker, \"&gt;\" (this is referred to as \"quoting\"). The     \"&gt;\" markers offset the original text, so readers can distinguish     your text from the text you're forwarding. (Styled text is quoted with     left sidebars, also called excerpt bars, which are continuous vertical bars:     \"<B>|</B>\".)</LI><BR><BR>  <LI>The cursor is positioned in the <B>To</B> field: fill in the addresses of     the people to whom you want to forward the message.</LI><BR><BR>    <LI>Edit the existing text as needed, and add your own text if desired.</LI><BR>    <BR>    <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI></OL><H4>Redirecting a Message</H4><P>You can redirect a message when you want someone to read it and respond to   the original sender. When you redirect a message, you \"bounce\" it   to someone else: you remove yourself from the communication loop and effectively   change the message to be one from the original sender to your redirected recipient   (with you simply as the \"handoff\" person in the middle). Thus, when   your redirected recipient responds to the message, the reply goes not to you   but to the original sender.</P><OL>  <LI>Select or open the message you want to redirect.<BR>    <BR>  </LI>  <LI>Select <B>Message&gt;Redirect</B>, or click the <B>Redirect</B> button on     the main toolbar. Eudoramail automatically completes the <B>From</B> and <B>Subject</B>     fields and the message body using the information from the original message.     The <B>From</B> field also includes the words \"by way of\" followed     by your name or email address. This way the recipient knows who redirected     the message (you).<BR>    <BR>  </LI>  <LI>The cursor is positioned in the <B>To:</B> field. Fill in the addresses of     the people to whom you want to redirect the message.</LI><BR><BR>    <LI>Edit the existing text as needed, and add your own text if desired.</LI><BR><BR>    <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI></OL><P><B>Note:</B> It is good email courtesy to not do much editing of the message   you&'re redirecting. If you must add comments, we recommend that you enclose   them in square brackets, [ ], and include your initials: [Don: Please reply   to this right away. SD]</P><H4>Selecting a URL Helper Application</H4><P>Any string of text that Eudoramail recognizes as a \"hot link,\" also known   as a URL (Uniform Resource Locator), is active. Active URLs in incoming Eudoramail   messages are normally highlighted in blue text and blue underlining, and are   often enclosed by left and right angle brackets, \"&lt; &gt;\". You   normally <B>double-click</B> (or <B>Command-click</B>) on a URL in an incoming message to open the URL. This launches an Internet application that, for example,   opens a World Wide Web location, transfers a file, performs a gopher search,   performs a Ph, Finger, or LDAP query, etc. Typical URL prefixes include http,   ftp, gopher, ph, finger, ldap, and more.</P><P>A sample URL is &lt;http://www.qualcomm.com/eudora&gt;, which a web browser   would use to take you to HERMES's main Eudoramail web page on the World Wide   Web. Eudoramail uses the OS default web browser to open this type of URL.</P>    <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Replying to a Message</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Replying to a Message</H3>
+<P>You can reply to a message when you want to respond to the sender (and possibly 
+  recipients) of the message.</P>
+<OL>
+  <LI>Select or open the message to which you want to reply.</LI><BR><BR>
+  
+  <LI>Select <B>Message&gt;Reply</B>, or click the <B>Reply</B> button on the 
+    main toolbar, or press <B>Command+R</B>. Eos automatically completes the 
+    <B>To</B> and <B>Subject</B> fields and the message body using the information 
+    from the original message. Each line from the original message is preceded 
+    by an excerpt bar (this is referred to as \"quoting\"). The excerpt 
+    bars offset the original text, so readers can distinguish your text from the 
+    text you're replying to. (Styled text is quoted with left sidebars, also 
+    called excerpt bars, which are continuous vertical bars: \"<B>|</B>\".)</LI>
+  <BR><BR>
+
+  <LI>Remove those parts of the original text that you don't want to include 
+    in your reply, and add your own text.</LI><BR><BR>
+  
+  <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI>
+</OL>
+<P>You can use the Replying Settings options (<B>Special&gt;Settings...&gt;Replying</B>) 
+  to specify whether you want your reply messages to include only the sender of 
+  the original message, or the sender and all the recipients.</P>
+<P><B>Tip:</B> To toggle that reply setting temporarily, hold down the <B>Option</B> key and 
+  select <B>Message&gt;Reply To All</B>.</P>
+<P><B>Tip:</B> To reply quoting only the selected text, hold down the <B>Shift</B> key and 
+  select <B>Message&gt;Reply Quoting Selection</B>.</P>
+
+<H4>Forwarding a Message</H4>
+<P>You can forward a message when you want someone else to read it and possibly 
+  respond to you. Note that when you forward a message, not just the message body 
+  but also the header fields of the original message are included.</P>
+<OL>
+  <LI>Select or open the message you want to forward.</LI><BR><BR>
+  
+  <LI>Select <B>Message&gt;Forward</B>, or click the <B>Forward</B> button on 
+    the main toolbar. Eos automatically completes the <B>Subject</B> field 
+    and the message body using the information from the original message. The 
+    Subject is preceded by \"Fwd:\" and a space. Each line from the original 
+    message (including the header lines) is preceded by a right-angle bracket 
+    marker, \"&gt;\" (this is referred to as \"quoting\"). The 
+    \"&gt;\" markers offset the original text, so readers can distinguish 
+    your text from the text you're forwarding. (Styled text is quoted with 
+    left sidebars, also called excerpt bars, which are continuous vertical bars: 
+    \"<B>|</B>\".)</LI><BR><BR>
+
+  <LI>The cursor is positioned in the <B>To</B> field: fill in the addresses of 
+    the people to whom you want to forward the message.</LI><BR><BR>
+  
+  <LI>Edit the existing text as needed, and add your own text if desired.</LI><BR>
+    <BR>
+  
+  <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI>
+</OL>
+
+<H4>Redirecting a Message</H4>
+<P>You can redirect a message when you want someone to read it and respond to 
+  the original sender. When you redirect a message, you \"bounce\" it 
+  to someone else: you remove yourself from the communication loop and effectively 
+  change the message to be one from the original sender to your redirected recipient 
+  (with you simply as the \"handoff\" person in the middle). Thus, when 
+  your redirected recipient responds to the message, the reply goes not to you 
+  but to the original sender.</P>
+<OL>
+  <LI>Select or open the message you want to redirect.<BR>
+    <BR>
+  </LI>
+  <LI>Select <B>Message&gt;Redirect</B>, or click the <B>Redirect</B> button on 
+    the main toolbar. Eos automatically completes the <B>From</B> and <B>Subject</B> 
+    fields and the message body using the information from the original message. 
+    The <B>From</B> field also includes the words \"by way of\" followed 
+    by your name or email address. This way the recipient knows who redirected 
+    the message (you).<BR>
+    <BR>
+  </LI>
+  <LI>The cursor is positioned in the <B>To:</B> field. Fill in the addresses of 
+    the people to whom you want to redirect the message.</LI><BR><BR>
+  
+  <LI>Edit the existing text as needed, and add your own text if desired.</LI><BR><BR>
+  
+  <LI>When you are done, click <B>Send</B> (or <B>Queue</B>).</LI>
+</OL>
+<P><B>Note:</B> It is good email courtesy to not do much editing of the message 
+  you&'re redirecting. If you must add comments, we recommend that you enclose 
+  them in square brackets, [ ], and include your initials: [Don: Please reply 
+  to this right away. SD]</P>
+
+<H4>Selecting a URL Helper Application</H4>
+<P>Any string of text that Eos recognizes as a \"hot link,\" also known 
+  as a URL (Uniform Resource Locator), is active. Active URLs in incoming Eos 
+  messages are normally highlighted in blue text and blue underlining, and are 
+  often enclosed by left and right angle brackets, \"&lt; &gt;\". You 
+  normally <B>double-click</B> (or <B>Command-click</B>) on a URL in an incoming message to open the URL. This launches an Internet application that, for example, 
+  opens a World Wide Web location, transfers a file, performs a gopher search, 
+  performs a Ph, Finger, or LDAP query, etc. Typical URL prefixes include http, 
+  ftp, gopher, ph, finger, ldap, and more.</P>
+
+<P>A sample URL is &lt;http://www.example.org/eudora&gt;, which a web browser 
+  would use to take you to the Eos project web page on the World Wide 
+  Web. Eos uses the OS default web browser to open this type of URL.</P>
+    <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (3000,"HelpTEXT/SupportHelp",purgeable) {
-	"<p>If your question isn't answered, you can view your further support options on our website;double-click <a href=\"x-eudora-jump:support\">here</a>.</body></html>"
+	"<p>If your question isn't answered, you can view your further support options on our website;
+double-click <a href=\"x-eudora-jump:support\">here</a>.
+</body>
+</html>"
 };
 data 'TEXT' (2011,"HelpTEXT/Transferring Messages",purgeable) {
-	"<HTML><HEAD><TITLE>Transferring Messages Between Mailboxes</TITLE></HEAD><BODY><H3>Transferring Messages Between Mailboxes</H3><P>You can transfer messages freely between mailboxes. There are several ways   to do this. The first involves using the Transfer menu:</P><OL>  <LI>Either open the message that you want to transfer, or select one or more     message summaries in an open mailbox window.</LI><BR><BR>    <LI>From the <B>Transfer</B> menu, select the mailbox to which you want to transfer     the messages. The messages are transferred to the new mailbox.</LI></OL><P><B>Tip:</B> To create a new mailbox and transfer one or more messages all in   one step, select the <B>Transfer&gt;New...</B> command.</P><P><B>Tip:</B> To put a copy of the message in another mailbox, hold down the   <B>Option</B> key while transferring the message. The original message stays   where it is.</P><P>The second method of transferring involves drag-and-drop.</P><P>To transfer a single open message using drag-and-drop:</P><OL>  <LI>With the message open, hold down the mouse on the message's <B>Proxy</B>     icon (The Proxy icon is the envelope icon in the title bar of the message, just to the left of the message title).</LI>  <BR><BR>    <LI>While continuing to hold down the mouse, drag the message, by its Proxy icon,     to one of the following three places:</LI><BR>    <BR>    <UL><LI>An open mailbox window.</LI></UL><BR>          <UL><LI>A mailbox button on the main Eudoramail toolbar.</LI></UL><BR>          <UL><LI>A mailbox icon in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</LI></UL></OL><P>To transfer multiple messages via drag-and-drop:</P><OL>  <LI>Select one or more message summaries in an open mailbox window.</LI><BR>    <BR>    <LI>Hold down the mouse on the message summaries and drag them to one of the     following three places:</LI><BR><BR>    <UL><LI>An open mailbox window.</LI></UL><BR>          <UL><LI>A mailbox button on the main Eudoramail toolbar.</LI></UL><BR>          <UL><LI>A mailbox icon in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</LI></UL></OL><P><B>Tip:</B> If you transfer a message and decide you put it in the wrong mailbox,   just select <B>Edit&gt;Undo Transfer</B>.</P>    <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Transferring Messages Between Mailboxes</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Transferring Messages Between Mailboxes</H3>
+<P>You can transfer messages freely between mailboxes. There are several ways 
+  to do this. The first involves using the Transfer menu:</P>
+<OL>
+  <LI>Either open the message that you want to transfer, or select one or more 
+    message summaries in an open mailbox window.</LI><BR><BR>
+  
+  <LI>From the <B>Transfer</B> menu, select the mailbox to which you want to transfer 
+    the messages. The messages are transferred to the new mailbox.</LI>
+</OL>
+<P><B>Tip:</B> To create a new mailbox and transfer one or more messages all in 
+  one step, select the <B>Transfer&gt;New...</B> command.</P>
+<P><B>Tip:</B> To put a copy of the message in another mailbox, hold down the 
+  <B>Option</B> key while transferring the message. The original message stays 
+  where it is.</P>
+<P>The second method of transferring involves drag-and-drop.</P>
+<P>To transfer a single open message using drag-and-drop:</P>
+<OL>
+  <LI>With the message open, hold down the mouse on the message's <B>Proxy</B> 
+    icon (The Proxy icon is the envelope icon in the title bar of the message, just to the left of the message title).</LI>
+  <BR><BR>
+  
+  <LI>While continuing to hold down the mouse, drag the message, by its Proxy icon, 
+    to one of the following three places:</LI><BR>
+    <BR>
+    <UL><LI>An open mailbox window.</LI></UL><BR>
+      
+    <UL><LI>A mailbox button on the main Eos toolbar.</LI></UL><BR>
+      
+    <UL><LI>A mailbox icon in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</LI></UL>
+</OL>
+<P>To transfer multiple messages via drag-and-drop:</P>
+<OL>
+  <LI>Select one or more message summaries in an open mailbox window.</LI><BR>
+    <BR>
+  
+  <LI>Hold down the mouse on the message summaries and drag them to one of the 
+    following three places:</LI><BR><BR>
+    <UL><LI>An open mailbox window.</LI></UL><BR>
+      
+    <UL><LI>A mailbox button on the main Eos toolbar.</LI></UL><BR>
+      
+    <UL><LI>A mailbox icon in the open Mailboxes window (<B>Window&gt;Mailboxes</B>).</LI></UL>
+</OL>
+<P><B>Tip:</B> If you transfer a message and decide you put it in the wrong mailbox, 
+  just select <B>Edit&gt;Undo Transfer</B>.</P>
+    <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (2014,"HelpTEXT/Using Mailboxes",purgeable) {
-	"<HTML><HEAD><TITLE>Creating a New Mailbox</TITLE></HEAD><BODY><H3>Creating a New Mailbox</H3><P>You can create as many mailboxes as you want to in order to store and classify   your mail. You can create mail folders to store groups of mailboxes and further   organize your messages.</P><OL>  <LI>Select the <B>Mailbox&gt;New...</B> command. A dialog box is displayed asking     you to name the new mailbox.</LI><BR><BR>    <LI>Enter a name. It can be up to 27 characters long, and can contain any character     except colons (:).</LI><BR><BR>    <LI>If you want to create a folder for mailboxes, click on the <B>Make it a     folder </B>checkbox. Click <B>OK</B>.</LI><BR><BR>    <LI>If you did not choose <B>Make it a folder</B>, the new mailbox is created     and is now listed in the <B>Mailbox</B> and <B>Transfer</B> menus. If you     did choose <B>Make it a folder</B>, the new folder is created and the dialog     box reappears, letting you create a new mailbox to put in the new folder.     Enter a name for the new mailbox and click <B>OK</B>. The new mailbox is created     in that folder and is now listed under the <B>Mailbox</B> and <B>Transfer</B>     menus.</LI></OL><P><B>Tip:</B> To create a new mailbox and transfer a message into it all in one   step, just select the <B>Transfer&gt;New...</B> command.</P><H4>Using the Mailboxes Window</H4><P>You can use the Mailboxes window to create, rename, or remove mailboxes and   mail folders, and to move mailboxes and folders from one folder to another.</P><OL>  <LI>Select <B>Window&gt;Mailboxes</B>. The Mailboxes window is displayed. The     Mailboxes window shows the mailbox files and folders you have created, in     a display format similar to a Finder window in list view. Double-click on     a folder to show or hide its contents&mdash;or, click on its triangle button.     (Double-clicking on a mailbox opens that mailbox.) Move through the list using     the up and down arrow keys. The three buttons at the bottom of the window     are, left to right, <B>New Mailbox</B>, <B>New Folder</B>, and <B>Remove</B>.</LI><BR>    <BR>    <LI>Click on the <B>New Mailbox</B> or <B>New Folder</B> button to create a     new mailbox or folder. Type the new name in the name box, then press <B>Return</B>.</LI>  <P><B>Tip:</B> To create a new mailbox or new folder inside an existing folder,     click once on the folder's icon to highlight it, then click <B>New Mailbox</B>     or <B>New Folder</B>. Note that the existing folder must be open, however     (its contents displayed).</P>  <LI>To rename a mailbox or folder, click once on the item's name box. After     a short pause, the box is highlighted for editing. Type in the new name and     press <B>Return</B>.</LI><BR><BR>    <LI>To remove a mailbox or folder, select the item (click on its icon) and click     the <B>Remove</B> button. A dialog is displayed asking you to confirm the     request. If you are removing one item, click <B>Remove It</B> to remove the     item or <B>Cancel</B> if you change your mind. If you are removing multiple     items, click <B>Remove It</B> to remove the items one at a time, click <B>Remove     All</B> to remove them all at once, or click <B>Cancel</B> to cancel the operation     (but any items removed to that point are gone and cannot be recovered).</LI><BR>    <BR>    <LI>Use standard drag-and-drop operations to move mailboxes and folders into     other folders.</LI></OL><P><B>Tip:</B> You can drag a mailbox from the Mailboxes window to the main toolbar   to create a mailbox button. You can then open that mailbox at any time just   by clicking on its toolbar button. You can also transfer messages to that mailbox   by dragging them to the toolbar button: drag selected message summaries, or   drag an open message by its Proxy icon. (To remove the toolbar button at   some later time, hold down the <B>Command</B> key and click the toolbar button,   then click <B>Remove Button</B> from the Toolbar Button Creation dialog.)</P><P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Creating a New Mailbox</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Creating a New Mailbox</H3>
+<P>You can create as many mailboxes as you want to in order to store and classify 
+  your mail. You can create mail folders to store groups of mailboxes and further 
+  organize your messages.</P>
+<OL>
+  <LI>Select the <B>Mailbox&gt;New...</B> command. A dialog box is displayed asking 
+    you to name the new mailbox.</LI><BR><BR>
+  
+  <LI>Enter a name. It can be up to 27 characters long, and can contain any character 
+    except colons (:).</LI><BR><BR>
+  
+  <LI>If you want to create a folder for mailboxes, click on the <B>Make it a 
+    folder </B>checkbox. Click <B>OK</B>.</LI><BR><BR>
+  
+  <LI>If you did not choose <B>Make it a folder</B>, the new mailbox is created 
+    and is now listed in the <B>Mailbox</B> and <B>Transfer</B> menus. If you 
+    did choose <B>Make it a folder</B>, the new folder is created and the dialog 
+    box reappears, letting you create a new mailbox to put in the new folder. 
+    Enter a name for the new mailbox and click <B>OK</B>. The new mailbox is created 
+    in that folder and is now listed under the <B>Mailbox</B> and <B>Transfer</B> 
+    menus.</LI>
+</OL>
+<P><B>Tip:</B> To create a new mailbox and transfer a message into it all in one 
+  step, just select the <B>Transfer&gt;New...</B> command.</P>
+
+<H4>Using the Mailboxes Window</H4>
+<P>You can use the Mailboxes window to create, rename, or remove mailboxes and 
+  mail folders, and to move mailboxes and folders from one folder to another.</P>
+<OL>
+  <LI>Select <B>Window&gt;Mailboxes</B>. The Mailboxes window is displayed. The 
+    Mailboxes window shows the mailbox files and folders you have created, in 
+    a display format similar to a Finder window in list view. Double-click on 
+    a folder to show or hide its contents&mdash;or, click on its triangle button. 
+    (Double-clicking on a mailbox opens that mailbox.) Move through the list using 
+    the up and down arrow keys. The three buttons at the bottom of the window 
+    are, left to right, <B>New Mailbox</B>, <B>New Folder</B>, and <B>Remove</B>.</LI><BR>
+    <BR>
+  
+  <LI>Click on the <B>New Mailbox</B> or <B>New Folder</B> button to create a 
+    new mailbox or folder. Type the new name in the name box, then press <B>Return</B>.</LI>
+  <P><B>Tip:</B> To create a new mailbox or new folder inside an existing folder, 
+    click once on the folder's icon to highlight it, then click <B>New Mailbox</B> 
+    or <B>New Folder</B>. Note that the existing folder must be open, however 
+    (its contents displayed).</P>
+  <LI>To rename a mailbox or folder, click once on the item's name box. After 
+    a short pause, the box is highlighted for editing. Type in the new name and 
+    press <B>Return</B>.</LI><BR><BR>
+  
+  <LI>To remove a mailbox or folder, select the item (click on its icon) and click 
+    the <B>Remove</B> button. A dialog is displayed asking you to confirm the 
+    request. If you are removing one item, click <B>Remove It</B> to remove the 
+    item or <B>Cancel</B> if you change your mind. If you are removing multiple 
+    items, click <B>Remove It</B> to remove the items one at a time, click <B>Remove 
+    All</B> to remove them all at once, or click <B>Cancel</B> to cancel the operation 
+    (but any items removed to that point are gone and cannot be recovered).</LI><BR>
+    <BR>
+  
+  <LI>Use standard drag-and-drop operations to move mailboxes and folders into 
+    other folders.</LI>
+</OL>
+<P><B>Tip:</B> You can drag a mailbox from the Mailboxes window to the main toolbar 
+  to create a mailbox button. You can then open that mailbox at any time just 
+  by clicking on its toolbar button. You can also transfer messages to that mailbox 
+  by dragging them to the toolbar button: drag selected message summaries, or 
+  drag an open message by its Proxy icon. (To remove the toolbar button at 
+  some later time, hold down the <B>Command</B> key and click the toolbar button, 
+  then click <B>Remove Button</B> from the Toolbar Button Creation dialog.)</P>
+<P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (2006,"HelpTEXT/Using Personalities",purgeable) {
-	"<HTML><HEAD><TITLE>Creating a New Personality</TITLE></HEAD><BODY><H3>Creating a New Personality</H3><P>(Sponsored and Paid modes only)</P><P>For each email account you have, you can set up a separate &quot;personality&quot;   in Eudoramail. For example, if you have one account at work, a different account   at home, and yet another account at school, you can set up Eudoramail so that you   can send and receive email from all three of these accounts, either simultaneously   or at different times, without having to quit and restart Eudoramail to switch accounts,   and without having to move to a different computer.</P><P>To create a new personality, do the following:</P><OL>  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>    <BR>    <LI>Click the <B>New</B> button. An untitled personality item appears, consisting     of a personality icon and a name box.</LI><BR><BR>    <LI>If the name box is not already highlighted for editing, click it once. After     a short pause, the box is highlighted. Type in a name for the personality     and press <B>Return</B>.</LI><BR><BR>    <LI>With the personality item still highlighted (click once on the icon if it     is not), click the <B>Edit</B> button. The Settings dialog is displayed, showing     the Personalities panel.</LI><BR><BR>    <LI>Enter the appropriate information in the dialog. Then, either click <B>OK</B>,     or click the Personality Extras category in the Settings dialog, enter additional     information for that personality, and click <B>OK</B>.</LI></OL><H4>Modifying an Existing Personality</H4><P>To modify an existing personality, do the following:</P><OL>  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>    <BR>    <LI>Click once on the icon of the personality you wish to modify, to highlight     it.</LI><BR><BR>    <LI>Click the <B>Edit</B> button. The Settings dialog is displayed, showing     the Personalities panel for that personality.</LI><BR><BR>    <LI>Make any changes you want, then either click <B>OK</B>, or click the Personality     Extras category in the Settings dialog, make additional changes for that personality,     and click <B>OK</B>.</LI></OL><H4>Deleting an Existing Personality</H4><P>To delete an existing personality, do the following:</P><OL>  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>    <BR>    <LI>Click once on the icon of the personality you wish to delete, to highlight     it.</LI><BR><BR>    <LI>Click the <B>Remove</B> button. A dialog is displayed asking you if you     really want to delete that personality.</LI><BR><BR>    <LI>Click <B>OK</B> to delete the personality, or <B>Cancel</B> if you change     your mind. If you click <B>OK</B>, the personality is deleted.</LI></OL><P><B>Note:</B> Deletion of a personality cannot be undone! Also, when you delete   a personality, all messages that were associated with that personality now become   re-associated with your dominant personality.</P><H4>Creating a New Message from a Personality</H4><P>Your <B>Dominant</B> personality is the default personality Eudoramail uses for   most functions (such as creating a new outgoing message) when you don't   specify otherwise.</P><P>To create a new outgoing message from one of your non-dominant personalities   (alternate accounts), use one of the following methods:</P><UL>  <LI>Open a new message window (<B>Message&gt;New Message</B>) and select your     desired personality from the Personality popup in the <B>From</B> field of     the message header.</LI></UL><BR><UL>    <LI>Open a new message window and select your desired personality from the <B>Message&gt;Change&gt;Personality</B>     submenu.</LI></UL><BR><UL>  <LI>Select <B>Window&gt;Personalities</B> to open the Personalities window.     In that window, <B>double-click</B> on the icon of your desired personality.     A new outgoing message opens, addressed from the selected personality.</LI></UL><H4>Checking Mail for Your Personalities</H4><P>To manually check mail for one or more of your multiple personalities, do the   following:</P><OL>  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>    <BR>    <LI>Select the personalities for which you want to check mail: Click once on     an icon to select one personality. To select a range, use the <B>Shift</B>     key, or drag-select. Use the <B>Command</B> key to make disjoint selections.</LI><BR>    <BR>    <LI>Click the <B>Check Mail</B> button. Enter your password(s) if necessary.</LI></OL><P>Eudoramail checks mail for each of your selected personalities, in sequence.</P>  <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Creating a New Personality</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Creating a New Personality</H3>
+<P>(Sponsored and Paid modes only)</P>
+<P>For each email account you have, you can set up a separate &quot;personality&quot; 
+  in Eos. For example, if you have one account at work, a different account 
+  at home, and yet another account at school, you can set up Eos so that you 
+  can send and receive email from all three of these accounts, either simultaneously 
+  or at different times, without having to quit and restart Eos to switch accounts, 
+  and without having to move to a different computer.</P>
+<P>To create a new personality, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>New</B> button. An untitled personality item appears, consisting 
+    of a personality icon and a name box.</LI><BR><BR>
+  
+  <LI>If the name box is not already highlighted for editing, click it once. After 
+    a short pause, the box is highlighted. Type in a name for the personality 
+    and press <B>Return</B>.</LI><BR><BR>
+  
+  <LI>With the personality item still highlighted (click once on the icon if it 
+    is not), click the <B>Edit</B> button. The Settings dialog is displayed, showing 
+    the Personalities panel.</LI><BR><BR>
+  
+  <LI>Enter the appropriate information in the dialog. Then, either click <B>OK</B>, 
+    or click the Personality Extras category in the Settings dialog, enter additional 
+    information for that personality, and click <B>OK</B>.</LI>
+</OL>
+
+<H4>Modifying an Existing Personality</H4>
+<P>To modify an existing personality, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Click once on the icon of the personality you wish to modify, to highlight 
+    it.</LI><BR><BR>
+  
+  <LI>Click the <B>Edit</B> button. The Settings dialog is displayed, showing 
+    the Personalities panel for that personality.</LI><BR><BR>
+  
+  <LI>Make any changes you want, then either click <B>OK</B>, or click the Personality 
+    Extras category in the Settings dialog, make additional changes for that personality, 
+    and click <B>OK</B>.</LI>
+</OL>
+
+<H4>Deleting an Existing Personality</H4>
+<P>To delete an existing personality, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Click once on the icon of the personality you wish to delete, to highlight 
+    it.</LI><BR><BR>
+  
+  <LI>Click the <B>Remove</B> button. A dialog is displayed asking you if you 
+    really want to delete that personality.</LI><BR><BR>
+  
+  <LI>Click <B>OK</B> to delete the personality, or <B>Cancel</B> if you change 
+    your mind. If you click <B>OK</B>, the personality is deleted.</LI>
+</OL>
+<P><B>Note:</B> Deletion of a personality cannot be undone! Also, when you delete 
+  a personality, all messages that were associated with that personality now become 
+  re-associated with your dominant personality.</P>
+
+<H4>Creating a New Message from a Personality</H4>
+<P>Your <B>Dominant</B> personality is the default personality Eos uses for 
+  most functions (such as creating a new outgoing message) when you don't 
+  specify otherwise.</P>
+<P>To create a new outgoing message from one of your non-dominant personalities 
+  (alternate accounts), use one of the following methods:</P>
+<UL>
+  <LI>Open a new message window (<B>Message&gt;New Message</B>) and select your 
+    desired personality from the Personality popup in the <B>From</B> field of 
+    the message header.</LI>
+</UL>
+<BR>
+<UL>  
+  <LI>Open a new message window and select your desired personality from the <B>Message&gt;Change&gt;Personality</B> 
+    submenu.</LI>
+</UL>
+<BR>
+<UL>
+  <LI>Select <B>Window&gt;Personalities</B> to open the Personalities window. 
+    In that window, <B>double-click</B> on the icon of your desired personality. 
+    A new outgoing message opens, addressed from the selected personality.</LI>
+</UL>
+
+<H4>Checking Mail for Your Personalities</H4>
+<P>To manually check mail for one or more of your multiple personalities, do the 
+  following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Personalities</B>. The Personalities window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Select the personalities for which you want to check mail: Click once on 
+    an icon to select one personality. To select a range, use the <B>Shift</B> 
+    key, or drag-select. Use the <B>Command</B> key to make disjoint selections.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>Check Mail</B> button. Enter your password(s) if necessary.</LI>
+</OL>
+<P>Eos checks mail for each of your selected personalities, in sequence.</P>
+  <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (2004,"HelpTEXT/Using Signatures",purgeable) {
-	"<HTML><HEAD><TITLE>Creating a New Signature</TITLE></HEAD><BODY><H3>Creating a New Signature</H3><P>A signature is a brief message that is automatically added to the end of outgoing   messages. It can include your name, street address, email address, telephone   number, or whatever you want it to. You can create as many signatures as you   want (If you are using Eudoramail in Light mode, you may set up only one signature).   To create a new signature, do the following:</P><OL>  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI><BR>    <BR>    <LI>Click the <B>New</B> button and a signature icon appears.</LI><BR><BR>    <LI>Type a name for the signature in the highlighted edit box, then press <B>Return</B>.     A text window for the signature is displayed.</LI><BR><BR>    <LI>Type your signature text in the window.</LI><BR><BR>    <LI>Select <B>File&gt;Save</B> to save the signature.</LI><BR><BR>    <LI>Close the text window.</LI></OL><P><B>Note:</B> To rename the signature, click once on the signature name next   to the icon, and after a brief pause the edit box is highlighted. Type the new   name and press <B>Return</B>.</P><H4>Modifying an Existing Signature</H4><P>To modify an existing signature, do the following:</P><OL>  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI>     <BR><BR>    <LI>Click once on the icon of the signature you wish to modify. This highlights     the item.</LI><BR><BR>    <LI>Click the <B>Edit</B> button: a text window appears containing the signature     you have just selected.</LI><BR><BR>    <LI>Make any changes you want, save the file (<B>File&gt;Save</B>), and close     the text window. </LI></OL><H4>Deleting an Existing Signature</H4><P>To delete an existing signature, do the following:</P><OL>  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI>     <BR><BR>    <LI>Click once on the icon of the signature you want to delete. This highlights     the item.</LI><BR><BR>    <LI>Click the <B>Remove</B> button. The signature is deleted. <B>Note:</B> You     are <I>not</I> prompted to confirm the deletion.</LI></OL><H4>Using Your Signatures</H4><UL>  <LI>To include a signature in an outgoing message, select the signature you     want from the <B>Signature</B> popup on the message's icon bar. Click     the icon and the popup menu appears.  </LI></UL><BR>  <UL>  <LI>To include a particular signature in all of your outgoing messages from     your dominant personality only, open the Composing Mail Settings (<B>Special&gt;Settings...&gt;Composing     Mail</B>) and select the signature you want from the <B>Signature</B> popup     menu. You can change this for a particular message by selecting a different     signature or <B>None</B> from the <B>Signature</B> popup on the icon bar of     the composition window.  </LI></UL><BR><UL>    <LI>To include a particular signature in all of your outgoing messages from     any of your personalities (email accounts), open the Personality Extras Settings     (<B>Special&gt;</B> <B>Settings...&gt;Personality Extras</B>) and select the     signature you want from the <B>Signature when not using stationery</B> popup     for that personality. Again, you can change the signature for any message     from that account using the <B>Signature</B> popup on the icon bar of the     composition window.  </LI></UL><P><B>Note:</B> When using stationery, bear in mind that the signature stored   with the stationery file prevails, but you can always make the final selection   from the <B>Signature</B> popup on the icon bar of the composition window. See   the online Eudoramail User Manual for further instructions.</P>    <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Creating a New Signature</TITLE>
+</HEAD>
+<BODY>
+
+<H3>Creating a New Signature</H3>
+<P>A signature is a brief message that is automatically added to the end of outgoing 
+  messages. It can include your name, street address, email address, telephone 
+  number, or whatever you want it to. You can create as many signatures as you 
+  want (If you are using Eos in Light mode, you may set up only one signature). 
+  To create a new signature, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI><BR>
+    <BR>
+  
+  <LI>Click the <B>New</B> button and a signature icon appears.</LI><BR><BR>
+  
+  <LI>Type a name for the signature in the highlighted edit box, then press <B>Return</B>. 
+    A text window for the signature is displayed.</LI><BR><BR>
+  
+  <LI>Type your signature text in the window.</LI><BR><BR>
+  
+  <LI>Select <B>File&gt;Save</B> to save the signature.</LI><BR><BR>
+  
+  <LI>Close the text window.</LI>
+</OL>
+<P><B>Note:</B> To rename the signature, click once on the signature name next 
+  to the icon, and after a brief pause the edit box is highlighted. Type the new 
+  name and press <B>Return</B>.</P>
+
+<H4>Modifying an Existing Signature</H4>
+<P>To modify an existing signature, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI> 
+    <BR><BR>
+  
+  <LI>Click once on the icon of the signature you wish to modify. This highlights 
+    the item.</LI><BR><BR>
+  
+  <LI>Click the <B>Edit</B> button: a text window appears containing the signature 
+    you have just selected.</LI><BR><BR>
+  
+  <LI>Make any changes you want, save the file (<B>File&gt;Save</B>), and close 
+    the text window. </LI>
+</OL>
+
+<H4>Deleting an Existing Signature</H4>
+<P>To delete an existing signature, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Signatures</B>. The Signatures window is displayed.</LI> 
+    <BR><BR>
+  
+  <LI>Click once on the icon of the signature you want to delete. This highlights 
+    the item.</LI><BR><BR>
+  
+  <LI>Click the <B>Remove</B> button. The signature is deleted. <B>Note:</B> You 
+    are <I>not</I> prompted to confirm the deletion.</LI>
+</OL>
+
+<H4>Using Your Signatures</H4>
+<UL>
+  <LI>To include a signature in an outgoing message, select the signature you 
+    want from the <B>Signature</B> popup on the message's icon bar. Click 
+    the icon and the popup menu appears.
+  </LI>
+</UL>
+<BR>
+  
+<UL>
+  <LI>To include a particular signature in all of your outgoing messages from 
+    your dominant personality only, open the Composing Mail Settings (<B>Special&gt;Settings...&gt;Composing 
+    Mail</B>) and select the signature you want from the <B>Signature</B> popup 
+    menu. You can change this for a particular message by selecting a different 
+    signature or <B>None</B> from the <B>Signature</B> popup on the icon bar of 
+    the composition window.
+  </LI>
+</UL>
+<BR>
+<UL>  
+  <LI>To include a particular signature in all of your outgoing messages from 
+    any of your personalities (email accounts), open the Personality Extras Settings 
+    (<B>Special&gt;</B> <B>Settings...&gt;Personality Extras</B>) and select the 
+    signature you want from the <B>Signature when not using stationery</B> popup 
+    for that personality. Again, you can change the signature for any message 
+    from that account using the <B>Signature</B> popup on the icon bar of the 
+    composition window.
+  </LI>
+</UL>
+<P><B>Note:</B> When using stationery, bear in mind that the signature stored 
+  with the stationery file prevails, but you can always make the final selection 
+  from the <B>Signature</B> popup on the icon bar of the composition window. See 
+  the online Eos User Manual for further instructions.</P>
+    <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (2005,"HelpTEXT/Using Stationery",purgeable) {
-	"<HTML><HEAD><TITLE>Using Staionery</TITLE></HEAD><BODY><H3>Using Stationery</H3><P>(Sponsored and Paid modes only)</P><P>A \"stationery message,\" also called just \"stationery,\"   is a predefined or \"canned\" outgoing message that you create as a   template for sending multiple outgoing messages, in order to avoid repetitive   typing, or to create a custom look and feel that you want to use with either   all of your outgoing messages or selected ones only.</P><P>Stationery messages are stored in stationery files. A stationery file can contain   a sales letter, or a \"bounceback\" message telling people that you   are on vacation, or any \"boilerplate\" text that you would normally   send over and over. A stationery file can also serve as a foundation for all   your messages, in which you set up custom fonts, signatures, priorities, formatting,   and other message options that give you a consistent look and feel or a customized,   personal touch to your email.</P><P><B>Note:</B> Your stationery files are stored in your Stationery Folder, located   in your Eudoramail Folder that's stored in your Documents folder. You <I>must</I>   keep your stationery files in this folder in order to use the stationery features   described below.</P><H4>Creating New Stationery</H4><P>There are two ways to create a new stationery file. The first uses the Stationery   window, and the second uses the <B>File&gt;Save As...</B> command.</P><P>To create a new stationery file using the Stationery window, do the following:</P><OL>  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI>     <BR><BR>    <LI>Click the <B>New</B> button. A new Untitled stationery item appears, with     an associated icon.</LI><BR><BR>    <LI>Type a name for the stationery item in the highlighted edit box and press     <B>Return</B>. (If the edit box is not highlighted, click once on the box     and after a short pause, the box is highlighted.)</LI><BR><BR>    <LI>With the new stationery item still highlighted (click once on the icon if     it is not), click the <B>Edit</B> button. A new message window is opened for     the stationery file.</LI><BR><BR>    <LI>Enter the stationery information you want to include in this message. Fill     in the header fields if desired, type any message body text you want, and     make any selections on the icon bar you want.</LI><BR><BR>    <LI>Click the <B>Save</B> button in the upper right-hand corner (normally labeled     Send or Queue in new outgoing messages, but labeled Save in stationery messages).     The stationery file is saved.</LI><BR><BR>    <LI>Close the stationery message window.</LI></OL><P>To create a new stationery file using the <B>File&gt;Save As...</B> command,   do the following:</P><OL>  <LI>Open a new message window (<B>Message&gt;New Message</B>) and fill it out     the way you want the stationery to appear (fill in header text and body text     and make icon bar selections as desired).</LI><BR><BR>    <LI>Select <B>File&gt;Save As...</B> to display the Save As dialog.</LI><BR><BR>    <LI>Name the file, and click the <B>Stationery</B> checkbox to turn it on. Click     the <B>Go To</B> <B>Stationery Folder</B> button (you <I>must</I> keep the     file in your Stationery Folder, located in your Eudoramail Folder that's     under your Documents folder).</LI><BR><BR>    <LI>Click the <B>Save</B> button to create the stationery file. The stationery     file is saved.</LI><BR><BR>    <LI>You may now close and discard the original message.</LI></OL><H4>Modifying an Existing Stationery File</H4><P>To modify an existing stationery file, do the following:</P><OL>  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI>     <BR><BR>    <LI>Click once on the icon for the stationery item you wish to modify, to highlight     it.</LI><BR><BR>    <LI>Click the <B>Edit</B> button. The stationery message window for that stationery     is opened.</LI><BR><BR>    <LI>Modify the stationery as desired, and click the <B>Save</B> button in the     upper right corner.</LI><BR><BR>    <LI>Close the stationery message window when you are finished.</LI></OL><H4>Removing an Existing Stationery File</H4><P>To remove an existing stationery file, do the following:</P><P><B>Note:</B> Eudoramail does not prompt you to confirm the removal of a stationery   file.</P><OL>  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI>     <BR><BR>    <LI>Click once on the icon for the stationery item you wish to delete, to highlight     it.</LI><BR><BR>    <LI>Click the <B>Remove</B> button. The stationery item is removed.</LI></OL><H4>Sending and Replying to Messages with Stationery</H4><P>To send a new message using a stationery file, use one of these methods:</P><UL>  <LI>Select the stationery item from the <B>Message&gt;New Message With</B> submenu.</LI></UL>  <BR><UL>    <LI>Open the Stationery window (<B>Window&gt;Stationery</B>) and double-click     on the stationery icon.</LI></UL><P>In either case, a new message window opens with that stationery. Edit the message   as desired&mdash;header fields, message body, icon bar selections&mdash;and Send   or Queue the message.</P><P>To reply to a message using stationery, use one of these methods:</P><UL>  <LI>Select or open the message you wish to reply to, and select the desired     stationery item from the <B>Message&gt;Reply With</B> submenu. Edit your reply     as desired and Send or Queue the message.</LI></UL>    <BR><UL>   <LI>Create a filter (<B>Window&gt;Filters</B>) using the <B>Reply With</B> filter     action (selected from one of the <B>Actions</B> popups), and select the desired     stationery file from the stationery popup next to the <B>Reply With</B> action     popup. Any incoming message meeting the filter criteria is automatically replied     to with the selected stationery (this is how you set up an \"I'm     on vacation\" automatic response).</LI></UL><P>To instruct Eudoramail to use a particular stationery for all of your outgoing   messages by default, select the stationery file from the <B>Stationery</B> popup   in the Composing Mail Settings (<B>Special&gt;Settings...&gt;Composing Mail</B>),   for your dominant personality only, or in the Personality Extras Settings (<B>Special&gt;Settings...&gt;Personality   Extras</B>), for any of your personalities. Or, select <B>None</B> from that   popup to specify no default stationery for the given personality.</P><P><B>Note:</B> When you use stationery, the signature you stored when you created   that stationery file overrides any other signature settings, except that you   can make the final decision on what signature to use by selecting it from the   <B>Signature</B> popup in the message composition window before you send or   queue the message. Also, be careful when using stationery with multiple personalities,   as you may run into \"personality conflicts.\" For more details, see   the online Eudoramail User Manual.</P>    <P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Using Staionery</TITLE>
+</HEAD>
+<BODY>
+<H3>Using Stationery</H3>
+<P>(Sponsored and Paid modes only)</P>
+<P>A \"stationery message,\" also called just \"stationery,\" 
+  is a predefined or \"canned\" outgoing message that you create as a 
+  template for sending multiple outgoing messages, in order to avoid repetitive 
+  typing, or to create a custom look and feel that you want to use with either 
+  all of your outgoing messages or selected ones only.</P>
+<P>Stationery messages are stored in stationery files. A stationery file can contain 
+  a sales letter, or a \"bounceback\" message telling people that you 
+  are on vacation, or any \"boilerplate\" text that you would normally 
+  send over and over. A stationery file can also serve as a foundation for all 
+  your messages, in which you set up custom fonts, signatures, priorities, formatting, 
+  and other message options that give you a consistent look and feel or a customized, 
+  personal touch to your email.</P>
+<P><B>Note:</B> Your stationery files are stored in your Stationery Folder, located 
+  in your Eos Folder that's stored in your Documents folder. You <I>must</I> 
+  keep your stationery files in this folder in order to use the stationery features 
+  described below.</P>
+
+<H4>Creating New Stationery</H4>
+<P>There are two ways to create a new stationery file. The first uses the Stationery 
+  window, and the second uses the <B>File&gt;Save As...</B> command.</P>
+<P>To create a new stationery file using the Stationery window, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI> 
+    <BR><BR>
+  
+  <LI>Click the <B>New</B> button. A new Untitled stationery item appears, with 
+    an associated icon.</LI><BR><BR>
+  
+  <LI>Type a name for the stationery item in the highlighted edit box and press 
+    <B>Return</B>. (If the edit box is not highlighted, click once on the box 
+    and after a short pause, the box is highlighted.)</LI><BR><BR>
+  
+  <LI>With the new stationery item still highlighted (click once on the icon if 
+    it is not), click the <B>Edit</B> button. A new message window is opened for 
+    the stationery file.</LI><BR><BR>
+  
+  <LI>Enter the stationery information you want to include in this message. Fill 
+    in the header fields if desired, type any message body text you want, and 
+    make any selections on the icon bar you want.</LI><BR><BR>
+  
+  <LI>Click the <B>Save</B> button in the upper right-hand corner (normally labeled 
+    Send or Queue in new outgoing messages, but labeled Save in stationery messages). 
+    The stationery file is saved.</LI><BR><BR>
+  
+  <LI>Close the stationery message window.</LI>
+</OL>
+<P>To create a new stationery file using the <B>File&gt;Save As...</B> command, 
+  do the following:</P>
+<OL>
+  <LI>Open a new message window (<B>Message&gt;New Message</B>) and fill it out 
+    the way you want the stationery to appear (fill in header text and body text 
+    and make icon bar selections as desired).</LI><BR><BR>
+  
+  <LI>Select <B>File&gt;Save As...</B> to display the Save As dialog.</LI><BR><BR>
+  
+  <LI>Name the file, and click the <B>Stationery</B> checkbox to turn it on. Click 
+    the <B>Go To</B> <B>Stationery Folder</B> button (you <I>must</I> keep the 
+    file in your Stationery Folder, located in your Eos Folder that's 
+    under your Documents folder).</LI><BR><BR>
+  
+  <LI>Click the <B>Save</B> button to create the stationery file. The stationery 
+    file is saved.</LI><BR><BR>
+  
+  <LI>You may now close and discard the original message.</LI>
+</OL>
+
+<H4>Modifying an Existing Stationery File</H4>
+<P>To modify an existing stationery file, do the following:</P>
+<OL>
+  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI> 
+    <BR><BR>
+  
+  <LI>Click once on the icon for the stationery item you wish to modify, to highlight 
+    it.</LI><BR><BR>
+  
+  <LI>Click the <B>Edit</B> button. The stationery message window for that stationery 
+    is opened.</LI><BR><BR>
+  
+  <LI>Modify the stationery as desired, and click the <B>Save</B> button in the 
+    upper right corner.</LI><BR><BR>
+  
+  <LI>Close the stationery message window when you are finished.</LI>
+</OL>
+
+<H4>Removing an Existing Stationery File</H4>
+<P>To remove an existing stationery file, do the following:</P>
+<P><B>Note:</B> Eos does not prompt you to confirm the removal of a stationery 
+  file.</P>
+<OL>
+  <LI>Select <B>Window&gt;Stationery</B>. The Stationery window is displayed.</LI> 
+    <BR><BR>
+  
+  <LI>Click once on the icon for the stationery item you wish to delete, to highlight 
+    it.</LI><BR><BR>
+  
+  <LI>Click the <B>Remove</B> button. The stationery item is removed.</LI>
+</OL>
+
+<H4>Sending and Replying to Messages with Stationery</H4>
+<P>To send a new message using a stationery file, use one of these methods:</P>
+<UL>
+  <LI>Select the stationery item from the <B>Message&gt;New Message With</B> submenu.</LI>
+</UL>
+  <BR>
+<UL>  
+  <LI>Open the Stationery window (<B>Window&gt;Stationery</B>) and double-click 
+    on the stationery icon.</LI>
+</UL>
+<P>In either case, a new message window opens with that stationery. Edit the message 
+  as desired&mdash;header fields, message body, icon bar selections&mdash;and Send 
+  or Queue the message.</P>
+<P>To reply to a message using stationery, use one of these methods:</P>
+<UL>
+  <LI>Select or open the message you wish to reply to, and select the desired 
+    stationery item from the <B>Message&gt;Reply With</B> submenu. Edit your reply 
+    as desired and Send or Queue the message.</LI>
+</UL>
+    <BR>
+<UL> 
+  <LI>Create a filter (<B>Window&gt;Filters</B>) using the <B>Reply With</B> filter 
+    action (selected from one of the <B>Actions</B> popups), and select the desired 
+    stationery file from the stationery popup next to the <B>Reply With</B> action 
+    popup. Any incoming message meeting the filter criteria is automatically replied 
+    to with the selected stationery (this is how you set up an \"I'm 
+    on vacation\" automatic response).</LI>
+</UL>
+<P>To instruct Eos to use a particular stationery for all of your outgoing 
+  messages by default, select the stationery file from the <B>Stationery</B> popup 
+  in the Composing Mail Settings (<B>Special&gt;Settings...&gt;Composing Mail</B>), 
+  for your dominant personality only, or in the Personality Extras Settings (<B>Special&gt;Settings...&gt;Personality 
+  Extras</B>), for any of your personalities. Or, select <B>None</B> from that 
+  popup to specify no default stationery for the given personality.</P>
+<P><B>Note:</B> When you use stationery, the signature you stored when you created 
+  that stationery file overrides any other signature settings, except that you 
+  can make the final decision on what signature to use by selecting it from the 
+  <B>Signature</B> popup in the message composition window before you send or 
+  queue the message. Also, be careful when using stationery with multiple personalities, 
+  as you may run into \"personality conflicts.\" For more details, see 
+  the online Eos User Manual.</P>
+    <P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+</BODY>
+</HTML>
+"
 };
 data 'TEXT' (2015,"HelpTEXT/Using the Address Book",purgeable) {
-	"<HTML><HEAD><TITLE>Using the Address Book</TITLE></HEAD><BODY><H3>Using the Address Book</H3><P>The Address Book, like an address book you keep in your pocket or purse, is   where you keep information about individuals or groups that you correspond with.   The Address Book lets you keep this information stored in one handy place and   also lets you conveniently send mail to these individuals or groups.</P><P>Each entry in the Address Book includes a \"nickname\" (shorthand name) for a   person or group, their full email address(es), a real name, any contact information,   notes, and other personal information. You can also use the Address Book to   put nicknames on your Quick Recipient List, and to address a new message. Further,   you can use the Address Book to create multiple nickname files (folders) to   organize your nicknames. Last, you use the Address Book to remove nickname entries   and files.</P><P>Begin by opening the Address Book: Select <B>Window&gt;Address Book</B>, or   click the <B>Address Book</B> button on the main toolbar, or press <B>Command+L</B>.</P><H4>Adding a Person to the Address Book</H4><P>To add a person to your address book, do the following:</P><OL>  <LI>If you have multiple Address Books, choose the address book where you want     this entry to reside.</LI><br><br>    <LI>Click the <B>New Nickname</B> button at the bottom of the list. A new entry     appears highlighted in the list.</LI><br><br>    <LI>In the highlighted text field, type the new nickname (e.g., <B>JDoe</B>)     OR type the nickname in the <B>Nickname </B>text field on the right side of     the window.</LI><br><br>    <LI>In the <B>Full Name</B> field, type the real name or an informal name for     the person. If there is just one address for the entry, this name and address     are included in the To field for your recipient to see.</LI><br><br>    <LI>In the <B>First Name</B> and <B>Last Name</B> fields, type the first and     last name of the person. You can toggle the first and last names by clicking     the double-arrow button.</LI><br><br>    <LI>In the <B>This nickname will expand to the following address(es)</B> text     field, enter at least one complete email address for this person (e.g., <A     HREF=\"mailto:jdoe@bigco.com)\">jdoe@bigco.com)</A>.</LI><br><br>    <LI>If you want this name on your Recipient List, check the <B>Recipient list</B>     box.</LI><br><br>    <LI>Click anywhere or press Enter.</LI><br><br>    <LI>Choose <B>File&gt;Save</B> to save your new address book entry.</LI></OL><P><B>Tip:</b> You can also use the <B>Special&gt;Make Address Book Entry...</B>   command to create new Address Book entries from selections in the Address Book,   from address information in selected and open messages, and from query results   in the Directory Services window. See the<a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eudoramail User Manual.</a> online Eudoramail User Manual.</a>) for more   details.</P><H4>Creating an Address Book within Eudoramail's Address Book</H4><P>To create a new address book within the Eudoramail Address Book, do the following:</P><OL>  <LI>In the Address Book window, click the <B>New Address Book</B> button.</LI><br><br>  <LI>In the highlighted text field, type the name of the new address book (e.g.,     <B>My Friends</B>).</LI><br><br>  <LI>Click anywhere or press Enter. The new address book is created. You can     now create new nicknames to store in the new address book.</LI><br><br>  <LI>Select <B>File&gt;Save</B> to save your new nickname file and any new nicknames     you've created in it.</LI></OL><H4>Removing Persons and Address Books from Your Address Book</H4><UL>  <LI>To remove one or more address book entries, choose the address books from     the list and click <B>Remove</B>. </LI></UL><br><UL><LI>To undo the deletion, close the Address Book without saving and click <B>Discard</B>     in the alert. </LI></UL><br><UL><LI>To remove one or more nicknames entries, choose the nicknames from the list     and click <B>Remove</B>.</LI></UL><P>&nbsp;</P><H4>Sending a Message to Someone in Your Address Book</H4><P>To create a new message to someone in your Address Book, select their nickname   in the open Address Book and click the <B>To</B>, <B>Cc</B>, or <B>Bcc</B> button   at the bottom of the window. A new message is opened and addressed with the   nickname in the appropriate recipient field.</P><P>To add someone from your Address Book to a message that is already open, select   their nickname in the open Address Book and click the <B>To</B>, <B>Cc</B>,   or <B>Bcc</B> button at the bottom of the window. The nickname is added to the   appropriate recipient field in the open message. You can add multiple addresses   this way.</P><P><b>Using the Recipient List</b></P><P>The Recipient List is a list of selected nicknames that you use often. These   nicknames are available from the Eudoramail menus; you don't have to open the   Address Book to address messages to these individuals.</P><P>To add a nickname to the Recipient List, open the Address Book (<B>Window&gt;Address   Book</B>), choose the nickname for the desired entry, and check the <B>Recipient   List</B> box. </P><P>To create a new message addressed to someone on your Recipient List, choose   their nickname from the <B>New Message To</B>, <B>Forward To</B>, or <B>Redirect   To</B> submenus under the <B>Message</B> menu. The message is opened and addressed   to the selected nickname (in the To field only).</P><P>To add someone from your Recipient List to a message that is already open,   put the cursor in the appropriate recipient field (To, Cc, or Bcc) and choose   the desired nickname from the <B>Edit&gt;Insert Recipient</B> submenu.</P><P>  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eudoramail Tech Support pages</a> for full manuals,   helpful tutorials and a searchable knowledge base.</p> </BODY></HTML>"
+	"<HTML>
+<HEAD>
+<TITLE>Using the Address Book</TITLE>
+</HEAD>
+<BODY>
+<H3>Using the Address Book</H3>
+<P>The Address Book, like an address book you keep in your pocket or purse, is 
+  where you keep information about individuals or groups that you correspond with. 
+  The Address Book lets you keep this information stored in one handy place and 
+  also lets you conveniently send mail to these individuals or groups.</P>
+<P>Each entry in the Address Book includes a \"nickname\" (shorthand name) for a 
+  person or group, their full email address(es), a real name, any contact information, 
+  notes, and other personal information. You can also use the Address Book to 
+  put nicknames on your Quick Recipient List, and to address a new message. Further, 
+  you can use the Address Book to create multiple nickname files (folders) to 
+  organize your nicknames. Last, you use the Address Book to remove nickname entries 
+  and files.</P>
+<P>Begin by opening the Address Book: Select <B>Window&gt;Address Book</B>, or 
+  click the <B>Address Book</B> button on the main toolbar, or press <B>Command+L</B>.</P>
+
+<H4>Adding a Person to the Address Book</H4>
+<P>To add a person to your address book, do the following:</P>
+<OL>
+  <LI>If you have multiple Address Books, choose the address book where you want 
+    this entry to reside.</LI><br><br>
+  
+  <LI>Click the <B>New Nickname</B> button at the bottom of the list. A new entry 
+    appears highlighted in the list.</LI><br><br>
+  
+  <LI>In the highlighted text field, type the new nickname (e.g., <B>JDoe</B>) 
+    OR type the nickname in the <B>Nickname </B>text field on the right side of 
+    the window.</LI><br><br>
+  
+  <LI>In the <B>Full Name</B> field, type the real name or an informal name for 
+    the person. If there is just one address for the entry, this name and address 
+    are included in the To field for your recipient to see.</LI><br><br>
+  
+  <LI>In the <B>First Name</B> and <B>Last Name</B> fields, type the first and 
+    last name of the person. You can toggle the first and last names by clicking 
+    the double-arrow button.</LI><br><br>
+  
+  <LI>In the <B>This nickname will expand to the following address(es)</B> text 
+    field, enter at least one complete email address for this person (e.g., <A 
+    HREF=\"mailto:jdoe@bigco.com)\">jdoe@bigco.com)</A>.</LI><br><br>
+  
+  <LI>If you want this name on your Recipient List, check the <B>Recipient list</B> 
+    box.</LI><br><br>
+  
+  <LI>Click anywhere or press Enter.</LI><br><br>
+  
+  <LI>Choose <B>File&gt;Save</B> to save your new address book entry.</LI>
+</OL>
+<P><B>Tip:</b> You can also use the <B>Special&gt;Make Address Book Entry...</B> 
+  command to create new Address Book entries from selections in the Address Book, 
+  from address information in selected and open messages, and from query results 
+  in the Directory Services window. See the<a href=\"http://www.eudora.com/techsupport/manuals.html\"> online Eos User Manual.</a> online Eos User Manual.</a>) for more 
+  details.</P>
+
+<H4>Creating an Address Book within Eos's Address Book</H4>
+<P>To create a new address book within the Eos Address Book, do the following:</P>
+<OL>
+  <LI>In the Address Book window, click the <B>New Address Book</B> button.</LI><br><br>
+
+  <LI>In the highlighted text field, type the name of the new address book (e.g., 
+    <B>My Friends</B>).</LI><br><br>
+
+  <LI>Click anywhere or press Enter. The new address book is created. You can 
+    now create new nicknames to store in the new address book.</LI><br><br>
+
+  <LI>Select <B>File&gt;Save</B> to save your new nickname file and any new nicknames 
+    you've created in it.</LI>
+</OL>
+
+<H4>Removing Persons and Address Books from Your Address Book</H4>
+<UL>
+  <LI>To remove one or more address book entries, choose the address books from 
+    the list and click <B>Remove</B>. </LI></UL><br>
+
+<UL><LI>To undo the deletion, close the Address Book without saving and click <B>Discard</B> 
+    in the alert. </LI></UL><br>
+
+<UL><LI>To remove one or more nicknames entries, choose the nicknames from the list 
+    and click <B>Remove</B>.</LI>
+</UL>
+<P>&nbsp;</P>
+
+<H4>Sending a Message to Someone in Your Address Book</H4>
+<P>To create a new message to someone in your Address Book, select their nickname 
+  in the open Address Book and click the <B>To</B>, <B>Cc</B>, or <B>Bcc</B> button 
+  at the bottom of the window. A new message is opened and addressed with the 
+  nickname in the appropriate recipient field.</P>
+<P>To add someone from your Address Book to a message that is already open, select 
+  their nickname in the open Address Book and click the <B>To</B>, <B>Cc</B>, 
+  or <B>Bcc</B> button at the bottom of the window. The nickname is added to the 
+  appropriate recipient field in the open message. You can add multiple addresses 
+  this way.</P>
+<P><b>Using the Recipient List</b></P>
+<P>The Recipient List is a list of selected nicknames that you use often. These 
+  nicknames are available from the Eos menus; you don't have to open the 
+  Address Book to address messages to these individuals.</P>
+<P>To add a nickname to the Recipient List, open the Address Book (<B>Window&gt;Address 
+  Book</B>), choose the nickname for the desired entry, and check the <B>Recipient 
+  List</B> box. </P>
+<P>To create a new message addressed to someone on your Recipient List, choose 
+  their nickname from the <B>New Message To</B>, <B>Forward To</B>, or <B>Redirect 
+  To</B> submenus under the <B>Message</B> menu. The message is opened and addressed 
+  to the selected nickname (in the To field only).</P>
+<P>To add someone from your Recipient List to a message that is already open, 
+  put the cursor in the appropriate recipient field (To, Cc, or Bcc) and choose 
+  the desired nickname from the <B>Edit&gt;Insert Recipient</B> submenu.</P>
+<P>
+  For additional help, visit the <a href=\"http://www.eudora.com/techsupport\">Eos Tech Support pages</a> for full manuals, 
+  helpful tutorials and a searchable knowledge base.
+</p> 
+
+</BODY>
+</HTML>
+"
 };

@@ -1,66 +1,281 @@
 data 'TEXT' (1012,"TEXT/AdTheObscure",purgeable) {
-	"Probably inadvertent, but Eudoramail has determined that something is covering all or a significant portion of an ad. The software is designed to notify you when this happens (Eudoramail’s just doing its job).  If you uncover the ad, this window won’t keep popping up. You’d like that, right?We’re always working on good stuff back at the home office, and it’s the ads in Eudoramail that pay the bills while we continue to develop the software.  We’ve worked hard to make sure the advertising isn’t annoying and we genuinely hope that you are not deliberately trying to cover the ads because they’re bothering you.  Of course, you can pay us for Eudoramail by choosing “Payment & Registration” from the “Help” menu and clicking on “Paid Mode (costs money, no ads).”  Or you can remove whatever is obscuring the ad and we’ll shut up."
+	"Probably inadvertent, but Eos has determined that something is covering all or a significant portion of an ad. The software is designed to notify you when this happens (Eos’s just doing its job).  If you uncover the ad, this window won’t keep popping up. You’d like that, right?
+
+We’re always working on good stuff back at the home office, and it’s the ads in Eos that pay the bills while we continue to develop the software.  We’ve worked hard to make sure the advertising isn’t annoying and we genuinely hope that you are not deliberately trying to cover the ads because they’re bothering you.  Of course, you can pay us for Eos by choosing “Payment & Registration” from the “Help” menu and clicking on “Paid Mode (costs money, no ads).”  Or you can remove whatever is obscuring the ad and we’ll shut up."
 };
 data 'TEXT' (1009,"TEXT/AdTrouble1",purgeable) {
-	"For some reason, Eudoramail is unable to download new ads. Downloading and displaying ads is a requirement when using Eudoramail in sponsored mode. Please visit the Eudoramail web site for information about how to resume getting ads."
+	"For some reason, Eos is unable to download new ads. Downloading and displaying ads is a requirement when using Eos in sponsored mode. Please visit the Eos web site for information about how to resume getting ads."
 };
 data 'TEXT' (1011,"TEXT/AdTrouble2",purgeable) {
-	"If ad downloading continues to fail, Eudoramail will eventually revert to light mode which is less powerful."
+	"If ad downloading continues to fail, Eos will eventually revert to light mode which is less powerful."
 };
 data 'TEXT' (1005,"TEXT/AskAudit",purgeable) {
-	"In order to make Eudoramail work as well as possible, it’s important that we know how people use it. We ask users for this information at random. Looks like it’s your turn. If you’re open to helping us this way, all you have to do is click “Generate Info” below and a message will be created. You can review the contents of the message if you like, and then send it to us or not -- that’s up to you.We value our privacy; we’re pretty sure you value yours. So we want you to know what we’ll be collecting and give you a chance to eliminate anything you don’t want to send. Simply uncheck the boxes next to any information you’d rather not send.Please understand that as soon as we receive your email, we will throw away the headers that identify the mail as coming from you. You see, we don’t actually need to know who you are to find your information helpful. So we promise to protect your privacy and turn you into “just a number.” :-)"
+	"In order to make Eos work as well as possible, it’s important that we know how people use it. We ask users for this information at random. Looks like it’s your turn. If you’re open to helping us this way, all you have to do is click “Generate Info” below and a message will be created. You can review the contents of the message if you like, and then send it to us or not -- that’s up to you.
+
+We value our privacy; we’re pretty sure you value yours. So we want you to know what we’ll be collecting and give you a chance to eliminate anything you don’t want to send. Simply uncheck the boxes next to any information you’d rather not send.
+
+Please understand that as soon as we receive your email, we will throw away the headers that identify the mail as coming from you. You see, we don’t actually need to know who you are to find your information helpful. So we promise to protect your privacy and turn you into “just a number.” :-)"
 };
 data 'TEXT' (1013,"TEXT/AuditLegend",purgeable) {
-	"-- LEGENDThe usage statistics all begin with when the event occurred, what application it occurred in, and what sort of event it was.  For example, an entry beginning:9908311810 32 1means that at 8:10 AM on August 31, 1999 (9908311810), Eudoramail (32), quit (1).Now, that last number will change depend on what sort of event Eudoramail has recorded, and there will be other numbers on the line that give details about the event.  The event codes and an explanation of their details follow, with an example of each:Shutdown: 9911231516 32 1 1282 1088 2550 100257(1) means shutdown.  The next four numbers are the amount of time you used Eudoramail (1282 seconds), the amount of time Eudoramail was in the background (1088), the amount of time you were connected to the Internet (2550), and the total time Eudoramail was running (100257).  Times in seconds.Timestamp: 9911181835 32 2 1939 4631 9150 9152(2) is a timestamp.  It gets written once in a while, so the log clearly shows Eudoramail is still running.  The next four numbers are the same as for shutdown.Mail Check Start: 9911211825 32 3 222 0 1(3) means a mail check has started.  The first number identifies this particular mailcheck (3), the next number is the id of the personality doing the check (222), and the third number is 1 if it was an auto mailcheck, 0 if it was manual.Mail Check Done: 9911191931 32 4 23 3 16591(4) is the end of a mail check.  The first number identifies this particular mailcheck (23), the next number is the number of messages fetched (3), the final number is the number of bytes fetched (16591).Click: 9911231713 32 5 0 0 0 0 0 43 2818053 1(5) means you pressed a button or used a menu or other user interface item.  The first five numbers are the state of the shift/control/option/command/alt keys (0 0 0 0 0).  The next number identifies what window it went to (43), the next number tells what control you used (2818053), and the last number indicates whether you used it with the keyboard or the mouse (1).Window Open: 9911231957 32 6 177 32 0(6) records the opening of a window.  The first number is the id of the window (177), the next number is the sort of window that was open (32, a mailbox), and the last number indicates whether or not the window was part of a tabbed group of windows.Window Close: 9911191517 32 7 127(7) records the closing of a window.  The number after it is the id of the window that was closed (127).Ad Display: 9911201520 32 8 2 14(8) records the display of an ad.  The next two numbers identify which ad it was.Ad Close: 9911231914 32 9 2 18(9) shows the closing of an ad.  The next two numbers identify which ad got closed.Ad Click: 9911192010 32 10 2 22(10) is a click on an ad.  The next two numbers identify which ad.Send Start: 9911231816 32 11 14 0 0(11) means you started sending some mail.  The next number identifies a particular sending session (14), then comes the id of the personality doing the sending (0), then a 1 if the send was automatic, 0 if you initiated it manually.Send Done:  9911181915 32 12 14 4 3733(12) is the completion of sending mail.  The first number after it is the particular sending session (14), then the number of messages you sent (4), then the number of bytes you sent (3733).Create Personality: 9911181423 13 126432(13) is you creating a new personality.  Then comes the id of the personality created (126432).  The id cannot be correlated to your usernames, servers, etc; they don't mean anything outside your copy of Eudoramail.Destroy Personality: 9911181428 14 548219(14) is you destroying a personality.  Then comes the id of the personality destroyed (126432).Startup: 9911191446 32 15 0 430 3(15) is Eudoramail getting going.  Next is a platform identifier (0), then the version number of Eudoramail (430), then the build number of that version (3).Personality Rename: 9911181424 16 126432 548219(16) is renaming a personality.  The next two numbers are the old (126432) and new (548219) personality id's.Connection: 9911232036 32 17 1(17) indicates your Internet connection going up or down.  The number after it is 1 for up, 0 for down.Non-Personal Settings: 9912211810 32 18 151 n 152 y 153 n 154 n 155 n 156 y(18) indicates a listing of non-personal Eudoramail settings, and is followed by preference number and value pairs.  You can figure out which preference is represented on any given line by using the preference number in an <x-eudora-settings> URL.  For example, you can enter<x-eudora-setting:151>and double click on the resulting link.  Eudoramail will explain what this preference does, and give you the present value.  For a comprehensive list of all the preference numbers, visit <http://www.eudora.com/techsupport/mac/download/X-Eudoramail-Settings.txt>Non-Personal System Information: 001051908 32 19 ----System Information(19) indicates a non-personal system wide setting, and is followed by some general information about your computer.  This is the same information that is included in a System Configuration report generated from the Help menu."
+	"-- 
+LEGEND
+
+The usage statistics all begin with when the event occurred, what application it occurred in, and what sort of event it was.  For example, an entry beginning:
+
+9908311810 32 1
+
+means that at 8:10 AM on August 31, 1999 (9908311810), Eos (32), quit (1).
+
+Now, that last number will change depend on what sort of event Eos has recorded, and there will be other numbers on the line that give details about the event.  The event codes and an explanation of their details follow, with an example of each:
+
+Shutdown: 9911231516 32 1 1282 1088 2550 100257
+(1) means shutdown.  The next four numbers are the amount of time you used Eos (1282 seconds), the amount of time Eos was in the background (1088), the amount of time you were connected to the Internet (2550), and the total time Eos was running (100257).  Times in seconds.
+
+Timestamp: 9911181835 32 2 1939 4631 9150 9152
+(2) is a timestamp.  It gets written once in a while, so the log clearly shows Eos is still running.  The next four numbers are the same as for shutdown.
+
+Mail Check Start: 9911211825 32 3 222 0 1
+(3) means a mail check has started.  The first number identifies this particular mailcheck (3), the next number is the id of the personality doing the check (222), and the third number is 1 if it was an auto mailcheck, 0 if it was manual.
+
+Mail Check Done: 9911191931 32 4 23 3 16591
+(4) is the end of a mail check.  The first number identifies this particular mailcheck (23), the next number is the number of messages fetched (3), the final number is the number of bytes fetched (16591).
+
+Click: 9911231713 32 5 0 0 0 0 0 43 2818053 1
+(5) means you pressed a button or used a menu or other user interface item.  The first five numbers are the state of the shift/control/option/command/alt keys (0 0 0 0 0).  The next number identifies what window it went to (43), the next number tells what control you used (2818053), and the last number indicates whether you used it with the keyboard or the mouse (1).
+
+Window Open: 9911231957 32 6 177 32 0
+(6) records the opening of a window.  The first number is the id of the window (177), the next number is the sort of window that was open (32, a mailbox), and the last number indicates whether or not the window was part of a tabbed group of windows.
+
+Window Close: 9911191517 32 7 127
+(7) records the closing of a window.  The number after it is the id of the window that was closed (127).
+
+Ad Display: 9911201520 32 8 2 14
+(8) records the display of an ad.  The next two numbers identify which ad it was.
+
+Ad Close: 9911231914 32 9 2 18
+(9) shows the closing of an ad.  The next two numbers identify which ad got closed.
+
+Ad Click: 9911192010 32 10 2 22
+(10) is a click on an ad.  The next two numbers identify which ad.
+
+Send Start: 9911231816 32 11 14 0 0
+(11) means you started sending some mail.  The next number identifies a particular sending session (14), then comes the id of the personality doing the sending (0), then a 1 if the send was automatic, 0 if you initiated it manually.
+
+Send Done:  9911181915 32 12 14 4 3733
+(12) is the completion of sending mail.  The first number after it is the particular sending session (14), then the number of messages you sent (4), then the number of bytes you sent (3733).
+
+Create Personality: 9911181423 13 126432
+(13) is you creating a new personality.  Then comes the id of the personality created (126432).  The id cannot be correlated to your usernames, servers, etc; they don't mean anything outside your copy of Eos.
+
+Destroy Personality: 9911181428 14 548219
+(14) is you destroying a personality.  Then comes the id of the personality destroyed (126432).
+
+Startup: 9911191446 32 15 0 430 3
+(15) is Eos getting going.  Next is a platform identifier (0), then the version number of Eos (430), then the build number of that version (3).
+
+Personality Rename: 9911181424 16 126432 548219
+(16) is renaming a personality.  The next two numbers are the old (126432) and new (548219) personality id's.
+
+Connection: 9911232036 32 17 1
+(17) indicates your Internet connection going up or down.  The number after it is 1 for up, 0 for down.
+
+Non-Personal Settings: 9912211810 32 18 151 n 152 y 153 n 154 n 155 n 156 y
+(18) indicates a listing of non-personal Eos settings, and is followed by preference number and value pairs.  You can figure out which preference is represented on any given line by using the preference number in an <x-eudora-settings> URL.  For example, you can enter
+
+<x-eudora-setting:151>
+
+and double click on the resulting link.  Eos will explain what this preference does, and give you the present value.  For a comprehensive list of all the preference numbers, visit <http://www.eudora.com/techsupport/mac/download/X-Eos-Settings.txt>
+
+Non-Personal System Information: 001051908 32 19 ----System Information
+(19) indicates a non-personal system wide setting, and is followed by some general information about your computer.  This is the same information that is included in a System Configuration report generated from the Help menu.
+"
 };
 data 'TEXT' (1023,"TEXT/Bug",purgeable) {
-	"X-Stuff: 00077C7D000005E7000000D3060000000000BB6C4DCF000000000000000000000000000000000000000000003AA4BB6C4DCF4800022C00000000000000000000FFFF000000000000FE5CFFFFFFFF1A6D61632D6575646F72612D62756773406575646F72612E636F6D0000000000000000000000000000000000000000000000000000000000091C2938000000000A427567205265706F72740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200800091C293800000000000001AA0D3CDate: Fri, 22 Aug 2003 15:46:39 -0700To: mac-eudora-bugs@eudora.comFrom: Steve Dorner <sdorner@qualcomm.com>Subject: Bug ReportCc: Bcc: X-Attachments: <x-html><!x-stuff-for-pete id=\"0\"><!doctype html public \"-//W3C//DTD W3 HTML//EN\"><html><head><style type=\"text/css\"><!--blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 } --></style><title>Bug Report</title></head><body><blockquote type=\"cite\" cite>Please briefly describe the problem youare experiencing:</blockquote><div><br></div><div><br><br></div><blockquote type=\"cite\" cite>Please give us detailed steps toreproduce your problem, if possible:</blockquote><blockquote type=\"cite\" cite><br></blockquote><blockquote type=\"cite\" cite>If your issue involves a particularmessage, mailbox, or other document, please stuff it and attach it tothis message.</blockquote><blockquote type=\"cite\" cite><br></blockquote><blockquote type=\"cite\" cite>Your system configuration isautomatically appended below; this may help us determine the cause ofyour problem.</blockquote><blockquote type=\"cite\" cite><br></blockquote><blockquote type=\"cite\" cite>If you would prefer to submit your bugreport on the web, you may do so at&lt;http://www.eudora.com/developers/feedback/mac_bugs.cgi&gt;.</blockquote><blockquote type=\"cite\" cite><br></blockquote><blockquote type=\"cite\" cite>Thank you for taking the time to reportbugs to us!</blockquote><div><br></div></body></html></x-html>"
+	"X-Stuff: 00077C7D000005E7000000D3060000000000BB6C4DCF000000000000000000000000000000000000000000003AA4BB6C4DCF4800022C00000000000000000000FFFF000000000000FE5CFFFFFFFF1A6D61632D6575646F72612D62756773406575646F72612E636F6D0000000000000000000000000000000000000000000000000000000000091C2938000000000A427567205265706F72740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200800091C293800000000000001AA0D3C
+Date: Fri, 22 Aug 2003 15:46:39 -0700
+To: mac-eudora-bugs@eudora.com
+From: Steve Dorner <sdorner@qualcomm.com>
+Subject: Bug Report
+Cc: 
+Bcc: 
+X-Attachments: 
+
+<x-html><!x-stuff-for-pete id=\"0\">
+<!doctype html public \"-//W3C//DTD W3 HTML//EN\">
+<html><head><style type=\"text/css\"><!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+ --></style><title>Bug Report</title></head><body>
+<blockquote type=\"cite\" cite>Please briefly describe the problem you
+are experiencing:</blockquote>
+<div><br></div>
+<div><br>
+<br>
+</div>
+<blockquote type=\"cite\" cite>Please give us detailed steps to
+reproduce your problem, if possible:</blockquote>
+<blockquote type=\"cite\" cite><br></blockquote>
+<blockquote type=\"cite\" cite>If your issue involves a particular
+message, mailbox, or other document, please stuff it and attach it to
+this message.</blockquote>
+<blockquote type=\"cite\" cite><br></blockquote>
+<blockquote type=\"cite\" cite>Your system configuration is
+automatically appended below; this may help us determine the cause of
+your problem.</blockquote>
+<blockquote type=\"cite\" cite><br></blockquote>
+<blockquote type=\"cite\" cite>If you would prefer to submit your bug
+report on the web, you may do so at
+&lt;http://www.eudora.com/developers/feedback/mac_bugs.cgi&gt;.</blockquote
+>
+<blockquote type=\"cite\" cite><br></blockquote>
+<blockquote type=\"cite\" cite>Thank you for taking the time to report
+bugs to us!</blockquote>
+<div><br></div>
+</body>
+</html>
+</x-html>"
 };
 data 'TEXT' (1020,"TEXT/ConcentratorProfiles",purgeable) {
-	"<profile name=\"Terse\">	<element>Header<output>remove</output></element>	<element>Header<name>From</name><output>display</output></element>	<element>Separator<output>display</output></element>	<element>Original<output>display<trim/></output></element>	<element>Attribution<output>display<trim/></output></element>	<element>Quote<output>truncate<bytes>255</bytes><trim/></output></element>	<element>SigIntro<output>remove</output></element>	<element>Signature<output>remove</output></element>	<element>Forward<output>display<trim/></output></element>	<element>ForwardOn<output>display</output></element>	<element>PlainForward<output>display<quoteIncrement/><trim/></output></element>	<element>ForwardOff<output>display</output></element>	<element>QuoteOn<output>remove</output></element>	<element>OutlookQuote<output>truncate<bytes>255</bytes><trim/><quoteIncrement>1</quoteIncrement></output></element>	<element>QuoteOff<output>remove</output></element></profile><profile name=\"Compact\">	<element>Header<output>remove</output></element>	<element>Header<name>To</name><output>truncate<bytes>60</bytes></output></element>	<element>Header<name>From</name><output>display</output></element>	<element>Header<name>Subject</name><output>display</output></element>	<element>Header<name>Cc</name><output>truncate<bytes>60</bytes></output></element>	<element>Separator<output>display</output></element>	<element>Original<output>display<trim/></output></element>	<element>Attribution<output>display<trim/></output></element>	<element>Quote<output>truncate<bytes>255</bytes><trim/></output></element>	<element>SigIntro<output>remove</output></element>	<element>Signature<output>remove</output></element>	<element>Forward<output>display<trim/></output></element>	<element>ForwardOn<output>display</output></element>	<element>PlainForward<output>display<quoteIncrement>1</quoteIncrement><trim/></output></element>	<element>ForwardOff<output>display</output></element>	<element>QuoteOn<output>remove</output></element>	<element>OutlookQuote<output>truncate<bytes>255</bytes><quoteIncrement>1</quoteIncrement><trim/></output></element>	<element>QuoteOff<output>remove</output></element></profile>"
+	"<profile name=\"Terse\">
+	<element>Header<output>remove</output></element>
+	<element>Header<name>From</name><output>display</output></element>
+	<element>Separator<output>display</output></element>
+	<element>Original<output>display<trim/></output></element>
+	<element>Attribution<output>display<trim/></output></element>
+	<element>Quote<output>truncate<bytes>255</bytes><trim/></output></element>
+	<element>SigIntro<output>remove</output></element>
+	<element>Signature<output>remove</output></element>
+	<element>Forward<output>display<trim/></output></element>
+	<element>ForwardOn<output>display</output></element>
+	<element>PlainForward<output>display<quoteIncrement/><trim/></output></element>
+	<element>ForwardOff<output>display</output></element>
+	<element>QuoteOn<output>remove</output></element>
+	<element>OutlookQuote<output>truncate<bytes>255</bytes><trim/><quoteIncrement>1</quoteIncrement></output></element>
+	<element>QuoteOff<output>remove</output></element>
+</profile>
+
+<profile name=\"Compact\">
+	<element>Header<output>remove</output></element>
+	<element>Header<name>To</name><output>truncate<bytes>60</bytes></output></element>
+	<element>Header<name>From</name><output>display</output></element>
+	<element>Header<name>Subject</name><output>display</output></element>
+	<element>Header<name>Cc</name><output>truncate<bytes>60</bytes></output></element>
+	<element>Separator<output>display</output></element>
+	<element>Original<output>display<trim/></output></element>
+	<element>Attribution<output>display<trim/></output></element>
+	<element>Quote<output>truncate<bytes>255</bytes><trim/></output></element>
+	<element>SigIntro<output>remove</output></element>
+	<element>Signature<output>remove</output></element>
+	<element>Forward<output>display<trim/></output></element>
+	<element>ForwardOn<output>display</output></element>
+	<element>PlainForward<output>display<quoteIncrement>1</quoteIncrement><trim/></output></element>
+	<element>ForwardOff<output>display</output></element>
+	<element>QuoteOn<output>remove</output></element>
+	<element>OutlookQuote<output>truncate<bytes>255</bytes><quoteIncrement>1</quoteIncrement><trim/></output></element>
+	<element>QuoteOff<output>remove</output></element>
+</profile>"
 };
 data 'TEXT' (1010,"TEXT/Deadbeat",purgeable) {
-	"Eudoramail has been unable to download ads for quite some time and will now revert to light mode which is less powerful. If you would like more information about why Eudoramail’s features are being reduced at this time, please visit the Eudoramail web site. You will find information there about how Eudoramail's full features can be reactivated.We’re sorry for this inconvenience."
+	"Eos has been unable to download ads for quite some time and will now revert to light mode which is less powerful. If you would like more information about why Eos’s features are being reduced at this time, please visit the Eos web site. You will find information there about how Eos's full features can be reactivated.
+
+We’re sorry for this inconvenience."
 };
 data 'TEXT' (1007,"TEXT/FullFeature1",purgeable) {
-	"While Eudoramail in Light mode remains a very capable email program, it lacks many more powerful features available in other versions of Eudoramail. Here are some of the capabilities you could be using to manage your email:"
+	"While Eos in Light mode remains a very capable email program, it lacks many more powerful features available in other versions of Eos. Here are some of the capabilities you could be using to manage your email:"
 };
 data 'TEXT' (1008,"TEXT/FullFeature2",purgeable) {
-	"In return for getting all these neat features for free, this version will display ads, but they are displayed in a way that's sensitive to what you're doing when you're in email.These features will be turned on automatically, at no charge, when you click on that enticing button below.  (C’mon. . .take a chance.)"
+	"In return for getting all these neat features for free, this version will display ads, but they are displayed in a way that's sensitive to what you're doing when you're in email.
+
+These features will be turned on automatically, at no charge, when you click on that enticing button below.  (C’mon. . .take a chance.)"
 };
 data 'TEXT' (1002,"TEXT/Intro",purgeable) {
-	"Eudoramail is licensed in three ways. If you have purchased a registration code & registered it within the last 12 months, click the “Enter Code” button below and Eudoramail will install in Paid mode. In Paid mode, you get the full power of Eudoramail, including SpamWatch, a suite of automatic spam-fighting tools, plus 12 months of updates and live technical support; all in an advertising-free environment.Without this registration code, this copy will install in Sponsored mode and will display ads, and will not include SpamWatch or live technical support. However, we have done our best to present the ads in a way that respects the work you do in email. By allowing Eudoramail to display ads, you get almost the same features of Eudoramail in Paid mode, for free! The advertising simply helps us recover some costs.A third option is to switch over to a less powerful version of Eudoramail, that has no ads, and is free.To switch modes of Eudoramail, please use the “Payment & Registration” item in the Help menu. To learn more about the three modes, click on the “Tell Me More” button below."
+	"Eos is licensed in three ways. If you have purchased a registration code & registered it within the last 12 months, click the “Enter Code” button below and Eos will install in Paid mode. In Paid mode, you get the full power of Eos, including SpamWatch, a suite of automatic spam-fighting tools, plus 12 months of updates and live technical support; all in an advertising-free environment.
+
+Without this registration code, this copy will install in Sponsored mode and will display ads, and will not include SpamWatch or live technical support. However, we have done our best to present the ads in a way that respects the work you do in email. By allowing Eos to display ads, you get almost the same features of Eos in Paid mode, for free! The advertising simply helps us recover some costs.
+
+A third option is to switch over to a less powerful version of Eos, that has no ads, and is free.
+
+To switch modes of Eos, please use the “Payment & Registration” item in the Help menu. To learn more about the three modes, click on the “Tell Me More” button below."
 };
 data 'TEXT' (1021,"TEXT/JunkDowngrade",purgeable) {
-	"The plug-ins supplied with Eudoramail operate only in Paid mode.  Until you enter a Paid mode registration code valid for this version, they have been disabled, and will not be filtering your email for junk.For more information, click “Tell Me More” below.  If you would like to pay now and enable the plug-ins, click “Pay Now...” below, and you’ll be taken to the Eudoramail website to complete the purchase process."
+	"The plug-ins supplied with Eos operate only in Paid mode.  Until you enter a Paid mode registration code valid for this version, they have been disabled, and will not be filtering your email for junk.
+
+For more information, click “Tell Me More” below.  If you would like to pay now and enable the plug-ins, click “Pay Now...” below, and you’ll be taken to the Eos website to complete the purchase process."
 };
 data 'TEXT' (1019,"TEXT/JunkIntro",purgeable) {
-	"At least one junk mail identification tool is installed.The way Eudoramail deals with junk mail is that it's put in a mailbox called \"Junk\". Your filters are not run on it, so it won't be mixed in with your other mail. You can open the Junk mailbox, and retrieve messages that aren't really junk, and have them filtered or transfer them or whatever you like.Mail in your Junk mailbox will only be kept for 30 days. After that, we delete it so that it doesn't take up space on your computer.Would you like to automatically put junk mail in your Junk mailbox?"
+	"At least one junk mail identification tool is installed.
+
+The way Eos deals with junk mail is that it's put in a mailbox called \"Junk\". Your filters are not run on it, so it won't be mixed in with your other mail. You can open the Junk mailbox, and retrieve messages that aren't really junk, and have them filtered or transfer them or whatever you like.
+
+Mail in your Junk mailbox will only be kept for 30 days. After that, we delete it so that it doesn't take up space on your computer.
+
+Would you like to automatically put junk mail in your Junk mailbox?"
 };
 data 'TEXT' (1006,"TEXT/LighDowngrade2",purgeable) {
-	"If you don't mind the ads, and can live without SpamWatch, simply click \"Cancel\" and stay in Sponsored mode.However, if you need the automated spam protection of SpamWatch, and want to make the ads go away, click \"Cancel\" and select \"Paid mode\"."
+	"If you don't mind the ads, and can live without SpamWatch, simply click \"Cancel\" and stay in Sponsored mode.
+
+However, if you need the automated spam protection of SpamWatch, and want to make the ads go away, click \"Cancel\" and select \"Paid mode\"."
 };
 data 'TEXT' (1004,"TEXT/LightDowngrade1",purgeable) {
-	"While Eudoramail in Light mode remains a very capable email client, it lacks the power of the full version. Here are some of the features you would be giving up, with checkmarks next to the ones you’re using now:"
+	"While Eos in Light mode remains a very capable email client, it lacks the power of the full version. Here are some of the features you would be giving up, with checkmarks next to the ones you’re using now:"
 };
 data 'TEXT' (1017,"TEXT/PleaseProfile2",purgeable) {
 	"You can continue to enjoy the time-saving power of these features, at no charge, simply by taking a few minutes to fill out a profile.  If you want to know more about the profile process, click “About Profiling”.  If you're ready to fill out a profile, click “Profile”."
 };
 data 'TEXT' (1014,"TEXT/PrePayment",purgeable) {
-	"• Eudoramail will open your web browser and take you to our Payment & Registration page• You'll be asked to provide your payment and registration information on the web site• We'll then email a Eudoramail registration code back to you• The next time you check mail, Eudoramail will automatically recognize this code and display a dialog box inviting you to confirm your registration information• Ta-da!  You'll then become a Paid mode user...  Congratulations!"
+	"• Eos will open your web browser and take you to our Payment & Registration page
+
+• You'll be asked to provide your payment and registration information on the web site
+
+• We'll then email a Eos registration code back to you
+
+• The next time you check mail, Eos will automatically recognize this code and display a dialog box inviting you to confirm your registration information
+
+• Ta-da!  You'll then become a Paid mode user...  Congratulations!"
 };
 data 'TEXT' (1016,"TEXT/PreProfiling",purgeable) {
-	"• Eudoramail will open your web browser and take you to our profiling page• You'll be asked a set of demographic questions• Most questions are optional — you won't have to give us your life history• After you're done, your profile ID will be mailed to you and automatically used by Eudoramail to help select the ads you see"
+	"• Eos will open your web browser and take you to our profiling page
+
+• You'll be asked a set of demographic questions
+
+• Most questions are optional — you won't have to give us your life history
+
+• After you're done, your profile ID will be mailed to you and automatically used by Eos to help select the ads you see"
 };
 data 'TEXT' (1015,"TEXT/PreRegistration",purgeable) {
-	"• Eudoramail will open your web browser and take you to our registration page• You'll fill in some simple registration information on the web site• We'll then email a Eudoramail registration code back to you• The next time you check mail, Eudoramail will automatically recognize this code and display a dialog box inviting you to confirm your registration information• Ta da!  You'll then become a registered user of Eudoramail...  Thanks!"
+	"• Eos will open your web browser and take you to our registration page
+
+• You'll fill in some simple registration information on the web site
+
+• We'll then email a Eos registration code back to you
+
+• The next time you check mail, Eos will automatically recognize this code and display a dialog box inviting you to confirm your registration information
+
+• Ta da!  You'll then become a registered user of Eos...  Thanks!"
 };
 data 'TEXT' (1003,"TEXT/RegNag",purgeable) {
-	"As a registered user of Eudoramail we won't nag you as often as we do now.  We'll also erect a giant statue in your image on the front lawn of our corporate headquarters (*).How cool is that?  C'mon... register!  It's fun and easy!(* Giant statue offer void on the planet Earth)"
+	"As a registered user of Eos we won't nag you as often as we do now.  We'll also erect a giant statue in your image on the front lawn of our corporate headquarters (*).
+
+How cool is that?  C'mon... register!  It's fun and easy!
+
+(* Giant statue offer void on the planet Earth)"
 };
 data 'TEXT' (1018,"TEXT/Repay",purgeable) {
-	"Click “Pay Now” and you will be taken to the Web to complete the purchase process.  We will email back your new registration code.  After you enter your new code, Eudoramail will go into Paid mode.But there's more!  You will then also be eligible for free upgrades to all new versions of Eudoramail that HERMES releases for the next twelve months, access to live technical support, and additional features not available in Sponsored or Light modes.Or you can continue to use this version of Eudoramail in Sponsored mode and get all the features in Paid mode, except for the SpamWatch feature for automatic junk mail handling.Such a deal!"
+	"Click “Pay Now” and you will be taken to the Web to complete the purchase process.  We will email back your new registration code.  After you enter your new code, Eos will go into Paid mode.
+
+But there's more!  Future Eos updates are community-maintained and provided on a best-effort basis.
+
+Or you can continue to use this version of Eos in Sponsored mode and get all the features in Paid mode, except for the SpamWatch feature for automatic junk mail handling.
+
+Such a deal!"
 };
 data 'TEXT' (1022,"TEXT/Suggest",purgeable) {
-	"X-Stuff: 00077BA9000000D4000000D3060000000000BB6C48BD000000000000000000000000000000000000000000003AA2BB6C48BC4800022C00000000000000000000FFFF000000000000FE5CFFFFFFFF196575646F72612D73756767657374406575646F72612E636F6D00000000000000000000000000000000000000000000000000000000000061AC3483000000000A53756767657374696F6E200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000061AC348300000000000001A9F0D8Date: Fri, 22 Aug 2003 15:25:00 -0700To: eudora-suggest@eudora.comFrom: Steve Dorner <sdorner@qualcomm.com>Subject: Suggestion Cc: Bcc: X-Attachments: "
+	"X-Stuff: 00077BA9000000D4000000D3060000000000BB6C48BD000000000000000000000000000000000000000000003AA2BB6C48BC4800022C00000000000000000000FFFF000000000000FE5CFFFFFFFF196575646F72612D73756767657374406575646F72612E636F6D00000000000000000000000000000000000000000000000000000000000061AC3483000000000A53756767657374696F6E200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000061AC348300000000000001A9F0D8
+Date: Fri, 22 Aug 2003 15:25:00 -0700
+To: eudora-suggest@eudora.com
+From: Steve Dorner <sdorner@qualcomm.com>
+Subject: Suggestion 
+Cc: 
+Bcc: 
+X-Attachments: 
+"
 };

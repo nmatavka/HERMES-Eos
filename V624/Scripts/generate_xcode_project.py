@@ -48,6 +48,10 @@ APP_RESOURCES = [
     "EudoraDotApp/Contents/Resources/Settings.icns",
 ]
 
+SUPPORT_FILES = [
+    "XcodeSupport/PETEHeadersCarbonPrefix.pch",
+]
+
 FRAMEWORKS = [
     "Carbon.framework",
     "ApplicationServices.framework",
@@ -151,12 +155,12 @@ def build_project() -> str:
         build_files[key] = ident
         return ident
 
-    for path in app_sources + editor_sources + APP_RESOURCES:
+    for path in app_sources + editor_sources + APP_RESOURCES + SUPPORT_FILES:
         add_file(path)
     for framework in FRAMEWORKS:
         add_file(framework)
 
-    product_app_ref = pbx_id("product:Eudoramail.app")
+    product_app_ref = pbx_id("product:Eos.app")
     product_editor_ref = pbx_id("product:libeditorCarbon.a")
 
     sections = []
@@ -209,7 +213,7 @@ def build_project() -> str:
                 f"\t\t{ident} = {{isa = PBXFileReference; lastKnownFileType = {source_type(path)}; path = {quote(path)}; sourceTree = SOURCE_ROOT; }};"
             )
     file_entries.append(
-        f"\t\t{product_app_ref} = {{isa = PBXFileReference; explicitFileType = wrapper.application; path = Eudoramail.app; sourceTree = BUILT_PRODUCTS_DIR; }};"
+        f"\t\t{product_app_ref} = {{isa = PBXFileReference; explicitFileType = wrapper.application; path = Eos.app; sourceTree = BUILT_PRODUCTS_DIR; }};"
     )
     file_entries.append(
         f"\t\t{product_editor_ref} = {{isa = PBXFileReference; explicitFileType = archive.ar; path = libeditorCarbon.a; sourceTree = BUILT_PRODUCTS_DIR; }};"
@@ -239,7 +243,7 @@ def build_project() -> str:
     # PBXGroup
     source_children = [file_refs[p] for p in app_sources]
     editor_children = [file_refs[p] for p in editor_sources]
-    support_children = [file_refs[p] for p in APP_RESOURCES] + [pbx_id("fileref:App.xcconfig"), pbx_id("fileref:Editor.xcconfig")]
+    support_children = [file_refs[p] for p in APP_RESOURCES + SUPPORT_FILES] + [pbx_id("fileref:App.xcconfig"), pbx_id("fileref:Editor.xcconfig")]
     sections.append(
         "/* Begin PBXGroup section */\n"
         f"\t\t{pbx_id('group:products')} = {{isa = PBXGroup; children = ({product_app_ref}, {product_editor_ref}); name = Products; sourceTree = \"<group>\"; }};\n"
@@ -253,7 +257,7 @@ def build_project() -> str:
     # PBXNativeTarget
     sections.append(
         "/* Begin PBXNativeTarget section */\n"
-        f"\t\t{pbx_id('target:app')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:app')} /* Build configuration list for PBXNativeTarget \"Eudora\" */; buildPhases = ({pbx_id('phase:kerberosscript')}, {pbx_id('phase:opensslscript')}, {pbx_id('phase:appsources')}, {pbx_id('phase:appfw')}, {pbx_id('phase:appres')}, {pbx_id('phase:appscript')}); buildRules = (); dependencies = ({pbx_id('dependency:editor')}); name = Eudora; productName = Eudoramail; productReference = {product_app_ref} /* Eudoramail.app */; productType = \"com.apple.product-type.application\"; }};\n"
+        f"\t\t{pbx_id('target:app')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:app')} /* Build configuration list for PBXNativeTarget \"Eudora\" */; buildPhases = ({pbx_id('phase:kerberosscript')}, {pbx_id('phase:opensslscript')}, {pbx_id('phase:appsources')}, {pbx_id('phase:appfw')}, {pbx_id('phase:appres')}, {pbx_id('phase:appscript')}); buildRules = (); dependencies = ({pbx_id('dependency:editor')}); name = Eudora; productName = Eos; productReference = {product_app_ref} /* Eos.app */; productType = \"com.apple.product-type.application\"; }};\n"
         f"\t\t{pbx_id('target:editor')} = {{isa = PBXNativeTarget; buildConfigurationList = {pbx_id('configlist:editor')} /* Build configuration list for PBXNativeTarget \"editorCarbon\" */; buildPhases = ({pbx_id('phase:editorsources')}, {pbx_id('phase:editorfw')}); buildRules = (); dependencies = (); name = editorCarbon; productName = editorCarbon; productReference = {product_editor_ref} /* libeditorCarbon.a */; productType = \"com.apple.product-type.library.static\"; }};\n"
         "/* End PBXNativeTarget section */"
     )
@@ -261,7 +265,7 @@ def build_project() -> str:
     # PBXProject
     sections.append(
         "/* Begin PBXProject section */\n"
-        f"\t\t{pbx_id('project')} = {{isa = PBXProject; attributes = {{LastUpgradeCheck = 0940; ORGANIZATIONNAME = HERMES; TargetAttributes = {{ }}; }}; buildConfigurationList = {pbx_id('configlist:project')} /* Build configuration list for PBXProject \"EudoraXcode\" */; compatibilityVersion = \"Xcode 9.3\"; developmentRegion = English; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = {pbx_id('group:root')}; productRefGroup = {pbx_id('group:products')}; projectDirPath = \"\"; projectRoot = \"\"; targets = ({pbx_id('target:app')}, {pbx_id('target:editor')}); }};\n"
+        f"\t\t{pbx_id('project')} = {{isa = PBXProject; attributes = {{LastUpgradeCheck = 0940; ORGANIZATIONNAME = \"Eos Community Project\"; TargetAttributes = {{ }}; }}; buildConfigurationList = {pbx_id('configlist:project')} /* Build configuration list for PBXProject \"EudoraXcode\" */; compatibilityVersion = \"Xcode 9.3\"; developmentRegion = English; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = {pbx_id('group:root')}; productRefGroup = {pbx_id('group:products')}; projectDirPath = \"\"; projectRoot = \"\"; targets = ({pbx_id('target:app')}, {pbx_id('target:editor')}); }};\n"
         "/* End PBXProject section */"
     )
 

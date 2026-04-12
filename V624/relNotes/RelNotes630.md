@@ -1,10 +1,10 @@
-# Eudoramail 6.3 Release Notes
+# Eos 6.3 Release Notes
 
 ## Summary
 
 This note is for people building the source release, not for end users looking for a finished binary.
 
-Eudoramail 6.3 is the current Carbon/Xcode port of the classic Mac mail client as a 32-bit `i386` application. The tree now builds from a minimal generated Xcode project, uses recovered classic resources from `eudora.r`, uses vendored OpenSSL and vendored MIT Kerberos, and applies the visible `Eudoramail` / `HERMES` rebrand while leaving compatibility-sensitive internal identifiers in place where the code or file formats still depend on them.
+Eos 6.3 is the current Carbon/Xcode port of the classic Mac mail client as a 32-bit `i386` application. The tree now builds from a minimal generated Xcode project, uses recovered classic resources from `eudora.r`, uses vendored OpenSSL and vendored MIT Kerberos, and applies the visible `Eos` community branding while leaving compatibility-sensitive internal identifiers in place where the code or file formats still depend on them.
 
 ## Authoritative Build Target
 
@@ -112,12 +112,12 @@ Important Kerberos note:
 
 ## Branding and Compatibility Notes
 
-- Visible product name: `Eudoramail`
-- Visible organization branding: `HERMES`
+- Visible product name: `Eos`
+- Visible organization branding: community project only
 - Xcode scheme name: `Eudora`
 - Bundle identifier: `com.qualcomm.eudora`
 
-The visible branding changed, but compatibility-sensitive internal identifiers, legacy resource codes, and on-disk format hooks were not blindly renamed.
+The built app, plist metadata, and resource-generation path now brand the project as `Eos`. Compatibility-sensitive internal identifiers, legacy resource codes, and on-disk format hooks were not blindly renamed.
 
 ## Troubleshooting
 

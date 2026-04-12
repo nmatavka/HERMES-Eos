@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Eudoramail</string>
+	<string>Eos</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Eudoramail 6.3</string>
+	<string>Eos 6.3</string>
 	<key>CFBundleIconFile</key>
 	<string>Eudora.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Eudoramail</string>
+	<string>Eos</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,6 +31,6 @@
 	<key>NSAppleScriptEnabled</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 1992-2003 HERMES</string>
+	<string>Community build of classic Eudora sources</string>
 </dict>
 </plist>

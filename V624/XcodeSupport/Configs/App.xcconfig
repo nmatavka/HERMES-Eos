@@ -1,8 +1,8 @@
 #include "Shared.xcconfig"
 #include? "../Generated/Kerberos/darwin-i386/KerberosLinkFlags.xcconfig"
 
-PRODUCT_NAME = Eudoramail
-EXECUTABLE_NAME = Eudoramail
+PRODUCT_NAME = Eos
+EXECUTABLE_NAME = Eos
 PRODUCT_BUNDLE_IDENTIFIER = com.qualcomm.eudora
 INFOPLIST_FILE = XcodeSupport/Eudora-Info.plist
 WRAPPER_EXTENSION = app
