@@ -2,5 +2,5 @@
 
 PRODUCT_NAME = editorCarbon
 SKIP_INSTALL = YES
-GCC_PREFIX_HEADER = $(SRCROOT)/Editor/Source/Precompiled headers/PETEHeadersCarbon.pch
+GCC_PREFIX_HEADER = $(SRCROOT)/Include/EudoraXcodePrefix.h
 GCC_PRECOMPILE_PREFIX_HEADER = YES
